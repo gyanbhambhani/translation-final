@@ -3,10 +3,14 @@ export type Era =
   | "1600s"
   | "1700s"
   | "1800s"
+  | "1840s"
   | "1860s"
   | "1880s"
+  | "1900s"
+  | "1910s"
   | "1920s"
   | "1930s"
+  | "1940s"
   | "1950s"
   | "1960s"
   | "1970s"
@@ -89,13 +93,17 @@ export const ERA_COLORS: Record<string, string> = {
   "1600s": "#8b5cf6",
   "1700s": "#a78bfa",
   "1800s": "#c4b5fd",
+  "1840s": "#cbb5fd",
   "1860s": "#d8b4fe",
   "1880s": "#e879f9",
-  "1920s": "#f0abfc",
-  "1930s": "#f472b6",
-  "1950s": "#fb7185",
-  "1960s": "#f97316",
-  "1970s": "#f59e0b",
+  "1900s": "#f0abfc",
+  "1910s": "#f0abc4",
+  "1920s": "#f472b6",
+  "1930s": "#fb7185",
+  "1940s": "#f97373",
+  "1950s": "#f97316",
+  "1960s": "#f59e0b",
+  "1970s": "#eab308",
   "1980s": "#84cc16",
   "1990s": "#22c55e",
   "2000s": "#06b6d4",
@@ -110,4 +118,9 @@ export const LANGUAGE_SHAPES: Record<string, string> = {
   German: "diamond",
   Spanish: "cross",
   Persian: "star",
+  "Ancient Greek": "circle",
+  Latin: "diamond",
+  Chinese: "square",
+  Italian: "triangle",
+  Bengali: "cross",
 };

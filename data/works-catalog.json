@@ -6,22 +6,26 @@
       "author": "Homer",
       "sourceLanguage": "Ancient Greek",
       "originalYear": -800,
-      "description": "Homer's epic poem of the Trojan War, one of the most translated works in history.",
-      "tags": ["epic", "classical", "greek"],
-      "gutenbergId": null,
+      "description": "Homer's epic of the Trojan War. Seven English translations across four centuries, all sourced from Project Gutenberg.",
+      "tags": [
+        "epic",
+        "classical",
+        "greek"
+      ],
       "translations": [
         {
-          "id": "homer-iliad-en-chapman-1616",
+          "id": "homer-iliad-en-chapman-1611",
           "workId": "homer-iliad",
           "language": "English",
           "languageCode": "en",
           "translator": "George Chapman",
-          "year": 1616,
+          "year": 1611,
           "era": "1600s",
-          "register": "early-modern",
+          "register": "early-modern-fourteener",
           "source": "gutenberg",
-          "gutenbergTextId": "2199",
-          "previewText": "Achilles' baneful wrath resound, O Goddess, that imposed / Infinite sorrows on the Greeks, and many brave souls loosed / From breasts heroic—sent them far to that invisible cave / That no light comforts; and their limbs to dogs and vultures gave."
+          "gutenbergTextId": "51355",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/51355/pg51355.txt",
+          "previewText": "Achilles’ baneful wrath resound, O Goddess, that impos’d Infinite sorrows on the Greeks, and many brave souls los’d. From breasts heroic; sent them far to that invisible cave That no light comforts; and their limbs to dogs and vultures gave; To all which Jove’s will gave effect; from whom first strife begun Betwixt Atrides, king of men, and Thetis’ godlike son."
         },
         {
           "id": "homer-iliad-en-pope-1715",
@@ -31,283 +35,303 @@
           "translator": "Alexander Pope",
           "year": 1715,
           "era": "1700s",
-          "register": "augustan-heroic",
+          "register": "augustan-heroic-couplet",
           "source": "gutenberg",
           "gutenbergTextId": "6130",
-          "previewText": "Achilles' wrath, to Greece the direful spring / Of woes unnumber'd, heavenly goddess, sing! / That wrath which hurl'd to Pluto's gloomy reign / The souls of mighty chiefs untimely slain."
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/6130/pg6130.txt",
+          "previewText": "Achilles’ wrath, to Greece the direful spring Of woes unnumber’d, heavenly goddess, sing! That wrath which hurl’d to Pluto’s gloomy reign The souls of mighty chiefs untimely slain; Whose limbs unburied on the naked shore, Devouring dogs and hungry vultures tore.[41]"
+        },
+        {
+          "id": "homer-iliad-en-cowper-1791",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "William Cowper",
+          "year": 1791,
+          "era": "1700s",
+          "register": "miltonic-blank-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "16452",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/16452/pg16452.txt",
+          "previewText": "Achilles sing, O Goddess! Peleus’ son; His wrath pernicious, who ten thousand woes Caused to Achaia’s host, sent many a soul Illustrious into Ades premature, And Heroes gave (so stood the will of Jove)5 To dogs and to all ravening fowls a prey,"
+        },
+        {
+          "id": "homer-iliad-en-buckley-1860",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Theodore Alois Buckley",
+          "year": 1860,
+          "era": "1860s",
+          "register": "victorian-prose-literal",
+          "source": "gutenberg",
+          "gutenbergTextId": "22382",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/22382/pg22382.txt",
+          "previewText": "Sing, Ο goddess, the destructive wrath of Achilles, son of Peleus, which brought countless woes upon the Greeks, 1 and hurled many valiant souls of heroes down to Hades, and made themselves 2 a prey to dogs and to all birds [but the will of Jove was being accomplished], from the time when Atrides, king of men, and noble Achilles, first contending, were disunited."
         },
         {
           "id": "homer-iliad-en-derby-1864",
           "workId": "homer-iliad",
           "language": "English",
           "languageCode": "en",
-          "translator": "Edward Earl of Derby",
+          "translator": "Edward, Earl of Derby",
           "year": 1864,
           "era": "1860s",
           "register": "victorian-blank-verse",
           "source": "gutenberg",
-          "gutenbergTextId": "16452",
-          "previewText": "Sing, heav'nly Muse, the fatal wrath of Peleus' son Achilles; / Wrath which to Greece unnumber'd evils brought; / Full many a stalwart hero's soul it sent / Far down to Hades' realm."
+          "gutenbergTextId": "6150",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/6150/pg6150.txt",
+          "previewText": "Of Peleus’ son, Achilles, sing, O Muse, The vengeance, deep and deadly; whence to Greece Unnumbered ills arose; which many a soul Of mighty warriors to the viewless shades Untimely sent; they on the battle plain Unburied lay, a prey to rav’ning dogs,"
         },
         {
-          "id": "homer-iliad-en-lattimore-1951",
+          "id": "homer-iliad-en-lang-1882",
           "workId": "homer-iliad",
           "language": "English",
           "languageCode": "en",
-          "translator": "Richmond Lattimore",
-          "year": 1951,
-          "era": "1950s",
-          "register": "academic-classical",
-          "source": "curated",
-          "previewText": "Sing, goddess, the anger of Peleus' son Achilleus / and its devastation, which put pains thousandfold upon the Achaians, / hurled in their multitudes to the house of Hades strong souls / of heroes."
+          "translator": "Lang, Leaf & Myers",
+          "year": 1882,
+          "era": "1880s",
+          "register": "victorian-archaizing-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "3059",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/3059/pg3059.txt",
+          "previewText": "Sing, goddess, the wrath of Achilles Peleus’ son, the ruinous wrath that brought on the Achaians woes innumerable, and hurled down into Hades many strong souls of heroes, and gave their bodies to be a prey to dogs and all winged fowls; and so the counsel of Zeus wrought out"
         },
         {
-          "id": "homer-iliad-en-fagles-1990",
+          "id": "homer-iliad-en-butler-1898",
           "workId": "homer-iliad",
           "language": "English",
           "languageCode": "en",
-          "translator": "Robert Fagles",
-          "year": 1990,
-          "era": "1990s",
-          "register": "modern-literary",
-          "source": "curated",
-          "previewText": "Rage—Goddess, sing the rage of Peleus' son Achilles, / murderous, doomed, that cost the Achaeans countless losses, / hurling down to the House of Death so many sturdy souls."
-        },
-        {
-          "id": "homer-iliad-en-mitchell-2011",
-          "workId": "homer-iliad",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Stephen Mitchell",
-          "year": 2011,
-          "era": "2010s",
-          "register": "contemporary",
-          "source": "curated",
-          "previewText": "The rage of Achilles—sing it now, goddess, sing through me / the deadly rage that caused the Achaeans such grief / and hurled down to Hades the souls of so many fighters."
+          "translator": "Samuel Butler",
+          "year": 1898,
+          "era": "1880s",
+          "register": "late-victorian-plain-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "2199",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/2199/pg2199.txt",
+          "previewText": "Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for so were the counsels of Jove"
         }
       ]
     },
     {
-      "id": "baudelaire-fleurs-du-mal",
-      "title": "Les Fleurs du Mal",
+      "id": "homer-odyssey",
+      "title": "The Odyssey",
+      "author": "Homer",
+      "sourceLanguage": "Ancient Greek",
+      "originalYear": -800,
+      "description": "Homer's poem of Odysseus's return. Two English translations from the Victorian era.",
+      "tags": [
+        "epic",
+        "classical",
+        "greek"
+      ],
+      "translations": [
+        {
+          "id": "homer-odyssey-en-butcher-1879",
+          "workId": "homer-odyssey",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Butcher & Lang",
+          "year": 1879,
+          "era": "1880s",
+          "register": "victorian-archaizing-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "1728",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/1728/pg1728.txt",
+          "previewText": "Tell me, Muse, of that man, so ready at need, who wandered far and wide, after he had sacked the sacred citadel of Troy, and many were the men whose towns he saw and whose mind he learnt, yea, and many the woes he suffered in his heart upon the deep, striving to win his own life"
+        },
+        {
+          "id": "homer-odyssey-en-butler-1900",
+          "workId": "homer-odyssey",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Samuel Butler",
+          "year": 1900,
+          "era": "1900s",
+          "register": "late-victorian-plain-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "1727",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/1727/pg1727.txt",
+          "previewText": "Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover he suffered much by sea while trying to save his"
+        }
+      ]
+    },
+    {
+      "id": "baudelaire-spleen",
+      "title": "Spleen LXXVIII (\"Quand le ciel bas et lourd\")",
       "author": "Charles Baudelaire",
       "sourceLanguage": "French",
       "originalYear": 1857,
-      "description": "Baudelaire's landmark collection exploring beauty, decadence, and the modern city.",
-      "tags": ["poetry", "symbolism", "french"],
+      "description": "Baudelaire's most famous Spleen poem. The French original is in Project Gutenberg's Les Fleurs du Mal.",
+      "tags": [
+        "poetry",
+        "symbolism",
+        "french"
+      ],
       "translations": [
         {
-          "id": "baudelaire-spleen-en-mcewen-1869",
-          "workId": "baudelaire-fleurs-du-mal",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Various (early Victorian)",
-          "year": 1869,
-          "era": "1860s",
-          "register": "victorian-moral",
-          "source": "curated",
-          "previewText": "When the low heavy sky weighs like a lid / On the groaning spirit, prey to long ennui, / And from the horizon's rim to the extreme / Of heaven's blue, a dark day seems to flee."
-        },
-        {
-          "id": "baudelaire-spleen-en-millay-1936",
-          "workId": "baudelaire-fleurs-du-mal",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "George Dillon & Edna St. Vincent Millay",
-          "year": 1936,
-          "era": "1930s",
-          "register": "modernist-lyric",
-          "source": "curated",
-          "previewText": "When skies are low and heavy as a lid / Over the mind tormented by disgust, / And, circling in the light of a dim day, / Darkness pours down upon us, thick as dust."
-        },
-        {
-          "id": "baudelaire-spleen-en-howard-1982",
-          "workId": "baudelaire-fleurs-du-mal",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Richard Howard",
-          "year": 1982,
-          "era": "1980s",
-          "register": "postmodern-prose",
-          "source": "curated",
-          "previewText": "When skies are low and heavy as a lid on the groaning spirit / helpless under long ennui, / and from the rim of the grey horizon / black daylight drizzles down on us, sadder than any night."
-        },
-        {
-          "id": "baudelaire-spleen-en-clark-2016",
-          "workId": "baudelaire-fleurs-du-mal",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "James McGowan",
-          "year": 2016,
-          "era": "2010s",
-          "register": "contemporary",
-          "source": "curated",
-          "previewText": "When skies are low and heavy as a lid / pressed down by gloom upon the groaning mind, / when all the horizon's circuit, black and livid, / pours on us daylight darker than the night."
+          "id": "baudelaire-spleen-fr-source-1857",
+          "workId": "baudelaire-spleen",
+          "language": "French",
+          "languageCode": "fr",
+          "translator": null,
+          "year": 1857,
+          "era": "original",
+          "register": "symbolist-alexandrine",
+          "source": "gutenberg",
+          "gutenbergTextId": "6099",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/6099/pg6099.txt",
+          "previewText": "Quand le ciel bas et lourd pèse comme un couvercle Sur l'esprit gémissant en proie aux longs ennuis, Et que de l'horizon embrassant tout le cercle Il nous verse un jour noir plus triste que les nuits;"
         }
       ]
     },
     {
-      "id": "rumi-masnavi",
-      "title": "Masnavi-ye Ma'navi",
-      "author": "Jalāl ad-Dīn Rūmī",
-      "sourceLanguage": "Persian",
-      "originalYear": 1258,
-      "description": "Rumi's magnum opus, six books of Persian verse exploring mysticism and the soul's longing.",
-      "tags": ["sufi", "mysticism", "persian", "poetry"],
+      "id": "laozi-tao-te-ching",
+      "title": "Tao Te Ching, Chapter 1",
+      "author": "Laozi",
+      "sourceLanguage": "Classical Chinese",
+      "originalYear": -400,
+      "description": "The opening of the Daodejing. Legge's 1891 English translation, sourced from Project Gutenberg.",
+      "tags": [
+        "philosophy",
+        "chinese",
+        "daoism",
+        "wisdom"
+      ],
       "translations": [
         {
-          "id": "rumi-masnavi-en-redhouse-1881",
-          "workId": "rumi-masnavi",
+          "id": "laozi-ch1-en-legge-1891",
+          "workId": "laozi-tao-te-ching",
           "language": "English",
           "languageCode": "en",
-          "translator": "James W. Redhouse",
-          "year": 1881,
+          "translator": "James Legge",
+          "year": 1891,
           "era": "1880s",
-          "register": "victorian-scholarly",
-          "source": "curated",
-          "previewText": "Listen to the reed, how a tale it telleth; / How it singeth of separations! / 'Twixt the time when from the reed-bed torn I was, / Man and woman have to my piping mourned."
-        },
-        {
-          "id": "rumi-masnavi-en-nicholson-1926",
-          "workId": "rumi-masnavi",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Reynold A. Nicholson",
-          "year": 1926,
-          "era": "1920s",
-          "register": "academic-literal",
-          "source": "curated",
-          "previewText": "Hearken to this Reed how it tells a tale, complaining of separations—'Ever since I was parted from the reed-bed, my lament hath caused man and woman to moan.'"
-        },
-        {
-          "id": "rumi-masnavi-en-harvey-1999",
-          "workId": "rumi-masnavi",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Andrew Harvey",
-          "year": 1999,
-          "era": "1990s",
-          "register": "spiritual-popular",
-          "source": "curated",
-          "previewText": "Listen to the reed and the tale it tells, / how it sings of separation: / 'Ever since they tore me from my reed bed, / my wail has caused men and women to weep.'"
-        },
-        {
-          "id": "rumi-masnavi-en-barks-2004",
-          "workId": "rumi-masnavi",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Coleman Barks",
-          "year": 2004,
-          "era": "2000s",
-          "register": "free-verse-popular",
-          "source": "curated",
-          "previewText": "Listen to this reed how it tells a story, / how it sings of separation. / Since I was cut from the reed bed, / I have made this crying sound."
-        },
-        {
-          "id": "rumi-masnavi-en-lewis-2008",
-          "workId": "rumi-masnavi",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Franklin D. Lewis",
-          "year": 2008,
-          "era": "2000s",
-          "register": "scholarly-annotated",
-          "source": "curated",
-          "previewText": "Hear this reed—how it composes tales of separation's pain, / of how from the reed bed they tore it—how it made the air complain: / since the day they cut me from the reed bed, men and women moan / to my reed-cry."
+          "register": "victorian-sinology",
+          "source": "gutenberg",
+          "gutenbergTextId": "216",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+          "previewText": "Ch. 1. 1. The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name."
         }
       ]
     },
     {
-      "id": "neruda-veinte-poemas",
-      "title": "Veinte poemas de amor y una canción desesperada",
-      "author": "Pablo Neruda",
-      "sourceLanguage": "Spanish",
-      "originalYear": 1924,
-      "description": "Neruda's passionate early collection, one of the most widely translated poetry books in the world.",
-      "tags": ["love", "spanish", "latin-american", "poetry"],
+      "id": "bhagavad-gita",
+      "title": "The Bhagavad-Gītā, Chapter 1",
+      "author": "Vyāsa (attr.)",
+      "sourceLanguage": "Sanskrit",
+      "originalYear": -200,
+      "description": "Edwin Arnold's 1885 verse translation \"The Song Celestial,\" sourced from Project Gutenberg.",
+      "tags": [
+        "hindu",
+        "sanskrit",
+        "philosophy",
+        "epic"
+      ],
       "translations": [
         {
-          "id": "neruda-20poems-en-walsh-1969",
-          "workId": "neruda-veinte-poemas",
+          "id": "gita-ch1-en-arnold-1885",
+          "workId": "bhagavad-gita",
           "language": "English",
           "languageCode": "en",
-          "translator": "W.S. Merwin",
-          "year": 1969,
-          "era": "1960s",
-          "register": "midcentury-lyric",
-          "source": "curated",
-          "previewText": "I want to do with you what spring does with the cherry trees. / Tonight I can write the saddest lines. / I loved her, and sometimes she loved me too."
-        },
-        {
-          "id": "neruda-20poems-en-sayers-1993",
-          "workId": "neruda-veinte-poemas",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "W.S. Merwin (revised)",
-          "year": 1993,
-          "era": "1990s",
-          "register": "revised-lyric",
-          "source": "curated",
-          "previewText": "I can write the saddest poem of all tonight. / Write, for instance: 'The night is full of stars, / and the stars, blue, shiver in the distance.' / The night wind turns in the sky and sings."
-        },
-        {
-          "id": "neruda-20poems-en-walsh-2004",
-          "workId": "neruda-veinte-poemas",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Mark Eisner",
-          "year": 2004,
-          "era": "2000s",
-          "register": "contemporary",
-          "source": "curated",
-          "previewText": "I want to do with you what spring does to the cherry trees. / Tonight I can write the saddest lines. I loved her, and sometimes she loved me too."
+          "translator": "Sir Edwin Arnold",
+          "year": 1885,
+          "era": "1880s",
+          "register": "victorian-orientalist-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "2388",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388.txt",
+          "previewText": "By Krishna and Prince Arjun held, discoursing each with each; So have I writ its wisdom here,--its hidden mystery, For England; O our India! as dear to me as She!"
         }
       ]
     },
     {
-      "id": "rilke-duino-elegies",
-      "title": "Duineser Elegien",
-      "author": "Rainer Maria Rilke",
-      "sourceLanguage": "German",
-      "originalYear": 1923,
-      "description": "Rilke's visionary elegies on beauty, angels, and what it means to be human.",
-      "tags": ["elegy", "german", "modernist", "poetry"],
+      "id": "tagore-gitanjali",
+      "title": "Gitanjali #1 (\"Thou hast made me endless\")",
+      "author": "Rabindranath Tagore",
+      "sourceLanguage": "Bengali",
+      "originalYear": 1910,
+      "description": "Tagore's own English self-translation of Gitanjali (1912), with Yeats's preface. Won the 1913 Nobel.",
+      "tags": [
+        "bengali",
+        "lyric",
+        "spiritual",
+        "modernist"
+      ],
       "translations": [
         {
-          "id": "rilke-duino-en-leishman-1939",
-          "workId": "rilke-duino-elegies",
+          "id": "tagore-gitanjali-1-en-self-1912",
+          "workId": "tagore-gitanjali",
           "language": "English",
           "languageCode": "en",
-          "translator": "J.B. Leishman & Stephen Spender",
-          "year": 1939,
-          "era": "1930s",
-          "register": "formal-british",
-          "source": "curated",
-          "previewText": "Who, if I cried out, would hear me among the angels' hierarchies? / and even if one of them suddenly pressed me against his heart, / I should fade in the strength of his stronger existence."
-        },
+          "translator": "Rabindranath Tagore (self)",
+          "year": 1912,
+          "era": "1910s",
+          "register": "edwardian-prose-poem",
+          "source": "gutenberg",
+          "gutenbergTextId": "7164",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/7164/pg7164.txt",
+          "previewText": "Thou hast made me endless, such is thy pleasure. This frail vessel thou emptiest again and again, and fillest it ever with fresh life."
+        }
+      ]
+    },
+    {
+      "id": "sappho-fragments",
+      "title": "Sappho — selected fragments",
+      "author": "Sappho",
+      "sourceLanguage": "Ancient Greek",
+      "originalYear": -600,
+      "description": "Saint-Remy's 1905 French rendering of Sappho, sourced from Project Gutenberg.",
+      "tags": [
+        "lyric",
+        "greek",
+        "antiquity",
+        "love"
+      ],
+      "translations": [
         {
-          "id": "rilke-duino-en-mitchell-1982",
-          "workId": "rilke-duino-elegies",
-          "language": "English",
-          "languageCode": "en",
-          "translator": "Stephen Mitchell",
-          "year": 1982,
-          "era": "1980s",
-          "register": "contemporary-plain",
-          "source": "curated",
-          "previewText": "Who, if I cried out, would hear me among the angels' orders? / And even if one of them suddenly pressed me against his heart, / I would fade in the strength of his stronger existence."
-        },
+          "id": "sappho-fr-saintremy-1905",
+          "workId": "sappho-fragments",
+          "language": "French",
+          "languageCode": "fr",
+          "translator": "Jules-Henry Rédarez Saint-Remy",
+          "year": 1905,
+          "era": "1900s",
+          "register": "belle-epoque-french",
+          "source": "gutenberg",
+          "gutenbergTextId": "27308",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/27308/pg27308.txt",
+          "previewText": "Il me semble l'égal des dieux Celui qui de ta voix s'enivre, Qui lit son bonheur dans tes yeux, Et qui près de toi se sent vivre!"
+        }
+      ]
+    },
+    {
+      "id": "catullus-poems",
+      "title": "Catullus — selected poems",
+      "author": "Gaius Valerius Catullus",
+      "sourceLanguage": "Latin",
+      "originalYear": -55,
+      "description": "Robinson Ellis's 1871 English verse rendering of Catullus, sourced from Project Gutenberg.",
+      "tags": [
+        "latin",
+        "lyric",
+        "antiquity",
+        "love"
+      ],
+      "translations": [
         {
-          "id": "rilke-duino-en-young-2006",
-          "workId": "rilke-duino-elegies",
+          "id": "catullus-en-ellis-1871",
+          "workId": "catullus-poems",
           "language": "English",
           "languageCode": "en",
-          "translator": "Edward Snow",
-          "year": 2006,
-          "era": "2000s",
-          "register": "scholarly-lyric",
-          "source": "curated",
-          "previewText": "Who, if I cried out, would hear me among the orders of angels? / And even if one of them suddenly took me to his heart: / I'd be consumed by his stronger existence."
+          "translator": "Robinson Ellis",
+          "year": 1871,
+          "era": "1860s",
+          "register": "victorian-classical-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "18867",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/18867/pg18867.txt",
+          "previewText": "Living, Lesbia, we should e'en be loving. Sour severity, tongue of eld maligning, All be to us a penny's estimation."
         }
       ]
     }
