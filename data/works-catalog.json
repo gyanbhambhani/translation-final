@@ -1,0 +1,315 @@
+{
+  "works": [
+    {
+      "id": "homer-iliad",
+      "title": "The Iliad",
+      "author": "Homer",
+      "sourceLanguage": "Ancient Greek",
+      "originalYear": -800,
+      "description": "Homer's epic poem of the Trojan War, one of the most translated works in history.",
+      "tags": ["epic", "classical", "greek"],
+      "gutenbergId": null,
+      "translations": [
+        {
+          "id": "homer-iliad-en-chapman-1616",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "George Chapman",
+          "year": 1616,
+          "era": "1600s",
+          "register": "early-modern",
+          "source": "gutenberg",
+          "gutenbergTextId": "2199",
+          "previewText": "Achilles' baneful wrath resound, O Goddess, that imposed / Infinite sorrows on the Greeks, and many brave souls loosed / From breasts heroic—sent them far to that invisible cave / That no light comforts; and their limbs to dogs and vultures gave."
+        },
+        {
+          "id": "homer-iliad-en-pope-1715",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Alexander Pope",
+          "year": 1715,
+          "era": "1700s",
+          "register": "augustan-heroic",
+          "source": "gutenberg",
+          "gutenbergTextId": "6130",
+          "previewText": "Achilles' wrath, to Greece the direful spring / Of woes unnumber'd, heavenly goddess, sing! / That wrath which hurl'd to Pluto's gloomy reign / The souls of mighty chiefs untimely slain."
+        },
+        {
+          "id": "homer-iliad-en-derby-1864",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Edward Earl of Derby",
+          "year": 1864,
+          "era": "1860s",
+          "register": "victorian-blank-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "16452",
+          "previewText": "Sing, heav'nly Muse, the fatal wrath of Peleus' son Achilles; / Wrath which to Greece unnumber'd evils brought; / Full many a stalwart hero's soul it sent / Far down to Hades' realm."
+        },
+        {
+          "id": "homer-iliad-en-lattimore-1951",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Richmond Lattimore",
+          "year": 1951,
+          "era": "1950s",
+          "register": "academic-classical",
+          "source": "curated",
+          "previewText": "Sing, goddess, the anger of Peleus' son Achilleus / and its devastation, which put pains thousandfold upon the Achaians, / hurled in their multitudes to the house of Hades strong souls / of heroes."
+        },
+        {
+          "id": "homer-iliad-en-fagles-1990",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Robert Fagles",
+          "year": 1990,
+          "era": "1990s",
+          "register": "modern-literary",
+          "source": "curated",
+          "previewText": "Rage—Goddess, sing the rage of Peleus' son Achilles, / murderous, doomed, that cost the Achaeans countless losses, / hurling down to the House of Death so many sturdy souls."
+        },
+        {
+          "id": "homer-iliad-en-mitchell-2011",
+          "workId": "homer-iliad",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Stephen Mitchell",
+          "year": 2011,
+          "era": "2010s",
+          "register": "contemporary",
+          "source": "curated",
+          "previewText": "The rage of Achilles—sing it now, goddess, sing through me / the deadly rage that caused the Achaeans such grief / and hurled down to Hades the souls of so many fighters."
+        }
+      ]
+    },
+    {
+      "id": "baudelaire-fleurs-du-mal",
+      "title": "Les Fleurs du Mal",
+      "author": "Charles Baudelaire",
+      "sourceLanguage": "French",
+      "originalYear": 1857,
+      "description": "Baudelaire's landmark collection exploring beauty, decadence, and the modern city.",
+      "tags": ["poetry", "symbolism", "french"],
+      "translations": [
+        {
+          "id": "baudelaire-spleen-en-mcewen-1869",
+          "workId": "baudelaire-fleurs-du-mal",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Various (early Victorian)",
+          "year": 1869,
+          "era": "1860s",
+          "register": "victorian-moral",
+          "source": "curated",
+          "previewText": "When the low heavy sky weighs like a lid / On the groaning spirit, prey to long ennui, / And from the horizon's rim to the extreme / Of heaven's blue, a dark day seems to flee."
+        },
+        {
+          "id": "baudelaire-spleen-en-millay-1936",
+          "workId": "baudelaire-fleurs-du-mal",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "George Dillon & Edna St. Vincent Millay",
+          "year": 1936,
+          "era": "1930s",
+          "register": "modernist-lyric",
+          "source": "curated",
+          "previewText": "When skies are low and heavy as a lid / Over the mind tormented by disgust, / And, circling in the light of a dim day, / Darkness pours down upon us, thick as dust."
+        },
+        {
+          "id": "baudelaire-spleen-en-howard-1982",
+          "workId": "baudelaire-fleurs-du-mal",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Richard Howard",
+          "year": 1982,
+          "era": "1980s",
+          "register": "postmodern-prose",
+          "source": "curated",
+          "previewText": "When skies are low and heavy as a lid on the groaning spirit / helpless under long ennui, / and from the rim of the grey horizon / black daylight drizzles down on us, sadder than any night."
+        },
+        {
+          "id": "baudelaire-spleen-en-clark-2016",
+          "workId": "baudelaire-fleurs-du-mal",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "James McGowan",
+          "year": 2016,
+          "era": "2010s",
+          "register": "contemporary",
+          "source": "curated",
+          "previewText": "When skies are low and heavy as a lid / pressed down by gloom upon the groaning mind, / when all the horizon's circuit, black and livid, / pours on us daylight darker than the night."
+        }
+      ]
+    },
+    {
+      "id": "rumi-masnavi",
+      "title": "Masnavi-ye Ma'navi",
+      "author": "Jalāl ad-Dīn Rūmī",
+      "sourceLanguage": "Persian",
+      "originalYear": 1258,
+      "description": "Rumi's magnum opus, six books of Persian verse exploring mysticism and the soul's longing.",
+      "tags": ["sufi", "mysticism", "persian", "poetry"],
+      "translations": [
+        {
+          "id": "rumi-masnavi-en-redhouse-1881",
+          "workId": "rumi-masnavi",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "James W. Redhouse",
+          "year": 1881,
+          "era": "1880s",
+          "register": "victorian-scholarly",
+          "source": "curated",
+          "previewText": "Listen to the reed, how a tale it telleth; / How it singeth of separations! / 'Twixt the time when from the reed-bed torn I was, / Man and woman have to my piping mourned."
+        },
+        {
+          "id": "rumi-masnavi-en-nicholson-1926",
+          "workId": "rumi-masnavi",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Reynold A. Nicholson",
+          "year": 1926,
+          "era": "1920s",
+          "register": "academic-literal",
+          "source": "curated",
+          "previewText": "Hearken to this Reed how it tells a tale, complaining of separations—'Ever since I was parted from the reed-bed, my lament hath caused man and woman to moan.'"
+        },
+        {
+          "id": "rumi-masnavi-en-harvey-1999",
+          "workId": "rumi-masnavi",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Andrew Harvey",
+          "year": 1999,
+          "era": "1990s",
+          "register": "spiritual-popular",
+          "source": "curated",
+          "previewText": "Listen to the reed and the tale it tells, / how it sings of separation: / 'Ever since they tore me from my reed bed, / my wail has caused men and women to weep.'"
+        },
+        {
+          "id": "rumi-masnavi-en-barks-2004",
+          "workId": "rumi-masnavi",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Coleman Barks",
+          "year": 2004,
+          "era": "2000s",
+          "register": "free-verse-popular",
+          "source": "curated",
+          "previewText": "Listen to this reed how it tells a story, / how it sings of separation. / Since I was cut from the reed bed, / I have made this crying sound."
+        },
+        {
+          "id": "rumi-masnavi-en-lewis-2008",
+          "workId": "rumi-masnavi",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Franklin D. Lewis",
+          "year": 2008,
+          "era": "2000s",
+          "register": "scholarly-annotated",
+          "source": "curated",
+          "previewText": "Hear this reed—how it composes tales of separation's pain, / of how from the reed bed they tore it—how it made the air complain: / since the day they cut me from the reed bed, men and women moan / to my reed-cry."
+        }
+      ]
+    },
+    {
+      "id": "neruda-veinte-poemas",
+      "title": "Veinte poemas de amor y una canción desesperada",
+      "author": "Pablo Neruda",
+      "sourceLanguage": "Spanish",
+      "originalYear": 1924,
+      "description": "Neruda's passionate early collection, one of the most widely translated poetry books in the world.",
+      "tags": ["love", "spanish", "latin-american", "poetry"],
+      "translations": [
+        {
+          "id": "neruda-20poems-en-walsh-1969",
+          "workId": "neruda-veinte-poemas",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "W.S. Merwin",
+          "year": 1969,
+          "era": "1960s",
+          "register": "midcentury-lyric",
+          "source": "curated",
+          "previewText": "I want to do with you what spring does with the cherry trees. / Tonight I can write the saddest lines. / I loved her, and sometimes she loved me too."
+        },
+        {
+          "id": "neruda-20poems-en-sayers-1993",
+          "workId": "neruda-veinte-poemas",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "W.S. Merwin (revised)",
+          "year": 1993,
+          "era": "1990s",
+          "register": "revised-lyric",
+          "source": "curated",
+          "previewText": "I can write the saddest poem of all tonight. / Write, for instance: 'The night is full of stars, / and the stars, blue, shiver in the distance.' / The night wind turns in the sky and sings."
+        },
+        {
+          "id": "neruda-20poems-en-walsh-2004",
+          "workId": "neruda-veinte-poemas",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Mark Eisner",
+          "year": 2004,
+          "era": "2000s",
+          "register": "contemporary",
+          "source": "curated",
+          "previewText": "I want to do with you what spring does to the cherry trees. / Tonight I can write the saddest lines. I loved her, and sometimes she loved me too."
+        }
+      ]
+    },
+    {
+      "id": "rilke-duino-elegies",
+      "title": "Duineser Elegien",
+      "author": "Rainer Maria Rilke",
+      "sourceLanguage": "German",
+      "originalYear": 1923,
+      "description": "Rilke's visionary elegies on beauty, angels, and what it means to be human.",
+      "tags": ["elegy", "german", "modernist", "poetry"],
+      "translations": [
+        {
+          "id": "rilke-duino-en-leishman-1939",
+          "workId": "rilke-duino-elegies",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "J.B. Leishman & Stephen Spender",
+          "year": 1939,
+          "era": "1930s",
+          "register": "formal-british",
+          "source": "curated",
+          "previewText": "Who, if I cried out, would hear me among the angels' hierarchies? / and even if one of them suddenly pressed me against his heart, / I should fade in the strength of his stronger existence."
+        },
+        {
+          "id": "rilke-duino-en-mitchell-1982",
+          "workId": "rilke-duino-elegies",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Stephen Mitchell",
+          "year": 1982,
+          "era": "1980s",
+          "register": "contemporary-plain",
+          "source": "curated",
+          "previewText": "Who, if I cried out, would hear me among the angels' orders? / And even if one of them suddenly pressed me against his heart, / I would fade in the strength of his stronger existence."
+        },
+        {
+          "id": "rilke-duino-en-young-2006",
+          "workId": "rilke-duino-elegies",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Edward Snow",
+          "year": 2006,
+          "era": "2000s",
+          "register": "scholarly-lyric",
+          "source": "curated",
+          "previewText": "Who, if I cried out, would hear me among the orders of angels? / And even if one of them suddenly took me to his heart: / I'd be consumed by his stronger existence."
+        }
+      ]
+    }
+  ]
+}
