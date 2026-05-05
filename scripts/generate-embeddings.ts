@@ -79,6 +79,17 @@ async function embedBatch(
   return all;
 }
 
+function mulberry32(seed: number): () => number {
+  let state = seed >>> 0;
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let t = state;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
 async function main() {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
@@ -105,7 +116,8 @@ async function main() {
     nNeighbors: Math.min(5, vectors.length - 1),
     minDist: 0.3,
     nComponents: 2,
-    random: () => 0.42,
+    nEpochs: 200,
+    random: mulberry32(42),
   });
 
   const embedding2D = umap.fit(vectors);
