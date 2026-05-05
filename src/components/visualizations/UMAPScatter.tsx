@@ -106,18 +106,35 @@ export default function UMAPScatter({ points, width = 600, height = 400 }: Props
       .range([dims.height - padding, padding]);
 
     ctx.clearRect(0, 0, dims.width, dims.height);
-    ctx.fillStyle = "#09090b";
+    ctx.fillStyle = "#0b0b0a";
     ctx.fillRect(0, 0, dims.width, dims.height);
+
+    // Faint grid — barely visible, suggests a coordinate plane
+    ctx.strokeStyle = "#1c1b19";
+    ctx.lineWidth = 1;
+    const gridSteps = 6;
+    for (let i = 1; i < gridSteps; i++) {
+      const gx = padding + ((dims.width - padding * 2) * i) / gridSteps;
+      const gy = padding + ((dims.height - padding * 2) * i) / gridSteps;
+      ctx.beginPath();
+      ctx.moveTo(gx, padding);
+      ctx.lineTo(gx, dims.height - padding);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(padding, gy);
+      ctx.lineTo(dims.width - padding, gy);
+      ctx.stroke();
+    }
 
     for (const point of points) {
       const cx = xScale(point.x);
       const cy = yScale(point.y);
-      const color = ERA_COLORS[point.era] ?? "#6366f1";
+      const color = ERA_COLORS[point.era] ?? "#e8c179";
       const shape = getShape(point.language);
       const size = point.isUserSubmission ? SHAPE_SIZE + 3 : SHAPE_SIZE;
 
       ctx.fillStyle = color + "cc";
-      ctx.strokeStyle = point.isUserSubmission ? "#fff" : color;
+      ctx.strokeStyle = point.isUserSubmission ? "#f4f1ea" : color;
       ctx.lineWidth = point.isUserSubmission ? 2 : 1;
 
       drawShape(ctx, shape, cx, cy, size);
@@ -165,30 +182,35 @@ export default function UMAPScatter({ points, width = 600, height = 400 }: Props
       <canvas
         ref={canvasRef}
         style={{ width: dims.width, height: dims.height }}
-        className="rounded-lg cursor-crosshair"
+        className="cursor-crosshair border border-rule"
         onMouseMove={handleMouseMove}
         onMouseLeave={() => setTooltip(null)}
       />
 
       {tooltip && (
         <div
-          className="fixed z-50 bg-zinc-800 border border-zinc-700 rounded-lg p-3 shadow-xl pointer-events-none max-w-xs"
+          className="fixed z-50 bg-bg-card border border-ink-faint p-4 shadow-2xl pointer-events-none max-w-xs"
           style={{ left: tooltip.x + 12, top: tooltip.y - 10 }}
         >
-          <div className="flex items-center gap-2 mb-1">
+          <div className="flex items-center gap-2 mb-2">
             <span
-              className="w-3 h-3 rounded-sm inline-block flex-shrink-0"
-              style={{ background: ERA_COLORS[tooltip.point.era] ?? "#6366f1" }}
+              className="w-2.5 h-2.5 inline-block shrink-0"
+              style={{
+                background: ERA_COLORS[tooltip.point.era] ?? "#e8c179",
+              }}
             />
-            <span className="text-xs font-semibold text-zinc-200">
+            <span className="font-display text-ink text-[14px]">
               {tooltip.point.translator ?? "Original"}
             </span>
           </div>
-          <p className="text-xs text-zinc-400">
-            {tooltip.point.language} · {tooltip.point.year} · {tooltip.point.era}
+          <p className="small-caps text-ink-muted text-[10.5px] tracking-[0.16em]">
+            {tooltip.point.language}{" "}
+            <span className="text-ink-faint">·</span>{" "}
+            <span className="tabular">{tooltip.point.year}</span>{" "}
+            <span className="text-ink-faint">·</span> {tooltip.point.era}
           </p>
-          <p className="text-xs text-zinc-500 mt-1 italic leading-relaxed">
-            {tooltip.point.previewText.slice(0, 100)}…
+          <p className="font-display italic text-ink-soft text-[12.5px] mt-2 leading-[1.55]">
+            {tooltip.point.previewText.slice(0, 110)}…
           </p>
         </div>
       )}
@@ -199,22 +221,39 @@ export default function UMAPScatter({ points, width = 600, height = 400 }: Props
 }
 
 function Legend() {
-  const eras = Object.entries(ERA_COLORS).slice(0, 8);
+  const eras = Object.entries(ERA_COLORS).slice(0, 10);
   return (
-    <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
-      {eras.map(([era, color]) => (
-        <div key={era} className="flex items-center gap-1.5">
-          <span
-            className="w-2.5 h-2.5 rounded-full flex-shrink-0"
-            style={{ background: color }}
-          />
-          <span className="text-xs text-zinc-500 capitalize">{era}</span>
+    <div className="mt-5 grid gap-3">
+      <div>
+        <p className="small-caps text-ink-muted text-[10.5px] tracking-[0.18em] mb-2">
+          Era
+        </p>
+        <div className="flex flex-wrap gap-x-4 gap-y-1.5">
+          {eras.map(([era, color]) => (
+            <div key={era} className="flex items-center gap-1.5">
+              <span
+                className="w-2 h-2 shrink-0"
+                style={{ background: color }}
+              />
+              <span className="text-ink-muted text-[11.5px] tabular">
+                {era}
+              </span>
+            </div>
+          ))}
         </div>
-      ))}
-      <div className="flex items-center gap-1.5 ml-4">
-        <span className="text-xs text-zinc-500">● English</span>
-        <span className="text-xs text-zinc-500">■ Hindi</span>
-        <span className="text-xs text-zinc-500">▲ French</span>
+      </div>
+      <div>
+        <p className="small-caps text-ink-muted text-[10.5px] tracking-[0.18em] mb-2">
+          Language
+        </p>
+        <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-ink-muted text-[11.5px]">
+          <span>● English</span>
+          <span>■ Hindi</span>
+          <span>▲ French</span>
+          <span>◆ German</span>
+          <span>+ Spanish</span>
+          <span>★ Persian</span>
+        </div>
       </div>
     </div>
   );

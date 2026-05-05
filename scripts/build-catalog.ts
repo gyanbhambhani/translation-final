@@ -324,6 +324,365 @@ const MANIFEST: ManifestWork[] = [
       },
     ],
   },
+  {
+    id: "virgil-aeneid",
+    title: "The Aeneid",
+    author: "Virgil",
+    sourceLanguage: "Latin",
+    originalYear: -19,
+    description:
+      "Virgil's epic of Aeneas's flight from Troy. Three English translations across "
+      + "two centuries, plus the Latin original.",
+    tags: ["epic", "classical", "latin"],
+    translations: [
+      {
+        id: "aeneid-la-source",
+        language: "Latin",
+        languageCode: "la",
+        translator: null,
+        year: -19,
+        era: "original",
+        register: "classical-latin-hexameter",
+        gutenbergId: 227,
+        anchor: "ARMA virumque cano, Troiae qui primus ab oris",
+        lines: 6,
+      },
+      {
+        id: "aeneid-en-dryden-1697",
+        language: "English",
+        languageCode: "en",
+        translator: "John Dryden",
+        year: 1697,
+        era: "1600s",
+        register: "restoration-heroic-couplet",
+        gutenbergId: 228,
+        anchor: "Arms, and the man I sing, who, forc",
+        lines: 6,
+      },
+      {
+        id: "aeneid-en-mackail-1885",
+        language: "English",
+        languageCode: "en",
+        translator: "J. W. Mackail",
+        year: 1885,
+        era: "1880s",
+        register: "victorian-rhythmic-prose",
+        gutenbergId: 22456,
+        anchor: "I sing of arms and the man who of old",
+        lines: 5,
+      },
+    ],
+  },
+  {
+    id: "dante-inferno",
+    title: "Inferno (Divine Comedy I)",
+    author: "Dante Alighieri",
+    sourceLanguage: "Italian",
+    originalYear: 1320,
+    description:
+      "Dante's descent into Hell. The famous \"midway upon the journey of our life\" "
+      + "opening, in two English translations and the Italian original.",
+    tags: ["epic", "italian", "medieval", "afterlife"],
+    translations: [
+      {
+        id: "inferno-it-source",
+        language: "Italian",
+        languageCode: "it",
+        translator: null,
+        year: 1320,
+        era: "original",
+        register: "trecento-italian-terza-rima",
+        gutenbergId: 997,
+        anchor: "Nel mezzo del cammin di nostra vita",
+        lines: 6,
+      },
+      {
+        id: "inferno-en-cary-1814",
+        language: "English",
+        languageCode: "en",
+        translator: "Henry Francis Cary",
+        year: 1814,
+        era: "1800s",
+        register: "miltonic-blank-verse",
+        gutenbergId: 1005,
+        anchor: "In the midway of this our mortal life",
+        lines: 7,
+      },
+      {
+        id: "inferno-en-longfellow-1867",
+        language: "English",
+        languageCode: "en",
+        translator: "Henry Wadsworth Longfellow",
+        year: 1867,
+        era: "1860s",
+        register: "fireside-poet-blank-verse",
+        gutenbergId: 1001,
+        anchor: "Midway upon the journey of our life",
+        lines: 6,
+      },
+    ],
+  },
+  {
+    id: "cervantes-quixote",
+    title: "Don Quixote, opening",
+    author: "Miguel de Cervantes",
+    sourceLanguage: "Spanish",
+    originalYear: 1605,
+    description:
+      "The opening of Don Quixote (\"En un lugar de la Mancha…\") in the Spanish "
+      + "original and two English renderings.",
+    tags: ["novel", "spanish", "early-modern", "satire"],
+    translations: [
+      {
+        id: "quixote-es-source",
+        language: "Spanish",
+        languageCode: "es",
+        translator: null,
+        year: 1605,
+        era: "original",
+        register: "early-modern-spanish",
+        gutenbergId: 2000,
+        anchor: "En un lugar de la Mancha, de cuyo nombre no quiero acordarme",
+        lines: 5,
+      },
+      {
+        id: "quixote-en-anonymous-1842",
+        language: "English",
+        languageCode: "en",
+        translator: "Anonymous (revised from Motteux)",
+        year: 1842,
+        era: "1840s",
+        register: "victorian-revised-prose",
+        gutenbergId: 35993,
+        anchor: "In a certain village in La Mancha, in the kingdom of Arragon",
+        lines: 5,
+      },
+      {
+        id: "quixote-en-ormsby-1885",
+        language: "English",
+        languageCode: "en",
+        translator: "John Ormsby",
+        year: 1885,
+        era: "1880s",
+        register: "late-victorian-plain-prose",
+        gutenbergId: 5921,
+        anchor: "In a village of La Mancha, the name of which I have no desire",
+        lines: 5,
+      },
+    ],
+  },
+  {
+    id: "goethe-faust-zueignung",
+    title: "Faust — Zueignung (Dedication)",
+    author: "Johann Wolfgang von Goethe",
+    sourceLanguage: "German",
+    originalYear: 1808,
+    description:
+      "The opening dedication of Faust Part I (\"Ihr naht euch wieder, schwankende "
+      + "Gestalten\") in the German original and two English verse translations.",
+    tags: ["drama", "german", "romantic", "verse"],
+    translations: [
+      {
+        id: "faust-de-source",
+        language: "German",
+        languageCode: "de",
+        translator: null,
+        year: 1808,
+        era: "original",
+        register: "weimar-classicism",
+        gutenbergId: 21000,
+        anchor: "Ihr naht euch wieder, schwankende Gestalten",
+        lines: 6,
+      },
+      {
+        id: "faust-en-brooks-1856",
+        language: "English",
+        languageCode: "en",
+        translator: "Charles Timothy Brooks",
+        year: 1856,
+        era: "1850s",
+        register: "transcendentalist-verse",
+        gutenbergId: 14460,
+        anchor: "Once more ye waver dreamily before me",
+        lines: 6,
+      },
+      {
+        id: "faust-en-bayard-taylor-1870",
+        language: "English",
+        languageCode: "en",
+        translator: "Bayard Taylor",
+        year: 1870,
+        era: "1870s",
+        register: "metrical-faithful-verse",
+        gutenbergId: 14591,
+        anchor: "Again ye come, ye hovering Forms",
+        lines: 6,
+      },
+    ],
+  },
+  {
+    id: "khayyam-rubaiyat",
+    title: "Rubáiyát of Omar Khayyám",
+    author: "Omar Khayyám",
+    sourceLanguage: "Persian",
+    originalYear: 1100,
+    description:
+      "FitzGerald's two English versions of the same opening — first edition (1859) "
+      + "and final fifth edition (1889) — show one translator drifting from himself "
+      + "across thirty years.",
+    tags: ["persian", "quatrains", "victorian", "wisdom"],
+    translations: [
+      {
+        id: "rubaiyat-en-fitzgerald-1859",
+        language: "English",
+        languageCode: "en",
+        translator: "Edward FitzGerald (1st edition)",
+        year: 1859,
+        era: "1860s",
+        register: "victorian-orientalist-verse",
+        gutenbergId: 246,
+        anchor: "Awake! for Morning in the Bowl of Night",
+        lines: 4,
+      },
+      {
+        id: "rubaiyat-en-fitzgerald-1889",
+        language: "English",
+        languageCode: "en",
+        translator: "Edward FitzGerald (5th edition)",
+        year: 1889,
+        era: "1880s",
+        register: "late-victorian-revised-verse",
+        gutenbergId: 246,
+        anchor: "WAKE! For the Sun, who scatter'd into flight",
+        lines: 4,
+      },
+    ],
+  },
+  {
+    id: "marcus-aurelius-meditations",
+    title: "Meditations, Book I",
+    author: "Marcus Aurelius",
+    sourceLanguage: "Koine Greek",
+    originalYear: 175,
+    description:
+      "The opening of Marcus Aurelius's Stoic notebooks, in two English translations "
+      + "from Project Gutenberg.",
+    tags: ["philosophy", "stoic", "greek", "antiquity"],
+    translations: [
+      {
+        id: "meditations-en-long-1862",
+        language: "English",
+        languageCode: "en",
+        translator: "George Long",
+        year: 1862,
+        era: "1860s",
+        register: "victorian-philosophical-prose",
+        gutenbergId: 2680,
+        anchor: "I\\. Of my grandfather Verus I have learned",
+        lines: 6,
+      },
+      {
+        id: "meditations-en-chrystal-1902",
+        language: "English",
+        languageCode: "en",
+        translator: "George W. Chrystal",
+        year: 1902,
+        era: "1900s",
+        register: "edwardian-philosophical-prose",
+        gutenbergId: 55317,
+        anchor: "I learned from my grandfather, Verus",
+        lines: 6,
+      },
+    ],
+  },
+  {
+    id: "kjv-psalm-23",
+    title: "Psalm 23 (KJV)",
+    author: "Anonymous (Hebrew Bible)",
+    sourceLanguage: "Biblical Hebrew",
+    originalYear: -500,
+    description:
+      "The Shepherd Psalm in the King James Version (1611), sourced from Project "
+      + "Gutenberg. One of the most translated and quoted texts in the world.",
+    tags: ["bible", "psalms", "hebrew", "wisdom", "lyric"],
+    translations: [
+      {
+        id: "psalm23-en-kjv-1611",
+        language: "English",
+        languageCode: "en",
+        translator: "King James translators",
+        year: 1611,
+        era: "1600s",
+        register: "early-modern-liturgical",
+        gutenbergId: 8019,
+        anchor: "19:023:001 The LORD is my shepherd",
+        lines: 14,
+      },
+    ],
+  },
+  {
+    id: "beowulf-opening",
+    title: "Beowulf, opening (\"Hwæt!\")",
+    author: "Anonymous (Anglo-Saxon)",
+    sourceLanguage: "Old English",
+    originalYear: 1000,
+    description:
+      "The famous opening exclamation of Beowulf (\"Hwæt!\"), in two Victorian "
+      + "modernizations: J. Lesslie Hall's alliterative verse and William Morris's "
+      + "archaizing rendering.",
+    tags: ["epic", "old-english", "medieval", "alliterative"],
+    translations: [
+      {
+        id: "beowulf-en-hall-1892",
+        language: "English",
+        languageCode: "en",
+        translator: "J. Lesslie Hall",
+        year: 1892,
+        era: "1880s",
+        register: "victorian-alliterative-verse",
+        gutenbergId: 16328,
+        anchor: "Lo! the Spear-Danes",
+        lines: 6,
+      },
+      {
+        id: "beowulf-en-morris-1895",
+        language: "English",
+        languageCode: "en",
+        translator: "William Morris & A.J. Wyatt",
+        year: 1895,
+        era: "1880s",
+        register: "pre-raphaelite-archaizing",
+        gutenbergId: 20431,
+        anchor: "What! we of the Spear-Danes of yore days",
+        lines: 6,
+      },
+    ],
+  },
+  {
+    id: "confucius-analects",
+    title: "Analects of Confucius, Book I",
+    author: "Confucius (attr.)",
+    sourceLanguage: "Classical Chinese",
+    originalYear: -500,
+    description:
+      "James Legge's 1893 English translation of the Analects, sourced from Project "
+      + "Gutenberg.",
+    tags: ["philosophy", "chinese", "ethics", "wisdom"],
+    translations: [
+      {
+        id: "analects-en-legge-1893",
+        language: "English",
+        languageCode: "en",
+        translator: "James Legge",
+        year: 1893,
+        era: "1880s",
+        register: "victorian-sinology",
+        gutenbergId: 3330,
+        anchor: "The Master said, 'Is it not pleasant to learn",
+        lines: 5,
+      },
+    ],
+  },
 ];
 
 const PG = (id: number) => `https://www.gutenberg.org/cache/epub/${id}/pg${id}.txt`;
@@ -345,10 +704,11 @@ async function fetchGutenberg(id: number): Promise<FetchedFile> {
   if (!res.ok) {
     throw new Error(`PG#${id} fetch failed: ${res.status}`);
   }
-  const text = await res.text();
-  if (text.includes("404 | Project Gutenberg")) {
+  const raw = await res.text();
+  if (raw.includes("404 | Project Gutenberg")) {
     throw new Error(`PG#${id} returned 404 page`);
   }
+  const text = raw.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
   const file: FetchedFile = { id, text, lines: text.split("\n") };
   cache.set(id, file);
   return file;
@@ -368,12 +728,15 @@ function extractExcerpt(file: FetchedFile, anchor: string, lines: number): strin
   }
   const captured: string[] = [];
   let collected = 0;
+  let blankRun = 0;
   for (let i = start; i < file.lines.length && collected < lines; i++) {
     const ln = file.lines[i].trim();
     if (ln.length === 0) {
-      if (collected > 0) break;
+      blankRun++;
+      if (blankRun >= 2 && collected > 0) break;
       continue;
     }
+    blankRun = 0;
     captured.push(ln);
     collected++;
   }

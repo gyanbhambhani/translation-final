@@ -149,6 +149,22 @@ async function main() {
   const outPath = join(DATA_DIR, "embeddings.json");
   writeFileSync(outPath, JSON.stringify(output, null, 2));
   console.log(`\nWrote ${points.length} points to ${outPath}`);
+
+  const vectorsOut = {
+    _meta: {
+      model: "text-embedding-3-small",
+      dimensions: vectors[0]?.length ?? 0,
+      generatedAt: new Date().toISOString(),
+    },
+    items: texts.map((t, i) => ({
+      id: t.id,
+      workId: t.workId,
+      vector: vectors[i],
+    })),
+  };
+  const vectorsPath = join(DATA_DIR, "vectors.json");
+  writeFileSync(vectorsPath, JSON.stringify(vectorsOut));
+  console.log(`Wrote ${vectorsOut.items.length} vectors to ${vectorsPath}`);
 }
 
 main().catch((err) => {

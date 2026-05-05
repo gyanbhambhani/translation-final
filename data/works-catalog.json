@@ -211,7 +211,7 @@
           "source": "gutenberg",
           "gutenbergTextId": "216",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
-          "previewText": "Ch. 1. 1. The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name."
+          "previewText": "Ch. 1. 1. The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name. 2. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things."
         }
       ]
     },
@@ -241,7 +241,7 @@
           "source": "gutenberg",
           "gutenbergTextId": "2388",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388.txt",
-          "previewText": "By Krishna and Prince Arjun held, discoursing each with each; So have I writ its wisdom here,--its hidden mystery, For England; O our India! as dear to me as She!"
+          "previewText": "By Krishna and Prince Arjun held, discoursing each with each; So have I writ its wisdom here,--its hidden mystery, For England; O our India! as dear to me as She! EDWIN ARNOLD"
         }
       ]
     },
@@ -271,7 +271,7 @@
           "source": "gutenberg",
           "gutenbergTextId": "7164",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/7164/pg7164.txt",
-          "previewText": "Thou hast made me endless, such is thy pleasure. This frail vessel thou emptiest again and again, and fillest it ever with fresh life."
+          "previewText": "Thou hast made me endless, such is thy pleasure. This frail vessel thou emptiest again and again, and fillest it ever with fresh life. This little flute of a reed thou hast carried over hills and dales, and hast breathed through it melodies eternally new. At the immortal touch of thy hands my little heart loses its limits in joy and gives birth to utterance ineffable."
         }
       ]
     },
@@ -301,7 +301,7 @@
           "source": "gutenberg",
           "gutenbergTextId": "27308",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/27308/pg27308.txt",
-          "previewText": "Il me semble l'égal des dieux Celui qui de ta voix s'enivre, Qui lit son bonheur dans tes yeux, Et qui près de toi se sent vivre!"
+          "previewText": "Il me semble l'égal des dieux Celui qui de ta voix s'enivre, Qui lit son bonheur dans tes yeux, Et qui près de toi se sent vivre! Ce doux souris, quand je te vois, Me trouble!... Interdite, oppressée,"
         }
       ]
     },
@@ -331,7 +331,431 @@
           "source": "gutenberg",
           "gutenbergTextId": "18867",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/18867/pg18867.txt",
-          "previewText": "Living, Lesbia, we should e'en be loving. Sour severity, tongue of eld maligning, All be to us a penny's estimation."
+          "previewText": "Living, Lesbia, we should e'en be loving. Sour severity, tongue of eld maligning, All be to us a penny's estimation. Suns set only to rise again to-morrow. We, when sets in a little hour the brief light, 5 Sleep one infinite age, a night for ever."
+        }
+      ]
+    },
+    {
+      "id": "virgil-aeneid",
+      "title": "The Aeneid",
+      "author": "Virgil",
+      "sourceLanguage": "Latin",
+      "originalYear": -19,
+      "description": "Virgil's epic of Aeneas's flight from Troy. Three English translations across two centuries, plus the Latin original.",
+      "tags": [
+        "epic",
+        "classical",
+        "latin"
+      ],
+      "translations": [
+        {
+          "id": "aeneid-la-source",
+          "workId": "virgil-aeneid",
+          "language": "Latin",
+          "languageCode": "la",
+          "translator": null,
+          "year": -19,
+          "era": "original",
+          "register": "classical-latin-hexameter",
+          "source": "gutenberg",
+          "gutenbergTextId": "227",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/227/pg227.txt",
+          "previewText": "ARMA virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram; multa quoque et bello passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum,"
+        },
+        {
+          "id": "aeneid-en-dryden-1697",
+          "workId": "virgil-aeneid",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "John Dryden",
+          "year": 1697,
+          "era": "1600s",
+          "register": "restoration-heroic-couplet",
+          "source": "gutenberg",
+          "gutenbergTextId": "228",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/228/pg228.txt",
+          "previewText": "Arms, and the man I sing, who, forc’d by fate, And haughty Juno’s unrelenting hate, Expell’d and exil’d, left the Trojan shore. Long labours, both by sea and land, he bore, And in the doubtful war, before he won The Latian realm, and built the destin’d town;"
+        },
+        {
+          "id": "aeneid-en-mackail-1885",
+          "workId": "virgil-aeneid",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "J. W. Mackail",
+          "year": 1885,
+          "era": "1880s",
+          "register": "victorian-rhythmic-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "22456",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/22456/pg22456.txt",
+          "previewText": "I sing of arms and the man who of old from the coasts of Troy came, an exile of fate, to Italy and the shore of Lavinium; hard driven on land and on the deep by the violence of heaven, for cruel Juno's unforgetful anger, and hard bestead in war also, ere he might found a city and carry his gods into Latium; from whom is the Latin race, the lords of Alba,"
+        }
+      ]
+    },
+    {
+      "id": "dante-inferno",
+      "title": "Inferno (Divine Comedy I)",
+      "author": "Dante Alighieri",
+      "sourceLanguage": "Italian",
+      "originalYear": 1320,
+      "description": "Dante's descent into Hell. The famous \"midway upon the journey of our life\" opening, in two English translations and the Italian original.",
+      "tags": [
+        "epic",
+        "italian",
+        "medieval",
+        "afterlife"
+      ],
+      "translations": [
+        {
+          "id": "inferno-it-source",
+          "workId": "dante-inferno",
+          "language": "Italian",
+          "languageCode": "it",
+          "translator": null,
+          "year": 1320,
+          "era": "original",
+          "register": "trecento-italian-terza-rima",
+          "source": "gutenberg",
+          "gutenbergTextId": "997",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/997/pg997.txt",
+          "previewText": "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita. Ahi quanto a dir qual era è cosa dura esta selva selvaggia e aspra e forte che nel pensier rinova la paura!"
+        },
+        {
+          "id": "inferno-en-cary-1814",
+          "workId": "dante-inferno",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Henry Francis Cary",
+          "year": 1814,
+          "era": "1800s",
+          "register": "miltonic-blank-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "1005",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/1005/pg1005.txt",
+          "previewText": "In the midway of this our mortal life, I found me in a gloomy wood, astray Gone from the path direct: and e’en to tell It were no easy task, how savage wild That forest, how robust and rough its growth, Which to remember only, my dismay Renews, in bitterness not far from death."
+        },
+        {
+          "id": "inferno-en-longfellow-1867",
+          "workId": "dante-inferno",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Henry Wadsworth Longfellow",
+          "year": 1867,
+          "era": "1860s",
+          "register": "fireside-poet-blank-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "1001",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/1001/pg1001.txt",
+          "previewText": "Midway upon the journey of our life I found myself within a forest dark, For the straightforward pathway had been lost. Ah me! how hard a thing it is to say What was this forest savage, rough, and stern, Which in the very thought renews the fear."
+        }
+      ]
+    },
+    {
+      "id": "cervantes-quixote",
+      "title": "Don Quixote, opening",
+      "author": "Miguel de Cervantes",
+      "sourceLanguage": "Spanish",
+      "originalYear": 1605,
+      "description": "The opening of Don Quixote (\"En un lugar de la Mancha…\") in the Spanish original and two English renderings.",
+      "tags": [
+        "novel",
+        "spanish",
+        "early-modern",
+        "satire"
+      ],
+      "translations": [
+        {
+          "id": "quixote-es-source",
+          "workId": "cervantes-quixote",
+          "language": "Spanish",
+          "languageCode": "es",
+          "translator": null,
+          "year": 1605,
+          "era": "original",
+          "register": "early-modern-spanish",
+          "source": "gutenberg",
+          "gutenbergTextId": "2000",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/2000/pg2000.txt",
+          "previewText": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres"
+        },
+        {
+          "id": "quixote-en-anonymous-1842",
+          "workId": "cervantes-quixote",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Anonymous (revised from Motteux)",
+          "year": 1842,
+          "era": "1840s",
+          "register": "victorian-revised-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "35993",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/35993/pg35993.txt",
+          "previewText": "In a certain village in La Mancha, in the kingdom of Arragon, of which I cannot remember the name, there lived not long ago one of those old-fashioned gentlemen, who are never without a lance upon a rack, an old target, a lean horse, and a greyhound. His diet consisted more of beef than mutton; and, with minced meat on most nights, lentiles on"
+        },
+        {
+          "id": "quixote-en-ormsby-1885",
+          "workId": "cervantes-quixote",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "John Ormsby",
+          "year": 1885,
+          "era": "1880s",
+          "register": "late-victorian-plain-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "5921",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/5921/pg5921.txt",
+          "previewText": "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing. An olla of rather more beef than mutton, a salad on most nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra"
+        }
+      ]
+    },
+    {
+      "id": "goethe-faust-zueignung",
+      "title": "Faust — Zueignung (Dedication)",
+      "author": "Johann Wolfgang von Goethe",
+      "sourceLanguage": "German",
+      "originalYear": 1808,
+      "description": "The opening dedication of Faust Part I (\"Ihr naht euch wieder, schwankende Gestalten\") in the German original and two English verse translations.",
+      "tags": [
+        "drama",
+        "german",
+        "romantic",
+        "verse"
+      ],
+      "translations": [
+        {
+          "id": "faust-de-source",
+          "workId": "goethe-faust-zueignung",
+          "language": "German",
+          "languageCode": "de",
+          "translator": null,
+          "year": 1808,
+          "era": "original",
+          "register": "weimar-classicism",
+          "source": "gutenberg",
+          "gutenbergTextId": "21000",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/21000/pg21000.txt",
+          "previewText": "Ihr naht euch wieder, schwankende Gestalten! Die früh sich einst dem trüben Blick gezeigt. Versuch' ich wohl euch diesmal fest zu halten? Fühl' ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt;"
+        },
+        {
+          "id": "faust-en-brooks-1856",
+          "workId": "goethe-faust-zueignung",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Charles Timothy Brooks",
+          "year": 1856,
+          "era": "1850s",
+          "register": "transcendentalist-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "14460",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/14460/pg14460.txt",
+          "previewText": "Once more ye waver dreamily before me, Forms that so early cheered my troubled eyes! To hold you fast doth still my heart implore me? Still bid me clutch the charm that lures and flies? Ye crowd around! come, then, hold empire o'er me, As from the mist and haze of thought ye rise;"
+        },
+        {
+          "id": "faust-en-bayard-taylor-1870",
+          "workId": "goethe-faust-zueignung",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Bayard Taylor",
+          "year": 1870,
+          "era": "1870s",
+          "register": "metrical-faithful-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "14591",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/14591/pg14591.txt",
+          "previewText": "Again ye come, ye hovering Forms! I find ye, As early to my clouded sight ye shone! Shall I attempt, this once, to seize and bind ye? Still o’er my heart is that illusion thrown? Ye crowd more near! Then, be the reign assigned ye, And sway me from your misty, shadowy zone!"
+        }
+      ]
+    },
+    {
+      "id": "khayyam-rubaiyat",
+      "title": "Rubáiyát of Omar Khayyám",
+      "author": "Omar Khayyám",
+      "sourceLanguage": "Persian",
+      "originalYear": 1100,
+      "description": "FitzGerald's two English versions of the same opening — first edition (1859) and final fifth edition (1889) — show one translator drifting from himself across thirty years.",
+      "tags": [
+        "persian",
+        "quatrains",
+        "victorian",
+        "wisdom"
+      ],
+      "translations": [
+        {
+          "id": "rubaiyat-en-fitzgerald-1859",
+          "workId": "khayyam-rubaiyat",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Edward FitzGerald (1st edition)",
+          "year": 1859,
+          "era": "1860s",
+          "register": "victorian-orientalist-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "246",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/246/pg246.txt",
+          "previewText": "Awake! for Morning in the Bowl of Night Has flung the Stone that puts the Stars to Flight: And Lo! the Hunter of the East has caught The Sultan's Turret in a Noose of Light."
+        },
+        {
+          "id": "rubaiyat-en-fitzgerald-1889",
+          "workId": "khayyam-rubaiyat",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Edward FitzGerald (5th edition)",
+          "year": 1889,
+          "era": "1880s",
+          "register": "late-victorian-revised-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "246",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/246/pg246.txt",
+          "previewText": "WAKE! For the Sun, who scatter'd into flight The Stars before him from the Field of Night, Drives Night along with them from Heav'n, and strikes The Sultan's Turret with a Shaft of Light."
+        }
+      ]
+    },
+    {
+      "id": "marcus-aurelius-meditations",
+      "title": "Meditations, Book I",
+      "author": "Marcus Aurelius",
+      "sourceLanguage": "Koine Greek",
+      "originalYear": 175,
+      "description": "The opening of Marcus Aurelius's Stoic notebooks, in two English translations from Project Gutenberg.",
+      "tags": [
+        "philosophy",
+        "stoic",
+        "greek",
+        "antiquity"
+      ],
+      "translations": [
+        {
+          "id": "meditations-en-long-1862",
+          "workId": "marcus-aurelius-meditations",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "George Long",
+          "year": 1862,
+          "era": "1860s",
+          "register": "victorian-philosophical-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "2680",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/2680/pg2680.txt",
+          "previewText": "I. Of my grandfather Verus I have learned to be gentle and meek, and to refrain from all anger and passion. From the fame and memory of him that begot me I have learned both shamefastness and manlike behaviour. Of my mother I have learned to be religious, and bountiful; and to forbear, not only to do, but to intend any evil; to content myself with a spare diet, and to fly all such excess as is incidental to great wealth. Of my"
+        },
+        {
+          "id": "meditations-en-chrystal-1902",
+          "workId": "marcus-aurelius-meditations",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "George W. Chrystal",
+          "year": 1902,
+          "era": "1900s",
+          "register": "edwardian-philosophical-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "55317",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/55317/pg55317.txt",
+          "previewText": "1. I learned from my grandfather, Verus, to use good manners, and to put restraint on anger. 2. In the famous memory of my father I had a pattern of modesty and manliness. 3. Of my mother I learned to be pious and generous; to keep myself not only from evil deeds, but even from evil thoughts; and to live with a simplicity which is far from customary among the rich. 4. I owe it to my great-grandfather that I"
+        }
+      ]
+    },
+    {
+      "id": "kjv-psalm-23",
+      "title": "Psalm 23 (KJV)",
+      "author": "Anonymous (Hebrew Bible)",
+      "sourceLanguage": "Biblical Hebrew",
+      "originalYear": -500,
+      "description": "The Shepherd Psalm in the King James Version (1611), sourced from Project Gutenberg. One of the most translated and quoted texts in the world.",
+      "tags": [
+        "bible",
+        "psalms",
+        "hebrew",
+        "wisdom",
+        "lyric"
+      ],
+      "translations": [
+        {
+          "id": "psalm23-en-kjv-1611",
+          "workId": "kjv-psalm-23",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "King James translators",
+          "year": 1611,
+          "era": "1600s",
+          "register": "early-modern-liturgical",
+          "source": "gutenberg",
+          "gutenbergTextId": "8019",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/8019/pg8019.txt",
+          "previewText": "19:023:001 The LORD is my shepherd; I shall not want. 19:023:002 He maketh me to lie down in green pastures: he leadeth me beside the still waters. 19:023:003 He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake. 19:023:004 Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me. 19:023:005 Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over. 19:023:006 Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever. 19:024:001 The earth is the LORD's, and the fulness thereof; the world, and they that dwell therein."
+        }
+      ]
+    },
+    {
+      "id": "beowulf-opening",
+      "title": "Beowulf, opening (\"Hwæt!\")",
+      "author": "Anonymous (Anglo-Saxon)",
+      "sourceLanguage": "Old English",
+      "originalYear": 1000,
+      "description": "The famous opening exclamation of Beowulf (\"Hwæt!\"), in two Victorian modernizations: J. Lesslie Hall's alliterative verse and William Morris's archaizing rendering.",
+      "tags": [
+        "epic",
+        "old-english",
+        "medieval",
+        "alliterative"
+      ],
+      "translations": [
+        {
+          "id": "beowulf-en-hall-1892",
+          "workId": "beowulf-opening",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "J. Lesslie Hall",
+          "year": 1892,
+          "era": "1880s",
+          "register": "victorian-alliterative-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "16328",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/16328/pg16328.txt",
+          "previewText": "Lo! the Spear-Danes' glory through splendid achievements The folk-kings' former fame we have heard of, How princes displayed then their prowess-in-battle. {Scyld, their mighty king, in honor of whom they are often called Scyldings. He is the great-grandfather of Hrothgar, so prominent in the poem.}"
+        },
+        {
+          "id": "beowulf-en-morris-1895",
+          "workId": "beowulf-opening",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "William Morris & A.J. Wyatt",
+          "year": 1895,
+          "era": "1880s",
+          "register": "pre-raphaelite-archaizing",
+          "source": "gutenberg",
+          "gutenbergTextId": "20431",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/20431/pg20431.txt",
+          "previewText": "What! we of the Spear-Danes of yore days, so was it That we learn'd of the fair fame of kings of the folks And the athelings a-faring in framing of valour. Oft then Scyld the Sheaf-son from the hosts of the scathers, From kindreds a many the mead-settles tore; It was then the earl fear'd them, sithence was he first"
+        }
+      ]
+    },
+    {
+      "id": "confucius-analects",
+      "title": "Analects of Confucius, Book I",
+      "author": "Confucius (attr.)",
+      "sourceLanguage": "Classical Chinese",
+      "originalYear": -500,
+      "description": "James Legge's 1893 English translation of the Analects, sourced from Project Gutenberg.",
+      "tags": [
+        "philosophy",
+        "chinese",
+        "ethics",
+        "wisdom"
+      ],
+      "translations": [
+        {
+          "id": "analects-en-legge-1893",
+          "workId": "confucius-analects",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "James Legge",
+          "year": 1893,
+          "era": "1880s",
+          "register": "victorian-sinology",
+          "source": "gutenberg",
+          "gutenbergTextId": "3330",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
+          "previewText": "CHAPTER I. 1. The Master said, 'Is it not pleasant to learn with a constant perseverance and application? 2. 'Is it not delightful to have friends coming from distant quarters?' 3. 'Is he not a man of complete virtue, who feels no"
         }
       ]
     }

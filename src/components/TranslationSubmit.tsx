@@ -30,7 +30,11 @@ interface Props {
   onNewPoint: (point: EmbeddingPoint) => void;
 }
 
-export default function TranslationSubmit({ workId, workTitle, onNewPoint }: Props) {
+export default function TranslationSubmit({
+  workId,
+  workTitle,
+  onNewPoint,
+}: Props) {
   const [text, setText] = useState("");
   const [label, setLabel] = useState("");
   const [loading, setLoading] = useState(false);
@@ -49,16 +53,17 @@ export default function TranslationSubmit({ workId, workTitle, onNewPoint }: Pro
       const res = await fetch("/api/embed", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: text.trim(), workId, label: label.trim() }),
+        body: JSON.stringify({
+          text: text.trim(),
+          workId,
+          label: label.trim(),
+        }),
       });
-
       const data = await res.json();
-
       if (!res.ok) {
         setError(data.error ?? "Something went wrong");
         return;
       }
-
       setResult(data as EmbedResponse);
       onNewPoint(data.point);
     } catch {
@@ -69,41 +74,37 @@ export default function TranslationSubmit({ workId, workTitle, onNewPoint }: Pro
   };
 
   return (
-    <div className="space-y-4">
-      <p className="text-sm text-zinc-400 leading-relaxed">
-        Paste your own translation of <em>{workTitle}</em> to see where it lands
-        in semantic space relative to existing translations.
+    <div className="space-y-6">
+      <p className="font-display italic text-ink-soft text-[1.05rem] leading-[1.55] max-w-2xl">
+        Paste your own translation of {workTitle} and we will embed it,
+        compute similarity against every existing translation, and drop your
+        point onto the scatter beside its closest neighbor.
       </p>
 
-      <form onSubmit={handleSubmit} className="space-y-3">
-        <div>
-          <label className="block text-xs text-zinc-500 mb-1">
-            Your name or label (optional)
-          </label>
+      <form onSubmit={handleSubmit} className="space-y-6">
+        <Field label="Your name or label" optional>
           <input
             type="text"
             value={label}
             onChange={(e) => setLabel(e.target.value)}
-            placeholder="e.g. My 2024 translation"
-            className="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-3 py-2 text-sm text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-indigo-500"
+            placeholder="e.g. My 2026 translation"
+            className="w-full bg-transparent border-b border-rule focus:border-ink transition-colors text-ink text-[16px] py-2 placeholder:text-ink-faint focus:outline-none"
           />
-        </div>
+        </Field>
 
-        <div>
-          <label className="block text-xs text-zinc-500 mb-1">
-            Your translation
-          </label>
+        <Field label="Your translation">
           <textarea
             value={text}
             onChange={(e) => setText(e.target.value)}
             placeholder="Paste your translation here…"
-            rows={8}
-            className="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-3 py-2 text-sm text-zinc-200 placeholder-zinc-600 focus:outline-none focus:border-indigo-500 resize-y font-mono leading-relaxed"
+            rows={9}
+            className="w-full bg-bg-soft border border-rule focus:border-ink transition-colors px-4 py-3 text-ink text-[15px] leading-[1.65] placeholder:text-ink-faint focus:outline-none resize-y font-display"
           />
-        </div>
+        </Field>
 
         {error && (
-          <p className="text-sm text-red-400 bg-red-950/30 border border-red-900/50 rounded-lg px-3 py-2">
+          <p className="border border-rule px-4 py-3 text-[13.5px] text-ink-soft">
+            <span className="text-accent font-display italic mr-2">!</span>
             {error}
           </p>
         )}
@@ -111,75 +112,115 @@ export default function TranslationSubmit({ workId, workTitle, onNewPoint }: Pro
         <button
           type="submit"
           disabled={loading || !text.trim()}
-          className="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-500 disabled:bg-zinc-700 disabled:cursor-not-allowed rounded-lg text-sm font-medium text-white transition-colors"
+          className="group inline-flex items-center gap-3 border border-ink bg-ink text-bg px-6 py-3 hover:bg-accent hover:border-accent disabled:bg-transparent disabled:text-ink-faint disabled:border-rule disabled:cursor-not-allowed transition-colors"
         >
           {loading ? (
-            <span className="flex items-center justify-center gap-2">
-              <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-              Embedding…
-            </span>
+            <>
+              <span className="block w-3.5 h-3.5 border border-bg/40 border-t-bg rounded-full animate-spin" />
+              <span className="small-caps text-[12px] tracking-[0.18em]">
+                Embedding…
+              </span>
+            </>
           ) : (
-            "Plot my translation"
+            <>
+              <span className="small-caps text-[12px] tracking-[0.18em]">
+                Plot my translation
+              </span>
+              <span className="font-display italic text-[18px] -mt-0.5 transition-transform group-hover:translate-x-1">
+                →
+              </span>
+            </>
           )}
         </button>
       </form>
 
       {result && (
-        <div className="bg-zinc-900 border border-zinc-700 rounded-xl p-4 space-y-3">
-          <h4 className="text-sm font-semibold text-zinc-200">Results</h4>
-
-          <div className="flex items-center gap-2 p-3 bg-zinc-800 rounded-lg">
-            <span
-              className="w-3 h-3 rounded-full flex-shrink-0"
-              style={{
-                background:
-                  ERA_COLORS[result.closestMatch.era] ?? "#6366f1",
-              }}
-            />
-            <div>
-              <p className="text-xs text-zinc-400">Closest match</p>
-              <p className="text-sm font-medium text-zinc-200">
-                {result.closestMatch.translator ?? "Original"} (
-                {result.closestMatch.year})
-              </p>
-              <p className="text-xs text-zinc-500">
-                Similarity:{" "}
-                {(result.closestMatch.similarity * 100).toFixed(1)}%
-              </p>
+        <div className="border border-rule p-6 space-y-6">
+          <div>
+            <p className="small-caps text-ink-muted text-[11px] tracking-[0.18em] mb-3">
+              Closest match
+            </p>
+            <div className="flex items-baseline gap-4">
+              <span className="font-display text-accent text-[2.5rem] leading-none tabular">
+                {result.closestMatch.similarity.toFixed(3)}
+              </span>
+              <div>
+                <p className="font-display text-ink text-[1.2rem] leading-tight">
+                  {result.closestMatch.translator ?? "Original"}
+                </p>
+                <p className="text-ink-muted text-[12.5px] tabular">
+                  {result.closestMatch.year} ·{" "}
+                  <span className="small-caps tracking-[0.14em]">
+                    {result.closestMatch.era}
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
 
-          <div className="space-y-1">
-            <p className="text-xs text-zinc-500 font-medium uppercase tracking-wider">
+          <div className="space-y-2.5 pt-5 border-t border-rule">
+            <p className="small-caps text-ink-muted text-[11px] tracking-[0.18em] mb-3">
               All similarities
             </p>
-            {result.similarities.map((s) => (
-              <div
-                key={s.pointId}
-                className="flex items-center gap-2 text-xs"
-              >
+            {result.similarities.map((s) => {
+              const c = ERA_COLORS[s.era] ?? "#e8c179";
+              return (
                 <div
-                  className="h-1.5 rounded-full flex-shrink-0"
-                  style={{
-                    width: `${s.similarity * 100}%`,
-                    maxWidth: "100%",
-                    background: ERA_COLORS[s.era] ?? "#6366f1",
-                  }}
-                />
-                <span className="text-zinc-400 whitespace-nowrap">
-                  {s.translator ?? "Original"} {s.year}:{" "}
-                  {(s.similarity * 100).toFixed(0)}%
-                </span>
-              </div>
-            ))}
+                  key={s.pointId}
+                  className="grid grid-cols-[5rem_1fr_auto] items-center gap-4 text-[12.5px]"
+                >
+                  <span className="font-display text-ink tabular text-right">
+                    {s.similarity.toFixed(3)}
+                  </span>
+                  <div className="h-[3px] bg-rule">
+                    <div
+                      className="h-full"
+                      style={{
+                        width: `${Math.max(2, s.similarity * 100)}%`,
+                        background: c,
+                        opacity: 0.85,
+                      }}
+                    />
+                  </div>
+                  <span className="text-ink-muted truncate">
+                    {s.translator ?? "Original"}{" "}
+                    <span className="tabular text-ink-faint">{s.year}</span>
+                  </span>
+                </div>
+              );
+            })}
           </div>
 
-          <p className="text-xs text-zinc-600 italic">
-            Your translation has been plotted on the scatter chart above. Look
-            for the highlighted point.
+          <p className="font-display italic text-ink-faint text-[13px] pt-2">
+            Your translation is now plotted on the scatter — look for the
+            highlighted point.
           </p>
         </div>
       )}
+    </div>
+  );
+}
+
+function Field({
+  label,
+  optional,
+  children,
+}: {
+  label: string;
+  optional?: boolean;
+  children: React.ReactNode;
+}) {
+  return (
+    <div>
+      <label className="flex items-baseline gap-2 small-caps text-ink-muted text-[11px] tracking-[0.18em] mb-2">
+        {label}
+        {optional && (
+          <span className="text-ink-faint normal-case tracking-normal italic font-display text-[12.5px]">
+            optional
+          </span>
+        )}
+      </label>
+      {children}
     </div>
   );
 }

@@ -38,8 +38,10 @@ export default function SimilarityHeatmap({ points }: Props) {
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
+    // Single-hue ramp from rule-dark to amber accent.
+    // Cohesive with the page palette; brighter = more similar.
     const colorScale = d3
-      .scaleSequential(d3.interpolateRdYlGn)
+      .scaleSequential(d3.interpolateRgb("#1c1b19", "#e8c179"))
       .domain([0, 1]);
 
     for (let i = 0; i < n; i++) {
@@ -51,7 +53,7 @@ export default function SimilarityHeatmap({ points }: Props) {
           .attr("width", cellSize)
           .attr("height", cellSize)
           .attr("fill", colorScale(sim))
-          .attr("stroke", "#09090b")
+          .attr("stroke", "#0b0b0a")
           .attr("stroke-width", 0.5)
           .append("title")
           .text(
@@ -75,7 +77,9 @@ export default function SimilarityHeatmap({ points }: Props) {
         `rotate(-45, ${i * cellSize + cellSize / 2}, -8)`
       )
       .attr("font-size", Math.min(11, cellSize - 2))
-      .attr("fill", (d) => ERA_COLORS[d.era] ?? "#a1a1aa")
+      .attr("font-family", "var(--font-sans), sans-serif")
+      .attr("letter-spacing", "0.04em")
+      .attr("fill", (d) => ERA_COLORS[d.era] ?? "#807b71")
       .text(label);
 
     g.selectAll(".row-label")
@@ -87,7 +91,9 @@ export default function SimilarityHeatmap({ points }: Props) {
       .attr("y", (_, i) => i * cellSize + cellSize / 2 + 4)
       .attr("text-anchor", "end")
       .attr("font-size", Math.min(11, cellSize - 2))
-      .attr("fill", (d) => ERA_COLORS[d.era] ?? "#a1a1aa")
+      .attr("font-family", "var(--font-sans), sans-serif")
+      .attr("letter-spacing", "0.04em")
+      .attr("fill", (d) => ERA_COLORS[d.era] ?? "#807b71")
       .text(label);
 
     const legendW = 160;
@@ -115,22 +121,28 @@ export default function SimilarityHeatmap({ points }: Props) {
       .attr("width", legendW)
       .attr("height", legendH)
       .attr("fill", "url(#heatmap-grad)")
-      .attr("rx", 2);
+      .attr("stroke", "#232220")
+      .attr("stroke-width", 0.5);
 
     g.append("text")
       .attr("x", lx)
-      .attr("y", ly + legendH + 14)
+      .attr("y", ly + legendH + 16)
       .attr("font-size", 10)
-      .attr("fill", "#71717a")
-      .text("0 (dissimilar)");
+      .attr("font-family", "var(--font-sans), sans-serif")
+      .attr("letter-spacing", "0.16em")
+      .attr("text-transform", "uppercase")
+      .attr("fill", "#807b71")
+      .text("DISSIMILAR");
 
     g.append("text")
       .attr("x", lx + legendW)
-      .attr("y", ly + legendH + 14)
+      .attr("y", ly + legendH + 16)
       .attr("text-anchor", "end")
       .attr("font-size", 10)
-      .attr("fill", "#71717a")
-      .text("1 (identical)");
+      .attr("font-family", "var(--font-sans), sans-serif")
+      .attr("letter-spacing", "0.16em")
+      .attr("fill", "#807b71")
+      .text("IDENTICAL");
   }, [points]);
 
   return (

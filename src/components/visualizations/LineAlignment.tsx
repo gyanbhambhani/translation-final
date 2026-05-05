@@ -18,8 +18,8 @@ export default function LineAlignment({ translations }: Props) {
 
   if (withText.length < 2) {
     return (
-      <p className="text-sm text-zinc-500 italic">
-        Full text not available for this work in the catalog.
+      <p className="font-display italic text-ink-muted text-[15px]">
+        Full text is not available for this work in the catalog.
       </p>
     );
   }
@@ -29,60 +29,81 @@ export default function LineAlignment({ translations }: Props) {
   const maxLen = Math.max(leftLines.length, rightLines.length);
 
   return (
-    <div className="space-y-4">
-      <div className="flex gap-4">
+    <div className="space-y-6">
+      <div className="grid sm:grid-cols-2 gap-6">
         <TranslationSelector
           translations={withText}
           selected={leftId}
           onChange={setLeftId}
-          label="Left"
+          label="Left column"
         />
         <TranslationSelector
           translations={withText}
           selected={rightId}
           onChange={setRightId}
-          label="Right"
+          label="Right column"
         />
       </div>
 
-      <div className="grid grid-cols-2 gap-0 border border-zinc-800 rounded-xl overflow-hidden text-sm font-mono">
-        <div
-          className="px-4 py-3 border-b border-zinc-800 text-xs font-sans font-semibold"
-          style={{ color: ERA_COLORS[left?.era ?? "original"] ?? "#a1a1aa" }}
-        >
-          {left?.translator ?? "Original"} ({left?.year})
-        </div>
-        <div
-          className="px-4 py-3 border-b border-l border-zinc-800 text-xs font-sans font-semibold"
-          style={{ color: ERA_COLORS[right?.era ?? "original"] ?? "#a1a1aa" }}
-        >
-          {right?.translator ?? "Original"} ({right?.year})
-        </div>
+      <div className="grid grid-cols-2 border border-rule">
+        <ColumnHeader translation={left} />
+        <ColumnHeader translation={right} bordered />
 
         {Array.from({ length: maxLen }).map((_, i) => {
           const l = leftLines[i] ?? "";
           const r = rightLines[i] ?? "";
-          const isEmpty = l.trim() === "" && r.trim() === "";
-
           return (
             <div key={i} className="contents">
-              <div
-                className={`px-4 py-1 border-zinc-800/50 leading-relaxed text-zinc-300 ${
-                  isEmpty ? "border-b border-zinc-800/30" : ""
-                } hover:bg-zinc-800/30`}
-              >
-                {l || <span className="text-zinc-700">—</span>}
+              <div className="px-5 py-1.5 font-display text-ink-soft text-[15px] leading-[1.7] hover:bg-bg-soft transition-colors">
+                {l || <span className="text-ink-faint">—</span>}
               </div>
-              <div
-                className={`px-4 py-1 border-l border-zinc-800/50 leading-relaxed text-zinc-300 ${
-                  isEmpty ? "border-b border-zinc-800/30" : ""
-                } hover:bg-zinc-800/30`}
-              >
-                {r || <span className="text-zinc-700">—</span>}
+              <div className="px-5 py-1.5 border-l border-rule font-display text-ink-soft text-[15px] leading-[1.7] hover:bg-bg-soft transition-colors">
+                {r || <span className="text-ink-faint">—</span>}
               </div>
             </div>
           );
         })}
+      </div>
+    </div>
+  );
+}
+
+function ColumnHeader({
+  translation,
+  bordered,
+}: {
+  translation?: TranslationText;
+  bordered?: boolean;
+}) {
+  if (!translation) {
+    return (
+      <div
+        className={`px-5 py-3 border-b border-rule ${bordered ? "border-l" : ""}`}
+      />
+    );
+  }
+  const eraColor = ERA_COLORS[translation.era] ?? "#e8c179";
+  return (
+    <div
+      className={`px-5 py-3 border-b border-rule bg-bg-soft ${
+        bordered ? "border-l" : ""
+      }`}
+    >
+      <div className="flex items-baseline justify-between gap-3">
+        <div className="min-w-0">
+          <p className="font-display text-ink text-[1.05rem] leading-tight truncate">
+            {translation.translator ?? "Original"}
+          </p>
+          <p className="text-ink-muted text-[11.5px] mt-0.5 tabular">
+            {translation.language} · {translation.year}
+          </p>
+        </div>
+        <span
+          className="small-caps text-[10px] tracking-[0.16em] shrink-0"
+          style={{ color: eraColor }}
+        >
+          {translation.era}
+        </span>
       </div>
     </div>
   );
@@ -100,19 +121,33 @@ function TranslationSelector({
   label: string;
 }) {
   return (
-    <div className="flex-1">
-      <label className="block text-xs text-zinc-500 mb-1">{label}</label>
-      <select
-        value={selected}
-        onChange={(e) => onChange(e.target.value)}
-        className="w-full bg-zinc-900 border border-zinc-700 rounded-lg px-3 py-2 text-sm text-zinc-200 focus:outline-none focus:border-indigo-500"
-      >
-        {translations.map((t) => (
-          <option key={t.id} value={t.id}>
-            {t.translator ?? "Original"} ({t.language}, {t.year})
-          </option>
-        ))}
-      </select>
+    <div>
+      <label className="block small-caps text-ink-muted text-[11px] tracking-[0.18em] mb-2">
+        {label}
+      </label>
+      <div className="relative">
+        <select
+          value={selected}
+          onChange={(e) => onChange(e.target.value)}
+          className="w-full appearance-none bg-transparent border border-rule focus:border-ink transition-colors px-3 py-2.5 pr-9 text-ink text-[14px] focus:outline-none cursor-pointer"
+        >
+          {translations.map((t) => (
+            <option
+              key={t.id}
+              value={t.id}
+              className="bg-bg-card text-ink"
+            >
+              {t.translator ?? "Original"} ({t.language}, {t.year})
+            </option>
+          ))}
+        </select>
+        <span
+          className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-ink-muted font-display italic text-[14px]"
+          aria-hidden
+        >
+          ▾
+        </span>
+      </div>
     </div>
   );
 }

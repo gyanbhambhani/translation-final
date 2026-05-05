@@ -1,22 +1,138 @@
 @import "tailwindcss";
 
+/*
+ * Semantic Drift
+ * One typeface family. Near-monochrome. Generous space.
+ * Restraint over ornament.
+ */
+
 :root {
-  --background: #09090b;
-  --foreground: #f4f4f5;
+  --bg: #0b0b0a;
+  --bg-soft: #131311;
+  --bg-card: #161614;
+  --ink: #f4f1ea;
+  --ink-soft: #c8c3b8;
+  --ink-muted: #807b71;
+  --ink-faint: #4a4842;
+  --rule: #232220;
+  --rule-soft: #1c1b19;
+  --accent: #e8c179;
+  --background: var(--bg);
+  --foreground: var(--ink);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-bg-card: var(--bg-card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-rule-soft: var(--rule-soft);
+  --color-accent: var(--accent);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, sans-serif;
+  font-feature-settings: "kern", "ss01";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  box-sizing: border-box;
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+  font-feature-settings: "kern", "liga";
+  letter-spacing: -0.02em;
+}
+
+.font-sans {
+  font-family: var(--font-sans), sans-serif;
+}
+
+/* The one accent: a small, warm caret/marker */
+.dot-accent::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 0.55em;
+  vertical-align: 0.18em;
+}
+
+/* Single-pass page reveal — staggered */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.rise { animation: rise 900ms cubic-bezier(0.16, 1, 0.3, 1) both; }
+.rise-1 { animation-delay: 60ms; }
+.rise-2 { animation-delay: 180ms; }
+.rise-3 { animation-delay: 320ms; }
+.rise-4 { animation-delay: 480ms; }
+.rise-5 { animation-delay: 640ms; }
+
+/* The hero point field — dots breathe, almost imperceptibly */
+@keyframes breathe {
+  0%, 100% { opacity: 0.55; }
+  50%      { opacity: 0.85; }
+}
+.point-field circle {
+  animation: breathe 8s ease-in-out infinite;
+}
+
+/* Hover line under inline links — drawn, not boxed */
+.link {
+  position: relative;
+  color: var(--ink);
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  transition: background-size 240ms ease, color 240ms ease;
+}
+.link:hover {
+  color: var(--accent);
+  background-size: 100% 2px;
+}
+
+/* Card — minimal, no shadow, no transform. Just a quiet rule + bg shift. */
+.card {
+  background: transparent;
+  border: 1px solid var(--rule);
+  transition: border-color 200ms ease, background-color 200ms ease;
+}
+.card:hover {
+  border-color: var(--ink-faint);
+  background: var(--bg-soft);
+}
+
+/* Numerals: tabular for alignment in stats */
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Small caps for labels, when supported */
+.small-caps {
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
 }
