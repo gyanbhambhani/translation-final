@@ -63,7 +63,7 @@ export default function SearchSection({ featured }: Props) {
 
       <div>
         <h2 className="text-sm font-medium text-zinc-500 uppercase tracking-wider mb-4">
-          {results ? `${results.length} results` : "Featured works"}
+          {results ? `${results.length} results` : `All works (${featured.length})`}
         </h2>
 
         {isEmpty ? (

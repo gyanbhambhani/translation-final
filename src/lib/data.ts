@@ -112,10 +112,12 @@ export function getAllEmbeddingPoints() {
 }
 
 export function getFeaturedWorks(): SearchResult[] {
+  const results: SearchResult[] = [];
+
   const corpus = getCorpus();
-  return corpus.works.map((work) => {
+  for (const work of corpus.works) {
     const languages = [...new Set(work.texts.map((t) => t.language))];
-    return {
+    results.push({
       id: work.id,
       title: work.title,
       author: work.author,
@@ -123,7 +125,25 @@ export function getFeaturedWorks(): SearchResult[] {
       originalYear: work.year,
       translationCount: work.texts.filter((t) => t.translator !== null).length,
       languages,
-      source: "corpus" as const,
-    };
-  });
+      source: "corpus",
+    });
+  }
+
+  const catalog = getCatalog();
+  for (const work of catalog.works) {
+    const languages = [...new Set(work.translations.map((t) => t.language))];
+    results.push({
+      id: work.id,
+      title: work.title,
+      author: work.author,
+      sourceLanguage: work.sourceLanguage,
+      originalYear: work.originalYear,
+      description: work.description,
+      translationCount: work.translations.length,
+      languages,
+      source: "catalog",
+    });
+  }
+
+  return results;
 }
