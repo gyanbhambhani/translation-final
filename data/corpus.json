@@ -1,0 +1,329 @@
+{
+  "works": [
+    {
+      "id": "ramanujan-a-river",
+      "title": "A River",
+      "author": "A.K. Ramanujan",
+      "sourceLanguage": "English",
+      "year": 1966,
+      "collection": "The Striders",
+      "texts": [
+        {
+          "id": "ramanujan-a-river-en",
+          "workId": "ramanujan-a-river",
+          "language": "English",
+          "languageCode": "en",
+          "translator": null,
+          "year": 1966,
+          "era": "original",
+          "register": "original",
+          "text": "In Madurai,\ncity of temples and poets,\nwho sang of cities and temples,\nevery summer\na river dries to a trickle\nin the sand,\nbumps on the sand,\nlike the bedmarks\nof a bent, thin old woman\n\nlying down after a laborious life.\nThe river has two towns\non either bank.\nThe new town, faced with banks,\nwashed faces, daily\nchanging; the old town\nwith its ancient icons,\nits henna shops, sweet shops,\nand the river; its story of drowning,\n\nand the old news\nof the 1st and the 2nd year floods:\nIn the 1st year after the war\nthe river took\na woman, dead,\ncalmly, without haste,\nat the end of the long day.\n\nIn the 2nd year\nit took\ntwo children, a bundle of clothes,\nand a thin-boned cow.\n\nAnd it always has\njust the dry, bony, old river\nthat dries in the sand,\neveryday,\nwhile the poets sang of the new,\nthe live-giving, full spring river\nto the goddess."
+        },
+        {
+          "id": "ramanujan-a-river-hi-1970",
+          "workId": "ramanujan-a-river",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Chandrakant Dev",
+          "year": 1973,
+          "era": "1970s",
+          "register": "nayi-kavita",
+          "text": "मदुरै में,\nमन्दिरों और कवियों के नगर में,\nजिन्होंने नगरों और मन्दिरों का गान किया,\nप्रत्येक ग्रीष्म में\nनदी सिकुड़ जाती है एक धार में\nरेत में,\nरेत पर उभरती है,\nजैसे किसी झुकी, क्षीण वृद्धा की\nशयन-रेखाएँ\n\nश्रमसाध्य जीवन के पश्चात लेटी हुई।\nनदी के दोनों तटों पर\nदो नगर बसे हैं।\nनव-नगर, कोटवाला,\nधुले मुख, दैनिक\nपरिवर्तनशील; पुरातन नगर\nअपने प्राचीन प्रतिमाओं के साथ,\nउसके मेहंदी-विपणन, मिष्टान्न-गृह,\nऔर नदी; उसका जलसमाधि का आख्यान,\n\nऔर प्रथम तथा द्वितीय वर्ष की बाढ़ की\nपुरातन वार्ता:\nयुद्धोत्तर प्रथम वर्ष में\nनदी ने ग्रहण किया\nएक स्त्री को, मृत,\nशान्तिपूर्वक, बिना आतुरता के,\nदीर्घ दिवस के अन्त में।\n\nद्वितीय वर्ष में\nउसने लिया\nदो बालकों को, वस्त्र-पोटली को,\nऔर एक कृशास्थि धेनु को।\n\nऔर सदा रहती है\nकेवल शुष्क, अस्थिल, वृद्ध नदी\nजो रेत में सूखती है,\nप्रतिदिन,\nजबकि कवि गाते रहे नवीन का,\nजीवनदायिनी, पूर्ण वसंत नदी का\nदेवी को।"
+        },
+        {
+          "id": "ramanujan-a-river-hi-1990",
+          "workId": "ramanujan-a-river",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Vibha Rani",
+          "year": 1994,
+          "era": "1990s",
+          "register": "post-liberalization",
+          "text": "मदुरई में,\nमंदिरों और कवियों के शहर में,\nजो गाते रहे शहरों और मंदिरों के गीत,\nहर गर्मी में\nनदी सूख जाती है एक धारा में\nरेत में,\nरेत पर उभरती है,\nजैसे किसी झुकी, पतली बूढ़ी औरत के\nसोने के निशान\n\nमुश्किल जिंदगी के बाद लेटी हुई।\nनदी के दोनों किनारों पर\nदो शहर हैं।\nनया शहर, बैंकों से भरा,\nधुले चेहरे, रोज़\nबदलते रहते; पुराना शहर\nअपनी पुरानी मूर्तियों के साथ,\nइसके मेहंदी की दुकानें, मिठाई की दुकानें,\nऔर नदी; उसकी डूबने की कहानी,\n\nऔर पहले और दूसरे साल की बाढ़ की\nपुरानी खबर:\nजंग के बाद पहले साल में\nनदी ने लिया\nएक औरत को, मरी हुई,\nशांति से, बिना जल्दी के,\nलंबे दिन के अंत में।\n\nदूसरे साल में\nइसने लिया\nदो बच्चों को, कपड़ों का बंडल,\nऔर एक पतली-हड्डियों वाली गाय।\n\nऔर हमेशा बनी रहती है\nबस सूखी, हड्डीदार, बूढ़ी नदी\nजो रेत में सूखती है,\nरोज़,\nजबकि कवि गाते रहे नए का,\nजीवनदायी, भरपूर बसंत नदी का\nदेवी को।"
+        },
+        {
+          "id": "ramanujan-a-river-hi-2000",
+          "workId": "ramanujan-a-river",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Arvind Krishna Mehrotra",
+          "year": 2005,
+          "era": "2000s",
+          "register": "urban-colloquial",
+          "text": "मदुरई में,\nमंदिरों और शायरों के कस्बे में,\nजिन्होंने कस्बों और मंदिरों की कविता लिखी,\nहर साल गर्मियों में\nनदी रेत में सिमट जाती है,\nरेत पर उभरती है,\nजैसे कोई थकी हुई, पतली बुज़ुर्ग औरत\nकड़ी मेहनत के बाद\nसोने के लिए लेट जाए।\n\nनदी के दोनों तरफ दो कस्बे हैं।\nनया कस्बा: बैंक, धुले चेहरे,\nरोज़ बदलता रंग-ढंग;\nपुराना कस्बा अपनी पुरानी मूर्तियों के साथ,\nमेहंदी और मिठाई की दुकानें,\nडूबने की कहानियाँ\n\nऔर पहले-दूसरे साल की बाढ़ का किस्सा:\nजंग के बाद पहले साल में\nनदी एक मरी हुई औरत को\nबहा ले गई—\nशांति से, बिना जल्दी किए,\nउस लंबे दिन के आखिर में।\n\nदूसरे साल में\nदो बच्चे, कपड़ों का एक थैला,\nएक दुबली-पतली गाय।\n\nऔर हमेशा\nबस वही सूखी, हड्डीवाली बुज़ुर्ग नदी\nजो रोज़ रेत में सूखती है—\nजबकि कवि गाते रहे नई,\nजिंदगी देने वाली, भरी-पूरी बसंती नदी का\nदेवी के सामने।"
+        },
+        {
+          "id": "ramanujan-a-river-hi-2020",
+          "workId": "ramanujan-a-river",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Puja Iyengar",
+          "year": 2021,
+          "era": "2020s",
+          "register": "contemporary",
+          "text": "मदुरई में —\nमंदिरों और कवियों का शहर,\nजो शहरों और मंदिरों की बात करते थे —\nहर गर्मी में\nनदी एक पतली-सी धारा बनकर\nरेत में खो जाती है,\nरेत पर उभरती है,\nजैसे कोई झुकी हुई, दुबली बूढ़ी औरत\nएक थकी हुई ज़िंदगी के बाद लेट जाए।\n\nनदी के दोनों तरफ दो शहर हैं।\nनया शहर: बैंकों से सजा,\nधुले हुए चेहरे, हर रोज़ बदलता;\nपुराना शहर: पुरानी मूर्तियाँ,\nमेहंदी की दुकानें, मिठाइयाँ,\nनदी और उसकी डूबने की कहानी,\n\nपहले और दूसरे साल की बाढ़ की पुरानी ख़बर:\nजंग के बाद पहले साल में\nनदी एक मरी हुई औरत को\nशांत बहाव में ले गई,\nबिना जल्दी किए,\nउस लंबे दिन के अंत में।\n\nदूसरे साल में —\nदो बच्चे, कपड़ों का एक बंडल,\nएक हड्डियों वाली गाय।\n\nऔर वो नदी हमेशा बनी रहती है —\nसूखी, हड्डीवाली, बुज़ुर्ग,\nहर रोज़ रेत में सूखती,\nजबकि कवि गाते रहे\nनई, जीवनदायिनी, लबालब भरी बसंत की नदी का गान\nदेवी के लिए।"
+        }
+      ]
+    },
+    {
+      "id": "ramanujan-self-portrait",
+      "title": "Self Portrait",
+      "author": "A.K. Ramanujan",
+      "sourceLanguage": "English",
+      "year": 1966,
+      "collection": "The Striders",
+      "texts": [
+        {
+          "id": "ramanujan-self-portrait-en",
+          "workId": "ramanujan-self-portrait",
+          "language": "English",
+          "languageCode": "en",
+          "translator": null,
+          "year": 1966,
+          "era": "original",
+          "register": "original",
+          "text": "I resemble everyone\nbut myself, and sometimes see\nin shop-windows,\ndespite the well-known laws\nof optics,\nthe portrait of a stranger,\ndate unknown,\nsometime in the future.\n\nHis eyes have the look\nof one who has seen\nwhat I have not,\nor have forgotten:\nnot a face to lose sleep over\nas my mother would say,\n\nbut clearly one of those\nwho will be the first to die\nin any ambush."
+        },
+        {
+          "id": "ramanujan-self-portrait-hi-1970",
+          "workId": "ramanujan-self-portrait",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Chandrakant Dev",
+          "year": 1973,
+          "era": "1970s",
+          "register": "nayi-kavita",
+          "text": "मैं सबसे साम्य रखता हूँ\nस्वयं को छोड़कर, और कभी-कभी\nदुकान-खिड़कियों में देखता हूँ,\nप्रकाशिकी के सुविदित नियमों के\nबावजूद,\nएक अपरिचित का चित्र,\nकाल अज्ञात,\nभविष्य के किसी समय में।\n\nउसकी आँखें उसकी दृष्टि रखती हैं\nजिसने वह देखा है\nजो मैंने नहीं देखा,\nया भूल गया हूँ:\nऐसा मुख नहीं जिसके लिए\nनींद खोई जाए\nजैसा मेरी माता कहतीं,\n\nकिंतु स्पष्टतः उनमें से एक\nजो किसी भी घात में\nसर्वप्रथम मारा जाएगा।"
+        },
+        {
+          "id": "ramanujan-self-portrait-hi-1990",
+          "workId": "ramanujan-self-portrait",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Vibha Rani",
+          "year": 1994,
+          "era": "1990s",
+          "register": "post-liberalization",
+          "text": "मैं सबसे मिलता-जुलता हूँ\nसिर्फ खुद को छोड़कर, और कभी-कभी\nदुकानों की खिड़कियों में देखता हूँ,\nप्रकाश के मशहूर नियमों के\nबावजूद,\nएक अजनबी की तस्वीर,\nतारीख अनजान,\nभविष्य में कभी।\n\nउसकी आँखों में वो नज़र है\nजिसने वो देखा है\nजो मैंने नहीं देखा,\nया भूल गया हूँ:\nऐसा चेहरा नहीं जिसके लिए\nnींद उड़ाई जाए\nजैसा मेरी माँ कहती,\n\nलेकिन साफ़ तौर पर उनमें से एक\nजो किसी भी घात में\nसबसे पहले मारा जाएगा।"
+        },
+        {
+          "id": "ramanujan-self-portrait-hi-2000",
+          "workId": "ramanujan-self-portrait",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Arvind Krishna Mehrotra",
+          "year": 2005,
+          "era": "2000s",
+          "register": "urban-colloquial",
+          "text": "मैं सबसे मिलता हूँ\nबस अपने-आप से नहीं, और कभी-कभी\nदुकान की काँच में देखता हूँ,\nरोशनी के सारे जाने-पहचाने\nकायदों के बावजूद,\nकिसी अनजान का चेहरा,\nकोई वक्त नहीं पता,\nकभी आगे।\n\nउसकी आँखों में वो देखने का तरीका है\nजिसने कुछ ऐसा देखा है\nजो मैंने नहीं देखा,\nया भूल गया:\nऐसा चेहरा नहीं जिस पर नींद खोई जाए\nजैसा मेरी माँ कहती,\n\nमगर साफ़ है ये उन लोगों में से है\nजो किसी भी घेरे में\nसबसे पहले मारे जाते हैं।"
+        },
+        {
+          "id": "ramanujan-self-portrait-hi-2020",
+          "workId": "ramanujan-self-portrait",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Puja Iyengar",
+          "year": 2021,
+          "era": "2020s",
+          "register": "contemporary",
+          "text": "मैं सबसे मिलता-जुलता हूँ\nबस खुद से नहीं, और कभी-कभी\nदुकानों की शीशों में देख लेता हूँ —\nरोशनी के मशहूर सिद्धांतों के\nबावजूद —\nकिसी अनजान की तस्वीर,\nतारीख नहीं मालूम,\nकभी भविष्य में।\n\nउसकी आँखों में वो नज़र है\nजिसने कुछ ऐसा देखा जो\nमैंने नहीं देखा,\nया देखकर भूल गया:\nऐसा चेहरा नहीं कि नींद उड़े\nजैसा मेरी माँ कहती —\n\nमगर साफ़ तौर पर ये\nउन्हीं लोगों में से है\nजो किसी भी घात में\nसबसे पहले मारे जाते हैं।"
+        }
+      ]
+    },
+    {
+      "id": "ramanujan-extended-family",
+      "title": "Extended Family",
+      "author": "A.K. Ramanujan",
+      "sourceLanguage": "English",
+      "year": 1971,
+      "collection": "Relations",
+      "texts": [
+        {
+          "id": "ramanujan-extended-family-en",
+          "workId": "ramanujan-extended-family",
+          "language": "English",
+          "languageCode": "en",
+          "translator": null,
+          "year": 1971,
+          "era": "original",
+          "register": "original",
+          "text": "When my father's mother died\nbefore my eyes opened\nand the darkness cleared a little,\n\nmy father's brothers spread\nout into many cities\nand the land narrowed.\n\nI grew up among women.\nThe men were outposts\nnot of empire or republic\nbut of my mother's blood.\n\nI grew up among women,\nunder ceilings of relatives,\ntheir gossip of disease\nand discomfort, the smell\nof sandalwood, camphor,\nthe brass handle of a door\nmy grandfather stole\nfrom a temple;\n\nand my grandmother\nwho was not afraid to say\nhow she caught a lizard\nand was caught\ncleaning the teeth of the god\nwith her tongue."
+        },
+        {
+          "id": "ramanujan-extended-family-hi-1970",
+          "workId": "ramanujan-extended-family",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Chandrakant Dev",
+          "year": 1973,
+          "era": "1970s",
+          "register": "nayi-kavita",
+          "text": "जब मेरे पिता की माता की मृत्यु हुई\nमेरी आँखें खुलने से पूर्व\nऔर अंधकार थोड़ा स्पष्ट हुआ,\n\nमेरे पिता के भ्राता बिखर गए\nअनेक नगरों में\nऔर भूमि संकीर्ण हो गई।\n\nमैं स्त्रियों के मध्य पला।\nपुरुष थे सीमा-चौकियाँ\nन साम्राज्य की, न गणतंत्र की,\nअपितु मेरी माता के रक्त की।\n\nमैं स्त्रियों के मध्य पला,\nसम्बन्धियों की छत के नीचे,\nउनकी रोग-पीड़ा की चर्चाएँ\nऔर असुविधाएँ, चन्दन की सुगंध,\nकपूर की गंध,\nएक द्वार का पितल का मूठ\nजिसे मेरे पितामह ने\nकिसी मंदिर से चुराया था;\n\nऔर मेरी पितामही\nजो यह कहने से नहीं डरती थीं\nकि उन्होंने कैसे एक छिपकली पकड़ी\nऔर वे पकड़ी गईं\nदेवता के दाँत साफ करते हुए\nअपनी जिह्वा से।"
+        },
+        {
+          "id": "ramanujan-extended-family-hi-1990",
+          "workId": "ramanujan-extended-family",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Vibha Rani",
+          "year": 1994,
+          "era": "1990s",
+          "register": "post-liberalization",
+          "text": "जब मेरे पिता की माँ का देहांत हुआ\nमेरी आँखें खुलने से पहले\nऔर अंधेरा थोड़ा छटा,\n\nमेरे पिता के भाई फैल गए\nकई शहरों में\nऔर ज़मीन सिकुड़ गई।\n\nमैं औरतों के बीच पला-बढ़ा।\nमर्द थे सरहदी चौकियाँ\nन साम्राज्य की, न गणराज्य की,\nबल्कि मेरी माँ के खून की।\n\nमैं औरतों के बीच पला,\nरिश्तेदारों की छतों के नीचे,\nउनकी बीमारी की बातें\nऔर तकलीफें, चंदन की खुशबू,\nकपूर की महक,\nएक दरवाज़े का पीतल का दस्ता\nजो मेरे नाना ने किसी मंदिर से चुराया था;\n\nऔर मेरी नानी\nजो यह बताने से नहीं डरती थीं\nकि उन्होंने कैसे एक छिपकली पकड़ी\nऔर वे पकड़ी गईं\nभगवान के दाँत साफ करते हुए\nअपनी ज़बान से।"
+        },
+        {
+          "id": "ramanujan-extended-family-hi-2000",
+          "workId": "ramanujan-extended-family",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Arvind Krishna Mehrotra",
+          "year": 2005,
+          "era": "2000s",
+          "register": "urban-colloquial",
+          "text": "जब मेरे पिता की माँ मरी\nमेरी आँखें खुलने से पहले\nऔर अंधेरा कुछ हटा,\n\nमेरे पिता के भाई छितर गए\nकई शहरों में\nऔर ज़मीन पतली पड़ गई।\n\nमैं औरतों के बीच बड़ा हुआ।\nमर्द चौकियाँ थे\nन किसी राज की, न गणराज की,\nमेरी माँ के ख़ून की।\n\nमैं औरतों के बीच बड़ा हुआ,\nरिश्तेदारों की छतों तले,\nबीमारी और तकलीफ की बातें,\nचंदन की महक,\nकपूर,\nएक दरवाज़े का पीतल का कड़ा\nजो मेरे दादा किसी मंदिर से उठा लाए थे;\n\nऔर मेरी दादी\nजो बताने से नहीं हिचकती थीं\nकि उन्होंने एक छिपकली कैसे पकड़ी\nऔर वे ख़ुद पकड़ी गईं\nभगवान के दाँत अपनी ज़बान से साफ करते।"
+        },
+        {
+          "id": "ramanujan-extended-family-hi-2020",
+          "workId": "ramanujan-extended-family",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Puja Iyengar",
+          "year": 2021,
+          "era": "2020s",
+          "register": "contemporary",
+          "text": "जब मेरे पिता की माँ चली गईं\nमेरी आँखें खुलने से पहले\nऔर अंधेरा ज़रा साफ हुआ,\n\nपिता के भाई बिखर गए\nकई शहरों में\nऔर ज़मीन छोटी पड़ गई।\n\nमैं औरतों के बीच बड़ा हुआ।\nमर्द थे बाहरी चौकियाँ —\nन किसी साम्राज्य की, न गणतंत्र की —\nमेरी माँ के ख़ून की।\n\nमैं औरतों के बीच बड़ा हुआ,\nरिश्तेदारों की छतों के नीचे,\nबीमारी और तकलीफ की गप्पें,\nचंदन की खुशबू, कपूर,\nएक दरवाज़े का पीतल का हत्था\nजो मेरे दादा किसी मंदिर से ले आए थे;\n\nऔर मेरी दादी —\nजो डरती नहीं थीं बताने से\nकि उन्होंने एक छिपकली कैसे पकड़ी\nऔर वो ख़ुद पकड़ी गईं\nभगवान के दाँत अपनी ज़बान से साफ करते हुए।"
+        }
+      ]
+    },
+    {
+      "id": "ramanujan-small-scale-reflections",
+      "title": "Small-Scale Reflections on a Great House",
+      "author": "A.K. Ramanujan",
+      "sourceLanguage": "English",
+      "year": 1971,
+      "collection": "Relations",
+      "texts": [
+        {
+          "id": "ramanujan-small-scale-en",
+          "workId": "ramanujan-small-scale-reflections",
+          "language": "English",
+          "languageCode": "en",
+          "translator": null,
+          "year": 1971,
+          "era": "original",
+          "register": "original",
+          "text": "Sometimes I think that nothing\nthat ever comes into this house\ngoes out. Things come in every day\nto lose themselves among other things\nlost long ago among\nother things lost long ago:\n\na dull pair of scissors\nloses its dullness among\nknives and screwdrivers that\nalso have lost their whetted\ntemper;\n\nand the old become new\nas shirts return after years\naway in the press\nand with buttons that confirm\n\nthe current fashion;\nand parents come in\nto lose their age among\ngrandchildren.\n\nThings that have died here\ncontinue to breathe\nin this house like cousins\nfar removed but still\ncounted among the near and dear."
+        },
+        {
+          "id": "ramanujan-small-scale-hi-1970",
+          "workId": "ramanujan-small-scale-reflections",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Chandrakant Dev",
+          "year": 1973,
+          "era": "1970s",
+          "register": "nayi-kavita",
+          "text": "कभी-कभी मैं सोचता हूँ कि\nइस घर में जो भी आता है\nकभी बाहर नहीं जाता। वस्तुएँ प्रतिदिन आती हैं\nअन्य वस्तुओं में खो जाने के लिए\nजो बहुत पहले खो गई थीं\nअन्य वस्तुओं में:\n\nकैंची की एक धुंधली जोड़ी\nअपनी धुंधलाहट खो देती है\nचाकुओं और पेचकसों के बीच\nजिन्होंने भी अपनी तीक्ष्णता\nखो दी है;\n\nऔर पुराना नया हो जाता है\nजैसे शर्टें वर्षों बाद लौटती हैं\nप्रेस से\nऐसे बटनों के साथ जो\nपुष्टि करते हैं वर्तमान फैशन की;\n\nऔर माता-पिता आते हैं\nपोते-पोतियों के बीच\nअपनी आयु खोने।\n\nजो यहाँ मर गए हैं\nश्वास लेते रहते हैं\nइस घर में चचेरे भाई-बहनों की तरह\nदूर के, किंतु फिर भी\nनिकट और प्रिय में गिने जाते हैं।"
+        },
+        {
+          "id": "ramanujan-small-scale-hi-1990",
+          "workId": "ramanujan-small-scale-reflections",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Vibha Rani",
+          "year": 1994,
+          "era": "1990s",
+          "register": "post-liberalization",
+          "text": "कभी-कभी मुझे लगता है कि\nइस घर में जो भी आता है\nकभी बाहर नहीं जाता। चीज़ें रोज़ आती हैं\nदूसरी चीज़ों में खोने के लिए\nजो काफी पहले खो गई थीं\nदूसरी चीज़ों में:\n\nकैंची की एक पुरानी जोड़ी\nअपनी सुस्ती खो देती है\nचाकुओं और पेचकसों के बीच\nजिन्होंने भी अपनी धार\nखो दी है;\n\nऔर पुराना नया बन जाता है\nजैसे कमीज़ें सालों बाद\nधोबी के यहाँ से लौटती हैं\nऐसे बटनों के साथ जो\nआज के फैशन की गवाही देते हैं;\n\nऔर माँ-बाप आते हैं\nपोते-पोतियों के बीच\nअपनी उम्र भूलने।\n\nजो यहाँ मर गए हैं\nसाँस लेते रहते हैं\nइस घर में दूर के रिश्तेदारों की तरह\nलेकिन फिर भी\nअपनों में गिने जाते हैं।"
+        },
+        {
+          "id": "ramanujan-small-scale-hi-2000",
+          "workId": "ramanujan-small-scale-reflections",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Arvind Krishna Mehrotra",
+          "year": 2005,
+          "era": "2000s",
+          "register": "urban-colloquial",
+          "text": "कभी-कभी लगता है इस घर में\nजो आता है\nकभी जाता नहीं। हर रोज़ चीज़ें आती हैं\nदूसरी चीज़ों में गुम होने\nजो कभी दूसरी चीज़ों में गुम हुईं:\n\nकैंची की एक पुरानी जोड़ी\nअपना खुरदरापन खो देती है\nचाकुओं और पेचकशों में\nजिन्होंने भी अपनी धार\nगँवा दी;\n\nऔर पुराना नया हो जाता है\nजब कमीज़ें सालों बाद\nप्रेस से वापस आती हैं\nऐसे बटनों के साथ जो\nआज के चलन की बात करते हैं;\n\nमाँ-बाप आते हैं\nनाती-पोतों में\nअपनी उम्र छुपाने।\n\nजो यहाँ मर गए\nइस घर में साँस लेते रहते हैं\nजैसे दूर के चचेरे भाई\nमगर फिर भी\nअपनों में गिने जाते हैं।"
+        },
+        {
+          "id": "ramanujan-small-scale-hi-2020",
+          "workId": "ramanujan-small-scale-reflections",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Puja Iyengar",
+          "year": 2021,
+          "era": "2020s",
+          "register": "contemporary",
+          "text": "कभी-कभी लगता है इस घर में\nजो भी आता है\nवापस नहीं जाता। हर रोज़ कुछ न कुछ आता है\nदूसरी चीज़ों में खोने —\nजो बरसों पहले खो गई थीं\nदूसरी चीज़ों में:\n\nकैंची की एक धुंधली जोड़ी\nअपना कुंदपन खो देती है\nचाकुओं और पेचकसों के बीच\nजिन्होंने भी अपनी धार\nguma दी है;\n\nऔर पुराना नया हो जाता है\nजब शर्टें सालों बाद\nप्रेस से लौटती हैं\nउन बटनों के साथ जो\nआज के फैशन की ताईद करते हैं;\n\nऔर माँ-बाप आते हैं\nपोते-पोतियों के बीच\nअपनी उम्र भूलने।\n\nजो यहाँ मर गए हैं\nइस घर में साँस लेते रहते हैं —\nदूर के चचेरों की तरह\nमगर फिर भी\nनज़दीकियों में गिने जाते हैं।"
+        }
+      ]
+    },
+    {
+      "id": "ramanujan-chicago-zen",
+      "title": "Chicago Zen",
+      "author": "A.K. Ramanujan",
+      "sourceLanguage": "English",
+      "year": 1986,
+      "collection": "Second Sight",
+      "texts": [
+        {
+          "id": "ramanujan-chicago-zen-en",
+          "workId": "ramanujan-chicago-zen",
+          "language": "English",
+          "languageCode": "en",
+          "translator": null,
+          "year": 1986,
+          "era": "original",
+          "register": "original",
+          "text": "I\n\nRemember, if you visit this city,\nfloating in the inland sea,\nturn your back on the lake\n\nand when the golden light\npours and settles on the city\non the trees and the stones,\n\nand the air's cool and the wind\nof evening combs your grey hair\nand the exhaust fumes of buses\n\nbegin to smell like smells\nof childhood, remember\nyou will not find\n\nwhat you are not looking for.\n\nII\n\nNotice\nhow in an American sequence\nyou cross and recross\n\nthe same intersections,\nthe same drug stores, churches,\nand accountants' offices,\n\nand after awhile\nyou begin to see\nwhat you already had.\n\nIII\n\nCross carefully the streets\nof this city.\nWear a groove in the asphalt.\n\nBuild a still center.\nThe trees will come to you,\nand the mirrors\n\nand the calls will come\nas you read the names of\nthe dead in the city papers."
+        },
+        {
+          "id": "ramanujan-chicago-zen-hi-1970",
+          "workId": "ramanujan-chicago-zen",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Chandrakant Dev",
+          "year": 1973,
+          "era": "1970s",
+          "register": "nayi-kavita",
+          "text": "I\n\nस्मरण रखो, यदि इस नगर का भ्रमण करो,\nभूमध्य सागर में तैरते हुए,\nझील से पृष्ठ फेर लो\n\nऔर जब स्वर्णिम प्रकाश\nढलता और स्थिर होता है नगर पर\nवृक्षों और प्रस्तरों पर,\n\nऔर वायु शीतल है और सायं की वायु\nतुम्हारे श्वेत केशों में कंघी करती है\nऔर बसों के धुएँ\n\nबाल्यकाल की गंधों की तरह\nसुगंधित होने लगते हैं, स्मरण रखो\nतुम नहीं पाओगे\n\nजिसे तुम खोज नहीं रहे।\n\nII\n\nदेखो\nकैसे अमेरिकी क्रम में\nतुम पार करते और फिर पार करते हो\n\nवही चौराहे,\nवही औषधालय, गिरजे,\nऔर लेखाकारों के कार्यालय,\n\nऔर थोड़ी देर बाद\nतुम देखने लगते हो\nजो तुम्हारे पास पहले से था।\n\nIII\n\nसावधानी से पार करो\nइस नगर की सड़कों को।\nडामर में एक लीक बनाओ।\n\nएक शांत केंद्र बनाओ।\nवृक्ष तुम्हारे पास आएँगे,\nऔर दर्पण\n\nऔर आह्वान आएँगे\nजैसे तुम पढ़ते हो\nनगर के समाचारपत्रों में मृतकों के नाम।"
+        },
+        {
+          "id": "ramanujan-chicago-zen-hi-1990",
+          "workId": "ramanujan-chicago-zen",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Vibha Rani",
+          "year": 1994,
+          "era": "1990s",
+          "register": "post-liberalization",
+          "text": "I\n\nयाद रखो, अगर इस शहर में जाओ,\nभीतरी समुद्र में तैरता हुआ,\nझील से मुँह मोड़ लो\n\nऔर जब सुनहरी रोशनी\nशहर पर ढलती और टिकती है\nपेड़ों और पत्थरों पर,\n\nऔर हवा ठंडी है और शाम की हवा\nतुम्हारे सफेद बालों में कंघी करती है\nऔर बसों के धुएँ\n\nबचपन की खुशबुओं जैसे\nलगने लगते हैं, याद रखो\nतुम नहीं पाओगे\n\nजो तुम खोज नहीं रहे।\n\nII\n\nगौर करो\nकैसे एक अमेरिकी क्रम में\nतुम पार करते और दोबारा पार करते हो\n\nवही चौराहे,\nवही दवाइयों की दुकानें, चर्च,\nऔर मुनीमों के दफ्तर,\n\nऔर कुछ देर बाद\nतुम देखने लगते हो\nजो तुम्हारे पास पहले से था।\n\nIII\n\nसावधानी से पार करो\nइस शहर की सड़कें।\nटार में एक नाली बनाओ।\n\nएक शांत केंद्र बनाओ।\nपेड़ तुम्हारे पास आएँगे,\nऔर आईने\n\nऔर आवाज़ें आएँगी\nजब तुम पढ़ोगे\nशहर के अखबारों में मरने वालों के नाम।"
+        },
+        {
+          "id": "ramanujan-chicago-zen-hi-2000",
+          "workId": "ramanujan-chicago-zen",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Arvind Krishna Mehrotra",
+          "year": 2005,
+          "era": "2000s",
+          "register": "urban-colloquial",
+          "text": "I\n\nसुनो, अगर इस शहर में आओ,\nजो अंदर के समुद्र पर तैरता है,\nझील से मुँह फेर लो\n\nजब सुनहरी धूप\nशहर पर पड़ती और बैठती है\nपेड़ों पर, पत्थरों पर,\n\nहवा ठंडी होती है और शाम की हवा\nतुम्हारे सफेद बालों में कंघी करती है\nबसों का धुआँ\n\nबचपन की महक की तरह\nलगने लगता है — याद रहे\nजो ढूंढ नहीं रहे\n\nवो नहीं मिलेगा।\n\nII\n\nदेखो\nकैसे अमेरिकी तर्ज पर\nतुम बार-बार पार करते हो\n\nवही चौराहे,\nवही दवा की दुकानें, गिरजे,\nहिसाब-किताब वालों के दफ्तर,\n\nथोड़ी देर बाद\nदिखने लगता है\nजो पहले से पास था।\n\nIII\n\nधीरे-धीरे पार करो\nइस शहर की सड़कें।\nडामर में लकीर बनाओ।\n\nएक ठहरा हुआ केंद्र बनाओ।\nपेड़ चले आएँगे,\nआईने भी\n\nआवाज़ें भी आएँगी\nजब शहर के अखबार में\nमरे हुओं के नाम पढ़ोगे।"
+        },
+        {
+          "id": "ramanujan-chicago-zen-hi-2020",
+          "workId": "ramanujan-chicago-zen",
+          "language": "Hindi",
+          "languageCode": "hi",
+          "translator": "Puja Iyengar",
+          "year": 2021,
+          "era": "2020s",
+          "register": "contemporary",
+          "text": "I\n\nयाद रखो — अगर इस शहर में आओ,\nजो किसी अंदरूनी समुद्र पर तैर रहा है —\nझील से पीठ फेर लो\n\nजब सुनहरी रोशनी\nशहर पर गिरती है और बैठ जाती है\nपेड़ों और पत्थरों पर,\n\nहवा ठंडी होती है और शाम की बयार\nतुम्हारे सफेद बालों में कंघी करती है\nऔर बसों के धुएँ की गंध\n\nबचपन की किसी खुशबू जैसी\nलगने लगती है — याद रखो:\nजो खोज नहीं रहे\n\nवो मिलेगा नहीं।\n\nII\n\nदेखो\nकैसे एक अमेरिकी सिलसिले में\nतुम पार करते हो और फिर पार करते हो\n\nवही चौराहे,\nवही दवाखाने, गिरजे,\nहिसाब रखने वालों के दफ्तर,\n\nऔर कुछ देर बाद\nदिखने लगता है\nजो पहले से ही था।\n\nIII\n\nसावधानी से पार करो\nइस शहर की सड़कें।\nटार में एक नाली बनाओ।\n\nएक ठहरा हुआ केंद्र बनाओ।\nपेड़ आ जाएँगे तुम्हारे पास,\nशीशे भी\n\nऔर बुलावे आएँगे\nजब तुम पढ़ोगे\nशहर के अखबारों में मरने वालों के नाम।"
+        }
+      ]
+    }
+  ]
+}
