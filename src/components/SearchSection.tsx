@@ -27,7 +27,21 @@ interface SemanticHit {
   language: string | null;
   previewText: string;
   similarity: number;
+  similarityQuery?: number;
+  similarityHyde?: number | null;
+  matchPercent?: number;
+  band?: "strong" | "close" | "related" | "loose";
+  lexicalHit?: boolean;
+  lexicalRank?: number | null;
+  fusedScore?: number;
 }
+
+const BAND_LABEL: Record<NonNullable<SemanticHit["band"]>, string> = {
+  strong: "strong",
+  close: "close",
+  related: "related",
+  loose: "loose",
+};
 
 type Mode = "browse" | "search";
 
@@ -42,6 +56,8 @@ const PLACEHOLDERS = [
 export default function SearchSection({ featured }: Props) {
   const [query, setQuery] = useState("");
   const [hits, setHits] = useState<SemanticHit[] | null>(null);
+  const [hydeText, setHydeText] = useState<string | null>(null);
+  const [usedHyde, setUsedHyde] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
   // Deterministic for SSR; randomized after mount to avoid hydration mismatch.
@@ -113,6 +129,8 @@ export default function SearchSection({ featured }: Props) {
   const runSearch = useCallback((q: string) => {
     if (!q.trim()) {
       setHits(null);
+      setHydeText(null);
+      setUsedHyde(false);
       setError(null);
       return;
     }
@@ -127,22 +145,30 @@ export default function SearchSection({ featured }: Props) {
           const data = await res.json().catch(() => ({}));
           setError(data.error ?? `Search failed (${res.status})`);
           setHits([]);
+          setHydeText(null);
+          setUsedHyde(false);
           return;
         }
         const data = await res.json();
         setError(null);
         setHits(data.results ?? []);
+        setHydeText(data.hyde ?? null);
+        setUsedHyde(Boolean(data.usedHyde));
       } catch {
         if (myReq !== reqId.current) return;
         setError("Search failed. Check your connection.");
         setHits([]);
+        setHydeText(null);
+        setUsedHyde(false);
       }
     });
   }, []);
 
+  // Slightly longer debounce — the search now also runs HyDE + a lexical
+  // pass behind the scenes, so we wait for the user to actually pause.
   useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(() => runSearch(query), 280);
+    debounceRef.current = setTimeout(() => runSearch(query), 480);
     return () => {
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
@@ -152,12 +178,15 @@ export default function SearchSection({ featured }: Props) {
 
   return (
     <div className="space-y-10">
-      <SearchBar
-        query={query}
-        setQuery={setQuery}
-        isPending={isPending}
-        placeholder={placeholder}
-      />
+      <div>
+        <SearchBar
+          query={query}
+          setQuery={setQuery}
+          isPending={isPending}
+          placeholder={placeholder}
+        />
+        {mode === "browse" && <SearchHint />}
+      </div>
 
       <p className="small-caps text-ink-faint text-[11.5px] tracking-[0.16em] tabular text-right -mt-4">
         {mode === "search"
@@ -184,7 +213,12 @@ export default function SearchSection({ featured }: Props) {
       {mode === "browse" ? (
         <BrowseGrid works={featured} />
       ) : (
-        <SearchResults hits={hits} query={query} />
+        <SearchResults
+          hits={hits}
+          query={query}
+          hydeText={hydeText}
+          usedHyde={usedHyde}
+        />
       )}
     </div>
   );
@@ -225,6 +259,39 @@ function SearchBar({
           </span>
         )}
       </span>
+    </div>
+  );
+}
+
+/* ─── Standing nudge under the bar ───────────────────────────────────── */
+
+function SearchHint() {
+  return (
+    <div className="mt-3 sm:mt-4 ml-1 flex items-start gap-2 sm:gap-3">
+      <svg
+        viewBox="0 0 70 70"
+        className="w-14 h-14 sm:w-[68px] sm:h-[68px] text-accent/70 shrink-0 -mt-2 -ml-1"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden
+      >
+        {/* hand-drawn arrow curving up to the search bar */}
+        <path d="M 56 60 C 40 68, 6 52, 16 14" />
+        <path d="M 16 14 L 9 23" />
+        <path d="M 16 14 L 25 17" />
+      </svg>
+
+      <div className="pt-1.5 sm:pt-2">
+        <p className="font-display italic text-ink text-[16px] sm:text-[18px] leading-[1.3]">
+          describe what it feels like
+        </p>
+        <p className="font-display italic text-ink-muted text-[14px] sm:text-[15.5px] leading-[1.3] mt-0.5">
+          — not what it&rsquo;s called.
+        </p>
+      </div>
     </div>
   );
 }
@@ -290,9 +357,13 @@ function WorkCard({ work }: { work: SearchResult }) {
 function SearchResults({
   hits,
   query,
+  hydeText,
+  usedHyde,
 }: {
   hits: SemanticHit[] | null;
   query: string;
+  hydeText: string | null;
+  usedHyde: boolean;
 }) {
   if (hits === null) {
     return <ResultsSkeleton />;
@@ -311,30 +382,66 @@ function SearchResults({
     );
   }
 
-  const topScore = hits[0]?.similarity ?? 1;
+  const topFused =
+    Math.max(...hits.map((h) => h.fusedScore ?? h.similarity ?? 0)) || 1;
   return (
-    <ol className="grid gap-3">
-      {hits.map((h, i) => (
-        <li key={h.pointId}>
-          <PassageResult hit={h} rank={i + 1} topScore={topScore} query={query} />
-        </li>
-      ))}
-    </ol>
+    <div className="space-y-4">
+      {usedHyde && hydeText && <HydeAnnotation text={hydeText} />}
+      <ol className="grid gap-3">
+        {hits.map((h, i) => (
+          <li key={h.pointId}>
+            <PassageResult
+              hit={h}
+              rank={i + 1}
+              topFused={topFused}
+              query={query}
+            />
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+function HydeAnnotation({ text }: { text: string }) {
+  const [open, setOpen] = useState(false);
+  const preview = text.length > 140 ? text.slice(0, 140).trimEnd() + "…" : text;
+  return (
+    <div className="border-l-2 border-accent/40 pl-4 py-1">
+      <p className="small-caps text-ink-faint text-[10.5px] tracking-[0.18em] mb-1">
+        we also searched for a passage like this
+      </p>
+      <p className="font-display italic text-ink-soft text-[14.5px] leading-[1.55]">
+        {open ? text : preview}
+      </p>
+      {text.length > 140 && (
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          className="mt-1 small-caps text-[10.5px] tracking-[0.16em] text-ink-muted hover:text-ink"
+        >
+          {open ? "less" : "more"}
+        </button>
+      )}
+    </div>
   );
 }
 
 function PassageResult({
   hit,
   rank,
-  topScore,
+  topFused,
   query,
 }: {
   hit: SemanticHit;
   rank: number;
-  topScore: number;
+  topFused: number;
   query: string;
 }) {
-  const pct = Math.max(0.04, hit.similarity / Math.max(0.0001, topScore));
+  const fused = hit.fusedScore ?? hit.similarity ?? 0;
+  const barPct = Math.max(0.04, fused / Math.max(0.0001, topFused));
+  const match = hit.matchPercent ?? Math.round((hit.similarity ?? 0) * 100);
+  const bandKey = hit.band ?? "related";
   const shown = useMemo(
     () => highlight(hit.previewText, query),
     [hit.previewText, query]
@@ -345,11 +452,14 @@ function PassageResult({
       className="group block border border-rule hover:border-ink-faint hover:bg-bg-soft transition-colors relative overflow-hidden"
     >
       <div className="grid grid-cols-[auto_1fr_auto] gap-5 sm:gap-8 px-5 sm:px-6 py-5">
-        <div className="flex flex-col items-start gap-2 min-w-14">
-          <span className="font-display text-ink text-[1.65rem] leading-none tabular group-hover:text-accent transition-colors">
-            {hit.similarity.toFixed(3)}
+        <div className="flex flex-col items-start gap-1.5 min-w-16">
+          <span className="font-display text-ink text-[1.85rem] leading-none tabular group-hover:text-accent transition-colors">
+            {match}
           </span>
-          <span className="small-caps text-ink-faint text-[10.5px] tracking-[0.18em] tabular">
+          <span className="small-caps text-ink-faint text-[10px] tracking-[0.18em]">
+            {BAND_LABEL[bandKey]}
+          </span>
+          <span className="small-caps text-ink-faint text-[10px] tracking-[0.18em] tabular mt-1">
             #{rank.toString().padStart(2, "0")}
           </span>
         </div>
@@ -363,6 +473,14 @@ function PassageResult({
               {hit.workTitle}
             </span>
             <span className="text-ink-muted italic">{hit.author}</span>
+            {hit.lexicalHit && (
+              <span
+                className="small-caps text-[10px] tracking-[0.16em] text-accent border border-accent/40 px-1.5 py-px"
+                title="also a direct keyword match"
+              >
+                exact
+              </span>
+            )}
           </div>
           <div className="mt-1 text-[11.5px] text-ink-muted small-caps tracking-[0.14em] flex flex-wrap gap-x-3 gap-y-0.5">
             {hit.translator && <span>tr. {hit.translator}</span>}
@@ -379,11 +497,11 @@ function PassageResult({
         </div>
       </div>
 
-      {/* Similarity bar — relative to the top hit */}
+      {/* Fused-score bar — relative to the strongest hit in this result set */}
       <div className="h-px bg-rule">
         <div
           className="h-full bg-accent/70 group-hover:bg-accent transition-all"
-          style={{ width: `${(pct * 100).toFixed(1)}%` }}
+          style={{ width: `${(barPct * 100).toFixed(1)}%` }}
         />
       </div>
     </Link>

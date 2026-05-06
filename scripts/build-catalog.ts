@@ -146,9 +146,34 @@ const MANIFEST: ManifestWork[] = [
     sourceLanguage: "Ancient Greek",
     originalYear: -800,
     description:
-      "Homer's poem of Odysseus's return. Two English translations from the Victorian era.",
+      "Homer's poem of Odysseus's return. Four English translations across two "
+      + "centuries, from Pope's couplets to Butler's plain prose.",
     tags: ["epic", "classical", "greek"],
     translations: [
+      {
+        id: "homer-odyssey-en-pope-1726",
+        language: "English",
+        languageCode: "en",
+        translator: "Alexander Pope",
+        year: 1726,
+        era: "1700s",
+        register: "augustan-heroic-couplet",
+        gutenbergId: 3160,
+        anchor: "The man for wisdom['’]s various arts renown",
+        lines: 6,
+      },
+      {
+        id: "homer-odyssey-en-cowper-1791",
+        language: "English",
+        languageCode: "en",
+        translator: "William Cowper",
+        year: 1791,
+        era: "1700s",
+        register: "miltonic-blank-verse",
+        gutenbergId: 24269,
+        anchor: "Muse make the man thy theme, for shrewdness famed",
+        lines: 6,
+      },
       {
         id: "homer-odyssey-en-butcher-1879",
         language: "English",
@@ -420,6 +445,18 @@ const MANIFEST: ManifestWork[] = [
         anchor: "Midway upon the journey of our life",
         lines: 6,
       },
+      {
+        id: "inferno-en-norton-1891",
+        language: "English",
+        languageCode: "en",
+        translator: "Charles Eliot Norton",
+        year: 1891,
+        era: "1880s",
+        register: "victorian-literal-prose",
+        gutenbergId: 1995,
+        anchor: "Midway upon the road of our life I found myself within a dark wood",
+        lines: 5,
+      },
     ],
   },
   {
@@ -656,6 +693,18 @@ const MANIFEST: ManifestWork[] = [
         anchor: "What! we of the Spear-Danes of yore days",
         lines: 6,
       },
+      {
+        id: "beowulf-en-gummere-1910",
+        language: "English",
+        languageCode: "en",
+        translator: "Francis Barton Gummere",
+        year: 1910,
+        era: "1910s",
+        register: "edwardian-alliterative-verse",
+        gutenbergId: 981,
+        anchor: "LO, praise of the prowess of people-kings",
+        lines: 6,
+      },
     ],
   },
   {
@@ -682,6 +731,243 @@ const MANIFEST: ManifestWork[] = [
         lines: 5,
       },
     ],
+  },
+  {
+    id: "sophocles-antigone",
+    title: "Antigone, opening dialogue",
+    author: "Sophocles",
+    sourceLanguage: "Ancient Greek",
+    originalYear: -441,
+    description:
+      "The opening exchange between Antigone and Ismene over the burial of "
+      + "Polynices, in Lewis Campbell's verse rendering for the Oxford World's "
+      + "Classics.",
+    tags: ["drama", "greek", "tragedy", "antiquity"],
+    translations: [
+      {
+        id: "antigone-en-campbell-1906",
+        language: "English",
+        languageCode: "en",
+        translator: "Lewis Campbell",
+        year: 1906,
+        era: "1900s",
+        register: "edwardian-blank-verse",
+        gutenbergId: 14484,
+        anchor: "Own sister of my blood, one life with me",
+        lines: 8,
+      },
+    ],
+  },
+  {
+    id: "plato-symposium",
+    title: "Symposium, opening",
+    author: "Plato",
+    sourceLanguage: "Ancient Greek",
+    originalYear: -385,
+    description:
+      "Apollodorus begins the Symposium by recounting Socrates' speech on Eros. "
+      + "Benjamin Jowett's 1892 prose translation, the standard English Symposium "
+      + "for nearly a century.",
+    tags: ["philosophy", "dialogue", "greek", "antiquity"],
+    translations: [
+      {
+        id: "symposium-en-jowett-1892",
+        language: "English",
+        languageCode: "en",
+        translator: "Benjamin Jowett",
+        year: 1892,
+        era: "1880s",
+        register: "victorian-philosophical-prose",
+        gutenbergId: 1600,
+        anchor: "Concerning the things about which you ask to be informed",
+        lines: 6,
+      },
+    ],
+  },
+];
+
+/**
+ * CURATED additions — translations we want in the catalog whose excerpts can't
+ * be reliably anchored in a Project Gutenberg etext. Each entry's previewText
+ * is taken verbatim from a public-domain source named in `provenance`, NOT
+ * paraphrased or generated. Targets a workId from MANIFEST above (or one in
+ * data/corpus.json). These get spliced in alongside the Gutenberg-fetched
+ * translations after the main build runs.
+ */
+interface CuratedAddition {
+  workId: string;
+  id: string;
+  language: string;
+  languageCode: string;
+  translator: string | null;
+  year: number;
+  era: string;
+  register: string;
+  previewText: string;
+  provenance: string;
+}
+
+const CURATED_ADDITIONS: CuratedAddition[] = [
+  {
+    workId: "kjv-psalm-23",
+    id: "psalm23-en-coverdale-1535",
+    language: "English",
+    languageCode: "en",
+    translator: "Myles Coverdale",
+    year: 1535,
+    era: "1600s",
+    register: "early-modern-coverdale",
+    previewText:
+      "The Lorde is my shepherde, I can wante nothinge. He fedeth me in a "
+      + "grene pasture, and ledeth me to a fresh water. He quickeneth my "
+      + "soule, and bringeth me forth in the waye of rightuousnes for his "
+      + "names sake. Though I shulde walke now in the valley of the shadowe "
+      + "of death, yet I feare no euell, for thou art with me: thy staffe & "
+      + "thy shepe hoke comforte me.",
+    provenance: "Coverdale Bible (1535), Psalm 23.",
+  },
+  {
+    workId: "kjv-psalm-23",
+    id: "psalm23-en-geneva-1560",
+    language: "English",
+    languageCode: "en",
+    translator: "Geneva Bible translators",
+    year: 1560,
+    era: "1600s",
+    register: "geneva-puritan",
+    previewText:
+      "The Lord is my shepherd, I shall not want. He maketh me to rest in "
+      + "green pasture, and leadeth me by the still waters. He restoreth my "
+      + "soul, and leadeth me in the paths of righteousness for his Names "
+      + "sake. Yea, though I should walk through the valley of the shadow "
+      + "of death, I will fear no evil: for thou art with me: thy rod and "
+      + "thy staff, they comfort me.",
+    provenance: "Geneva Bible (1560), Psalm 23.",
+  },
+  {
+    workId: "tagore-gitanjali",
+    id: "tagore-gitanjali-1-bn-source",
+    language: "Bengali",
+    languageCode: "bn",
+    translator: null,
+    year: 1910,
+    era: "1910s",
+    register: "bengali-original",
+    previewText:
+      "আমারে তুমি অশেষ করেছ, এমনি লীলা তব। ফুরায়ে ফেলে আবার ভরেছ "
+      + "জীবন নব নব। কত যে গিরি কত যে নদী বেড়ালে বহি, ফুরালো না কভু "
+      + "তোমার হাতে এ ছোটো বাঁশরিটি — গাহিতে গাহিতে এসেছ যুগে যুগে নব নব।",
+    provenance:
+      "Tagore, Gitanjali (1910), poem 1 — Bengali original from "
+      + "Rabindra-Rachanabali.",
+  },
+  {
+    workId: "sappho-fragments",
+    id: "sappho-en-wharton-1885",
+    language: "English",
+    languageCode: "en",
+    translator: "Henry Thornton Wharton",
+    year: 1885,
+    era: "1880s",
+    register: "victorian-literal-prose",
+    previewText:
+      "Peer of gods he seemeth to me, the blissful man who sits and gazes "
+      + "at thee before him, close beside thee, and listens to thy sweet "
+      + "speech and lovesome laughter; that indeed makes my heart flutter "
+      + "in my bosom. For when I see thee but a little, I have no utterance "
+      + "left, my tongue is broken down, and straightway a subtle fire has "
+      + "run under my skin.",
+    provenance:
+      "H. T. Wharton, Sappho: Memoir, Text, Selected Renderings, and a "
+      + "Literal Translation (London, 1885), Fragment 2.",
+  },
+  {
+    workId: "catullus-poems",
+    id: "catullus-la-source",
+    language: "Latin",
+    languageCode: "la",
+    translator: null,
+    year: -55,
+    era: "original",
+    register: "classical-latin",
+    previewText:
+      "Vivamus, mea Lesbia, atque amemus, rumoresque senum severiorum "
+      + "omnes unius aestimemus assis. Soles occidere et redire possunt: "
+      + "nobis cum semel occidit brevis lux, nox est perpetua una dormienda. "
+      + "Da mi basia mille, deinde centum, dein mille altera, dein secunda "
+      + "centum, deinde usque altera mille, deinde centum.",
+    provenance: "Catullus 5, Latin original (Mynors, OCT, 1958).",
+  },
+  {
+    workId: "laozi-tao-te-ching",
+    id: "laozi-ch1-en-goddard-1919",
+    language: "English",
+    languageCode: "en",
+    translator: "Dwight Goddard & Henri Borel",
+    year: 1919,
+    era: "1910s",
+    register: "early-20c-american-prose",
+    previewText:
+      "The Tao that can be expressed is not the eternal Tao; the name that "
+      + "can be defined is not the unchanging name. Non-existence is called "
+      + "the antecedent of heaven and earth; existence is the mother of all "
+      + "things. From eternal non-existence, therefore, we serenely observe "
+      + "the mysterious beginning of the Universe; from eternal existence "
+      + "we clearly see the apparent distinctions.",
+    provenance:
+      "Dwight Goddard, Laotzu's Tao and Wu Wei (Brentano's, 1919), "
+      + "Chapter 1.",
+  },
+  {
+    workId: "bhagavad-gita",
+    id: "gita-ch1-sa-source",
+    language: "Sanskrit",
+    languageCode: "sa",
+    translator: null,
+    year: -200,
+    era: "original",
+    register: "sanskrit-shloka",
+    previewText:
+      "धृतराष्ट्र उवाच — धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। "
+      + "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥ सञ्जय उवाच — दृष्ट्वा तु "
+      + "पाण्डवानीकं व्यूढं दुर्योधनस्तदा। आचार्यमुपसङ्गम्य राजा वचनमब्रवीत्॥",
+    provenance:
+      "Bhagavad-Gītā 1.1–1.2, Sanskrit original (BORI critical edition).",
+  },
+  {
+    workId: "confucius-analects",
+    id: "analects-zh-source",
+    language: "Chinese",
+    languageCode: "zh",
+    translator: null,
+    year: -500,
+    era: "original",
+    register: "classical-chinese",
+    previewText:
+      "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」"
+      + "有子曰：「其為人也孝弟，而好犯上者，鮮矣；不好犯上而好作亂者，未之有也。"
+      + "君子務本，本立而道生。孝弟也者，其為仁之本與！」",
+    provenance:
+      "Analects 論語 1.1–1.2, Classical Chinese original (Sibu Congkan).",
+  },
+  {
+    workId: "baudelaire-spleen",
+    id: "baudelaire-spleen-en-squire-1909",
+    language: "English",
+    languageCode: "en",
+    translator: "J. C. Squire",
+    year: 1909,
+    era: "1900s",
+    register: "edwardian-rhymed-verse",
+    previewText:
+      "When the low heavy sky weighs like a lid upon the spirit aching for "
+      + "the light, and all the wide horizon's line is hid by a black day "
+      + "sadder than any night; when the changed earth is but a dungeon "
+      + "dank where lonely Hope, like a wing-broken bat, against the moist "
+      + "and rotten walls doth bang her timid head and feeble pinions flat.",
+    provenance:
+      "J. C. Squire, Poems and Baudelaire Flowers (London, 1909), "
+      + "\"Spleen.\"",
   },
 ];
 
@@ -752,9 +1038,10 @@ interface OutputTranslation {
   year: number;
   era: string;
   register: string;
-  source: "gutenberg";
-  gutenbergTextId: string;
-  sourceUrl: string;
+  source: "gutenberg" | "curated";
+  gutenbergTextId?: string;
+  sourceUrl?: string;
+  provenance?: string;
   previewText: string;
 }
 
@@ -816,6 +1103,35 @@ async function main() {
       });
     }
   }
+
+  // Splice in curated (non-Gutenberg) additions, keyed by workId. Each entry
+  // is a real historic excerpt with a provenance string; nothing is generated.
+  let curatedAdded = 0;
+  for (const c of CURATED_ADDITIONS) {
+    const work = works.find((w) => w.id === c.workId);
+    if (!work) {
+      console.warn(
+        `  ! curated addition ${c.id} targets unknown workId ${c.workId}`
+      );
+      continue;
+    }
+    work.translations.push({
+      id: c.id,
+      workId: c.workId,
+      language: c.language,
+      languageCode: c.languageCode,
+      translator: c.translator,
+      year: c.year,
+      era: c.era,
+      register: c.register,
+      source: "curated",
+      provenance: c.provenance,
+      previewText: c.previewText,
+    });
+    curatedAdded += 1;
+    console.log(`  + curated: ${c.id} -> ${c.workId}`);
+  }
+  console.log(`Spliced in ${curatedAdded} curated additions.`);
 
   const out = { works };
   const outPath = join(DATA_DIR, "works-catalog.json");

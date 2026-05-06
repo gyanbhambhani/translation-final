@@ -119,13 +119,41 @@
       "author": "Homer",
       "sourceLanguage": "Ancient Greek",
       "originalYear": -800,
-      "description": "Homer's poem of Odysseus's return. Two English translations from the Victorian era.",
+      "description": "Homer's poem of Odysseus's return. Four English translations across two centuries, from Pope's couplets to Butler's plain prose.",
       "tags": [
         "epic",
         "classical",
         "greek"
       ],
       "translations": [
+        {
+          "id": "homer-odyssey-en-pope-1726",
+          "workId": "homer-odyssey",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Alexander Pope",
+          "year": 1726,
+          "era": "1700s",
+          "register": "augustan-heroic-couplet",
+          "source": "gutenberg",
+          "gutenbergTextId": "3160",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/3160/pg3160.txt",
+          "previewText": "The man for wisdom’s various arts renown’d, Long exercised in woes, O Muse! resound; Who, when his arms had wrought the destined fall Of sacred Troy, and razed her heaven-built wall, Wandering from clime to clime, observant stray’d, Their manners noted, and their states survey’d,"
+        },
+        {
+          "id": "homer-odyssey-en-cowper-1791",
+          "workId": "homer-odyssey",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "William Cowper",
+          "year": 1791,
+          "era": "1700s",
+          "register": "miltonic-blank-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "24269",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/24269/pg24269.txt",
+          "previewText": "Muse make the man thy theme, for shrewdness famed And genius versatile, who far and wide A Wand'rer, after Ilium overthrown, Discover'd various cities, and the mind And manners learn'd of men, in lands remote. He num'rous woes on Ocean toss'd, endured,"
+        },
         {
           "id": "homer-odyssey-en-butcher-1879",
           "workId": "homer-odyssey",
@@ -182,6 +210,19 @@
           "gutenbergTextId": "6099",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/6099/pg6099.txt",
           "previewText": "Quand le ciel bas et lourd pèse comme un couvercle Sur l'esprit gémissant en proie aux longs ennuis, Et que de l'horizon embrassant tout le cercle Il nous verse un jour noir plus triste que les nuits;"
+        },
+        {
+          "id": "baudelaire-spleen-en-squire-1909",
+          "workId": "baudelaire-spleen",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "J. C. Squire",
+          "year": 1909,
+          "era": "1900s",
+          "register": "edwardian-rhymed-verse",
+          "source": "curated",
+          "provenance": "J. C. Squire, Poems and Baudelaire Flowers (London, 1909), \"Spleen.\"",
+          "previewText": "When the low heavy sky weighs like a lid upon the spirit aching for the light, and all the wide horizon's line is hid by a black day sadder than any night; when the changed earth is but a dungeon dank where lonely Hope, like a wing-broken bat, against the moist and rotten walls doth bang her timid head and feeble pinions flat."
         }
       ]
     },
@@ -212,6 +253,19 @@
           "gutenbergTextId": "216",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
           "previewText": "Ch. 1. 1. The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name. 2. (Conceived of as) having no name, it is the Originator of heaven and earth; (conceived of as) having a name, it is the Mother of all things."
+        },
+        {
+          "id": "laozi-ch1-en-goddard-1919",
+          "workId": "laozi-tao-te-ching",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Dwight Goddard & Henri Borel",
+          "year": 1919,
+          "era": "1910s",
+          "register": "early-20c-american-prose",
+          "source": "curated",
+          "provenance": "Dwight Goddard, Laotzu's Tao and Wu Wei (Brentano's, 1919), Chapter 1.",
+          "previewText": "The Tao that can be expressed is not the eternal Tao; the name that can be defined is not the unchanging name. Non-existence is called the antecedent of heaven and earth; existence is the mother of all things. From eternal non-existence, therefore, we serenely observe the mysterious beginning of the Universe; from eternal existence we clearly see the apparent distinctions."
         }
       ]
     },
@@ -242,6 +296,19 @@
           "gutenbergTextId": "2388",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/2388/pg2388.txt",
           "previewText": "By Krishna and Prince Arjun held, discoursing each with each; So have I writ its wisdom here,--its hidden mystery, For England; O our India! as dear to me as She! EDWIN ARNOLD"
+        },
+        {
+          "id": "gita-ch1-sa-source",
+          "workId": "bhagavad-gita",
+          "language": "Sanskrit",
+          "languageCode": "sa",
+          "translator": null,
+          "year": -200,
+          "era": "original",
+          "register": "sanskrit-shloka",
+          "source": "curated",
+          "provenance": "Bhagavad-Gītā 1.1–1.2, Sanskrit original (BORI critical edition).",
+          "previewText": "धृतराष्ट्र उवाच — धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥ सञ्जय उवाच — दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा। आचार्यमुपसङ्गम्य राजा वचनमब्रवीत्॥"
         }
       ]
     },
@@ -272,6 +339,19 @@
           "gutenbergTextId": "7164",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/7164/pg7164.txt",
           "previewText": "Thou hast made me endless, such is thy pleasure. This frail vessel thou emptiest again and again, and fillest it ever with fresh life. This little flute of a reed thou hast carried over hills and dales, and hast breathed through it melodies eternally new. At the immortal touch of thy hands my little heart loses its limits in joy and gives birth to utterance ineffable."
+        },
+        {
+          "id": "tagore-gitanjali-1-bn-source",
+          "workId": "tagore-gitanjali",
+          "language": "Bengali",
+          "languageCode": "bn",
+          "translator": null,
+          "year": 1910,
+          "era": "1910s",
+          "register": "bengali-original",
+          "source": "curated",
+          "provenance": "Tagore, Gitanjali (1910), poem 1 — Bengali original from Rabindra-Rachanabali.",
+          "previewText": "আমারে তুমি অশেষ করেছ, এমনি লীলা তব। ফুরায়ে ফেলে আবার ভরেছ জীবন নব নব। কত যে গিরি কত যে নদী বেড়ালে বহি, ফুরালো না কভু তোমার হাতে এ ছোটো বাঁশরিটি — গাহিতে গাহিতে এসেছ যুগে যুগে নব নব।"
         }
       ]
     },
@@ -302,6 +382,19 @@
           "gutenbergTextId": "27308",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/27308/pg27308.txt",
           "previewText": "Il me semble l'égal des dieux Celui qui de ta voix s'enivre, Qui lit son bonheur dans tes yeux, Et qui près de toi se sent vivre! Ce doux souris, quand je te vois, Me trouble!... Interdite, oppressée,"
+        },
+        {
+          "id": "sappho-en-wharton-1885",
+          "workId": "sappho-fragments",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Henry Thornton Wharton",
+          "year": 1885,
+          "era": "1880s",
+          "register": "victorian-literal-prose",
+          "source": "curated",
+          "provenance": "H. T. Wharton, Sappho: Memoir, Text, Selected Renderings, and a Literal Translation (London, 1885), Fragment 2.",
+          "previewText": "Peer of gods he seemeth to me, the blissful man who sits and gazes at thee before him, close beside thee, and listens to thy sweet speech and lovesome laughter; that indeed makes my heart flutter in my bosom. For when I see thee but a little, I have no utterance left, my tongue is broken down, and straightway a subtle fire has run under my skin."
         }
       ]
     },
@@ -332,6 +425,19 @@
           "gutenbergTextId": "18867",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/18867/pg18867.txt",
           "previewText": "Living, Lesbia, we should e'en be loving. Sour severity, tongue of eld maligning, All be to us a penny's estimation. Suns set only to rise again to-morrow. We, when sets in a little hour the brief light, 5 Sleep one infinite age, a night for ever."
+        },
+        {
+          "id": "catullus-la-source",
+          "workId": "catullus-poems",
+          "language": "Latin",
+          "languageCode": "la",
+          "translator": null,
+          "year": -55,
+          "era": "original",
+          "register": "classical-latin",
+          "source": "curated",
+          "provenance": "Catullus 5, Latin original (Mynors, OCT, 1958).",
+          "previewText": "Vivamus, mea Lesbia, atque amemus, rumoresque senum severiorum omnes unius aestimemus assis. Soles occidere et redire possunt: nobis cum semel occidit brevis lux, nox est perpetua una dormienda. Da mi basia mille, deinde centum, dein mille altera, dein secunda centum, deinde usque altera mille, deinde centum."
         }
       ]
     },
@@ -447,6 +553,20 @@
           "gutenbergTextId": "1001",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/1001/pg1001.txt",
           "previewText": "Midway upon the journey of our life I found myself within a forest dark, For the straightforward pathway had been lost. Ah me! how hard a thing it is to say What was this forest savage, rough, and stern, Which in the very thought renews the fear."
+        },
+        {
+          "id": "inferno-en-norton-1891",
+          "workId": "dante-inferno",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Charles Eliot Norton",
+          "year": 1891,
+          "era": "1880s",
+          "register": "victorian-literal-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "1995",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/1995/pg1995.txt",
+          "previewText": "Midway upon the road of our life I found myself within a dark wood, for the right way had been missed. Ah! how hard a thing it is to tell what this wild and rough and dense wood was, which in thought renews the fear! So bitter is it that death is little more. But in order to treat of the good that there I found, I will tell of the other things that I"
         }
       ]
     },
@@ -682,6 +802,32 @@
           "gutenbergTextId": "8019",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/8019/pg8019.txt",
           "previewText": "19:023:001 The LORD is my shepherd; I shall not want. 19:023:002 He maketh me to lie down in green pastures: he leadeth me beside the still waters. 19:023:003 He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake. 19:023:004 Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me. 19:023:005 Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over. 19:023:006 Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever. 19:024:001 The earth is the LORD's, and the fulness thereof; the world, and they that dwell therein."
+        },
+        {
+          "id": "psalm23-en-coverdale-1535",
+          "workId": "kjv-psalm-23",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Myles Coverdale",
+          "year": 1535,
+          "era": "1600s",
+          "register": "early-modern-coverdale",
+          "source": "curated",
+          "provenance": "Coverdale Bible (1535), Psalm 23.",
+          "previewText": "The Lorde is my shepherde, I can wante nothinge. He fedeth me in a grene pasture, and ledeth me to a fresh water. He quickeneth my soule, and bringeth me forth in the waye of rightuousnes for his names sake. Though I shulde walke now in the valley of the shadowe of death, yet I feare no euell, for thou art with me: thy staffe & thy shepe hoke comforte me."
+        },
+        {
+          "id": "psalm23-en-geneva-1560",
+          "workId": "kjv-psalm-23",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Geneva Bible translators",
+          "year": 1560,
+          "era": "1600s",
+          "register": "geneva-puritan",
+          "source": "curated",
+          "provenance": "Geneva Bible (1560), Psalm 23.",
+          "previewText": "The Lord is my shepherd, I shall not want. He maketh me to rest in green pasture, and leadeth me by the still waters. He restoreth my soul, and leadeth me in the paths of righteousness for his Names sake. Yea, though I should walk through the valley of the shadow of death, I will fear no evil: for thou art with me: thy rod and thy staff, they comfort me."
         }
       ]
     },
@@ -726,6 +872,20 @@
           "gutenbergTextId": "20431",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/20431/pg20431.txt",
           "previewText": "What! we of the Spear-Danes of yore days, so was it That we learn'd of the fair fame of kings of the folks And the athelings a-faring in framing of valour. Oft then Scyld the Sheaf-son from the hosts of the scathers, From kindreds a many the mead-settles tore; It was then the earl fear'd them, sithence was he first"
+        },
+        {
+          "id": "beowulf-en-gummere-1910",
+          "workId": "beowulf-opening",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Francis Barton Gummere",
+          "year": 1910,
+          "era": "1910s",
+          "register": "edwardian-alliterative-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "981",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/981/pg981.txt",
+          "previewText": "LO, praise of the prowess of people-kings of spear-armed Danes, in days long sped, we have heard, and what honor the athelings won! Oft Scyld the Scefing from squadroned foes, from many a tribe, the mead-bench tore, awing the earls. Since erst he lay"
         }
       ]
     },
@@ -756,6 +916,79 @@
           "gutenbergTextId": "3330",
           "sourceUrl": "https://www.gutenberg.org/cache/epub/3330/pg3330.txt",
           "previewText": "CHAPTER I. 1. The Master said, 'Is it not pleasant to learn with a constant perseverance and application? 2. 'Is it not delightful to have friends coming from distant quarters?' 3. 'Is he not a man of complete virtue, who feels no"
+        },
+        {
+          "id": "analects-zh-source",
+          "workId": "confucius-analects",
+          "language": "Chinese",
+          "languageCode": "zh",
+          "translator": null,
+          "year": -500,
+          "era": "original",
+          "register": "classical-chinese",
+          "source": "curated",
+          "provenance": "Analects 論語 1.1–1.2, Classical Chinese original (Sibu Congkan).",
+          "previewText": "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」有子曰：「其為人也孝弟，而好犯上者，鮮矣；不好犯上而好作亂者，未之有也。君子務本，本立而道生。孝弟也者，其為仁之本與！」"
+        }
+      ]
+    },
+    {
+      "id": "sophocles-antigone",
+      "title": "Antigone, opening dialogue",
+      "author": "Sophocles",
+      "sourceLanguage": "Ancient Greek",
+      "originalYear": -441,
+      "description": "The opening exchange between Antigone and Ismene over the burial of Polynices, in Lewis Campbell's verse rendering for the Oxford World's Classics.",
+      "tags": [
+        "drama",
+        "greek",
+        "tragedy",
+        "antiquity"
+      ],
+      "translations": [
+        {
+          "id": "antigone-en-campbell-1906",
+          "workId": "sophocles-antigone",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Lewis Campbell",
+          "year": 1906,
+          "era": "1900s",
+          "register": "edwardian-blank-verse",
+          "source": "gutenberg",
+          "gutenbergTextId": "14484",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/14484/pg14484.txt",
+          "previewText": "ANTIGONE. Own sister of my blood, one life with me, Ismene, have the tidings caught thine ear? Say, hath not Heaven decreed to execute On thee and me, while yet we are alive, All the evil Oedipus bequeathed? All horror, All pain, all outrage, falls on us! And now The General's proclamation of to-day-- Hast thou not heard?--Art thou so slow to hear"
+        }
+      ]
+    },
+    {
+      "id": "plato-symposium",
+      "title": "Symposium, opening",
+      "author": "Plato",
+      "sourceLanguage": "Ancient Greek",
+      "originalYear": -385,
+      "description": "Apollodorus begins the Symposium by recounting Socrates' speech on Eros. Benjamin Jowett's 1892 prose translation, the standard English Symposium for nearly a century.",
+      "tags": [
+        "philosophy",
+        "dialogue",
+        "greek",
+        "antiquity"
+      ],
+      "translations": [
+        {
+          "id": "symposium-en-jowett-1892",
+          "workId": "plato-symposium",
+          "language": "English",
+          "languageCode": "en",
+          "translator": "Benjamin Jowett",
+          "year": 1892,
+          "era": "1880s",
+          "register": "victorian-philosophical-prose",
+          "source": "gutenberg",
+          "gutenbergTextId": "1600",
+          "sourceUrl": "https://www.gutenberg.org/cache/epub/1600/pg1600.txt",
+          "previewText": "Concerning the things about which you ask to be informed I believe that I am not ill-prepared with an answer. For the day before yesterday I was coming from my own home at Phalerum to the city, and one of my acquaintance, who had caught a sight of me from behind, calling out playfully in the distance, said: Apollodorus, O thou Phalerian (Probably a play of words on (Greek), 'bald-headed.') man, halt! So I did as I"
         }
       ]
     }
