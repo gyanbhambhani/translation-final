@@ -27,6 +27,7 @@
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { join } from "path";
 import OpenAI from "openai";
+import { splitLines } from "../src/lib/text";
 
 const DATA_DIR = join(process.cwd(), "data");
 const CORPUS_PATH = join(DATA_DIR, "corpus.json");
@@ -105,55 +106,6 @@ const SYSTEM_PROMPT = [
   "with one weight per input line, in order. No prose, no markdown.",
   "Values are floats in [0, 1].",
 ].join("\n");
-
-function splitLines(text: string): string[] {
-  // First split on hard line breaks. For poetry corpora this gives us
-  // verse lines. For prose previews (catalog works pulled from Project
-  // Gutenberg), each paragraph still ends up as one "line" — typically
-  // one long sentence punctuated with semicolons (especially in 18th-
-  // and 19th-century English translations). To get usable granularity
-  // for the drift path on those, we sentence-split anything over the
-  // word threshold, and if that doesn't help we fall back to splitting
-  // on strong clause boundaries (`;` and `:` count too).
-  const SOFT_BREAK = /(?<=[.!?।])\s+(?=[A-Z\u0900-\u097F"'])/u;
-  const HARD_BREAK = /(?<=[.!?;:।])\s+/u;
-  const LONG_LINE_THRESHOLD = 22;
-  const STILL_TOO_LONG = 28;
-
-  const wc = (s: string) => s.split(/\s+/).filter(Boolean).length;
-
-  const paragraphs = text
-    .split(/\n+/)
-    .map((l) => l.trim())
-    .filter((l) => l.length > 0);
-
-  const out: string[] = [];
-  for (const p of paragraphs) {
-    if (wc(p) <= LONG_LINE_THRESHOLD) {
-      out.push(p);
-      continue;
-    }
-
-    let pieces = p
-      .split(SOFT_BREAK)
-      .map((s) => s.trim())
-      .filter((s) => s.length > 0);
-
-    const stillChunky =
-      pieces.length === 1 || pieces.some((s) => wc(s) > STILL_TOO_LONG);
-
-    if (stillChunky) {
-      pieces = p
-        .split(HARD_BREAK)
-        .map((s) => s.trim())
-        .filter((s) => s.length > 0);
-    }
-
-    if (pieces.length > 1) out.push(...pieces);
-    else out.push(p);
-  }
-  return out;
-}
 
 function wordCount(line: string): number {
   return line.split(/\s+/).filter(Boolean).length;

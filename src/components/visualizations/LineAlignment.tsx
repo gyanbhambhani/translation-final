@@ -3,48 +3,71 @@
 import { useState } from "react";
 import type { TranslationText } from "@/lib/types";
 import { ERA_COLORS } from "@/lib/types";
+import { splitLines } from "@/lib/text";
 import { ProvenancePill } from "../Provenance";
 
 interface Props {
   translations: TranslationText[];
 }
 
+/** Body text or, failing that, the catalog preview snippet. */
+function bodyOf(t: TranslationText): string {
+  return (t.text ?? t.previewText ?? "").trim();
+}
+
 export default function LineAlignment({ translations }: Props) {
-  const withText = translations.filter((t) => t.text);
-  const [leftId, setLeftId] = useState(withText[0]?.id ?? "");
-  const [rightId, setRightId] = useState(withText[1]?.id ?? "");
+  const withBody = translations.filter((t) => bodyOf(t).length > 0);
+  const [leftId, setLeftId] = useState(withBody[0]?.id ?? "");
+  const [rightId, setRightId] = useState(withBody[1]?.id ?? "");
 
-  const left = withText.find((t) => t.id === leftId);
-  const right = withText.find((t) => t.id === rightId);
+  const left = withBody.find((t) => t.id === leftId);
+  const right = withBody.find((t) => t.id === rightId);
 
-  if (withText.length < 2) {
+  if (withBody.length < 2) {
     return (
       <p className="font-display italic text-ink-muted text-[15px]">
-        Full text is not available for this work in the catalog.
+        No alignable text available for this work.
       </p>
     );
   }
 
-  const leftLines = left?.text?.split("\n") ?? [];
-  const rightLines = right?.text?.split("\n") ?? [];
+  const leftLines = left ? splitLines(bodyOf(left)) : [];
+  const rightLines = right ? splitLines(bodyOf(right)) : [];
   const maxLen = Math.max(leftLines.length, rightLines.length);
+
+  // If either side is showing a preview (catalog work) rather than the
+  // full text, surface that so the reader knows they're looking at the
+  // opening passage, not the whole translation.
+  const previewSide = (t?: TranslationText) =>
+    t && !t.text && t.previewText ? "opening passage only" : null;
+  const leftScope = previewSide(left);
+  const rightScope = previewSide(right);
+  const showScopeNote = leftScope || rightScope;
 
   return (
     <div className="space-y-6">
       <div className="grid sm:grid-cols-2 gap-6">
         <TranslationSelector
-          translations={withText}
+          translations={withBody}
           selected={leftId}
           onChange={setLeftId}
           label="Left column"
         />
         <TranslationSelector
-          translations={withText}
+          translations={withBody}
           selected={rightId}
           onChange={setRightId}
           label="Right column"
         />
       </div>
+
+      {showScopeNote && (
+        <p className="small-caps text-ink-faint text-[10.5px] tracking-[0.18em]">
+          Showing opening passages from Project Gutenberg sources — full
+          texts are not in this corpus, so alignment is over the same
+          opening lines each translator produced.
+        </p>
+      )}
 
       <div className="grid grid-cols-2 border border-rule">
         <ColumnHeader translation={left} />
