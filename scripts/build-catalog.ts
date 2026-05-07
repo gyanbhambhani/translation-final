@@ -1038,7 +1038,10 @@ interface OutputTranslation {
   year: number;
   era: string;
   register: string;
+  /** @deprecated kept for back-compat; new entries use `kind`. */
   source: "gutenberg" | "curated";
+  /** Typed provenance category; pairs with the free-form `provenance` string. */
+  kind: "gutenberg" | "curated";
   gutenbergTextId?: string;
   sourceUrl?: string;
   provenance?: string;
@@ -1079,8 +1082,10 @@ async function main() {
           era: t.era,
           register: t.register,
           source: "gutenberg",
+          kind: "gutenberg",
           gutenbergTextId: String(t.gutenbergId),
           sourceUrl: PG(t.gutenbergId),
+          provenance: `Project Gutenberg etext #${t.gutenbergId}; ${PG(t.gutenbergId)}`,
           previewText,
         });
         console.log(`  ✓ ${t.id}  (${previewText.length} chars)`);
@@ -1125,6 +1130,7 @@ async function main() {
       era: c.era,
       register: c.register,
       source: "curated",
+      kind: "curated",
       provenance: c.provenance,
       previewText: c.previewText,
     });

@@ -328,13 +328,18 @@ function Method() {
               toward 18th-century courtly English. FitzGerald rewriting
               himself across thirty years of his own{" "}
               <em className="italic">Rubáiyát</em>, drifting away from the
-              Persian he started with. The Hindi translators of Ramanujan
-              each carrying the same English poem into a different
-              decade&rsquo;s idiom — Sanskritic in 1973, post-liberalisation
-              in 1994, urban-colloquial in 2005, Instagram-contemporary in
-              2021. These are not failures of fidelity. They are evidence
-              that translation is a place where languages meet, and that
-              every meeting leaves a mark.
+              Persian he started with. And — because no published Hindi
+              translation of Ramanujan&rsquo;s English poetry exists — a
+              single translator (the project author) carrying the same
+              English poem into five different decades&rsquo; Hindi: a
+              Sanskritized 1973, a post-liberalization 1994, an
+              urban-colloquial 2005, an Instagram-contemporary 2021, and
+              a code-mixed diasporic 2026. The pre-2026 Hindi versions are{" "}
+              <em className="italic">register studies</em>, not published
+              translations; they are the same hand running an experiment
+              with decade as the variable. These are not failures of
+              fidelity. They are evidence that translation is a place
+              where languages meet, and that every meeting leaves a mark.
             </p>
             <p>
               None of this says any translation is &ldquo;correct&rdquo; or
@@ -355,15 +360,36 @@ function Method() {
             </p>
             <p className="pt-3 border-t border-rule text-ink-muted text-[13.5px] leading-[1.65]">
               <span className="small-caps tracking-[0.16em] text-ink-faint mr-2">
-                Note
+                Provenance
               </span>
-              Every catalog excerpt is fetched at build time from Project
+              Every text in the corpus carries a typed{" "}
+              <code className="text-ink-soft text-[13px]">kind</code>{" "}
+              and a free-form{" "}
+              <code className="text-ink-soft text-[13px]">provenance</code>{" "}
+              string. The wider catalog (Chapman 1611, Voss 1793,
+              Saint-Remy 1905, etc.) is fetched at build time from Project
               Gutenberg with a verifiable{" "}
               <code className="text-ink-soft text-[13px]">sourceUrl</code>{" "}
-              on each entry. No AI-generated translations. No fabricated
-              attributions. When you see Chapman 1611, Voss 1793, or
-              Saint-Remy 1905, that is a real human translator&rsquo;s
-              labour, pulled live from a public-domain source.
+              — real human translators&rsquo; labour, pulled live from a
+              public-domain source.
+            </p>
+            <p className="text-ink-muted text-[13.5px] leading-[1.65]">
+              The five Ramanujan poems sit on the project&rsquo;s opposite
+              end. Because no published Hindi translation of Ramanujan&rsquo;s
+              English poetry exists, the four pre-2026 Hindi versions of
+              each poem are register studies composed by the project
+              author to evoke each decade&rsquo;s Hindi literary register;
+              they are tagged{" "}
+              <code className="text-ink-soft text-[13px]">register-study</code>{" "}
+              and not attributed to any historical translator. The 2026
+              version is tagged{" "}
+              <code className="text-ink-soft text-[13px]">project-author</code>.
+              The Ramanujan English originals are in copyright; verification
+              runs through the print citation in the{" "}
+              <code className="text-ink-soft text-[13px]">provenance</code>{" "}
+              field rather than a URL. Every translation card, search
+              result, and tooltip in the app surfaces this provenance
+              explicitly.
             </p>
           </div>
         </div>

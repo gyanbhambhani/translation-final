@@ -1,6 +1,12 @@
-import { readFileSync } from "fs";
+import { readFileSync, existsSync, statSync } from "fs";
 import { join } from "path";
-import type { Work, EmbeddingsFile, SearchResult, TranslationText } from "./types";
+import type {
+  Work,
+  EmbeddingsFile,
+  EmotionalWeightsFile,
+  SearchResult,
+  TranslationText,
+} from "./types";
 
 function readJSON<T>(filename: string): T {
   const filePath = join(process.cwd(), "data", filename);
@@ -25,6 +31,29 @@ export function getCatalog(): CatalogFile {
 
 export function getEmbeddings(): EmbeddingsFile {
   return readJSON<EmbeddingsFile>("embeddings.json");
+}
+
+let _weightsCache: { mtimeMs: number; data: EmotionalWeightsFile } | null = null;
+
+/**
+ * Load the per-line emotional-weight scores produced by `npm run weights`.
+ * Returns null (not throws) if the file hasn't been generated yet — the UI
+ * should render a "run npm run weights" empty state instead of crashing.
+ *
+ * The cache is keyed on the file's mtime so that re-running the scoring
+ * script while the dev server is up is reflected immediately, rather than
+ * requiring a server restart.
+ */
+export function getEmotionalWeights(): EmotionalWeightsFile | null {
+  const path = join(process.cwd(), "data", "emotional-weights.json");
+  if (!existsSync(path)) return null;
+  const mtimeMs = statSync(path).mtimeMs;
+  if (_weightsCache && _weightsCache.mtimeMs === mtimeMs) {
+    return _weightsCache.data;
+  }
+  const data = JSON.parse(readFileSync(path, "utf-8")) as EmotionalWeightsFile;
+  _weightsCache = { mtimeMs, data };
+  return data;
 }
 
 export function searchWorks(query: string): SearchResult[] {

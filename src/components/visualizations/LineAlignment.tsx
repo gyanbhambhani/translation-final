@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { TranslationText } from "@/lib/types";
 import { ERA_COLORS } from "@/lib/types";
+import { ProvenancePill } from "../Provenance";
 
 interface Props {
   translations: TranslationText[];
@@ -97,6 +98,9 @@ function ColumnHeader({
           <p className="text-ink-muted text-[11.5px] mt-0.5 tabular">
             {translation.language} · {translation.year}
           </p>
+          <div className="mt-1.5">
+            <ProvenancePill kind={translation.kind} />
+          </div>
         </div>
         <span
           className="small-caps text-[10px] tracking-[0.16em] shrink-0"

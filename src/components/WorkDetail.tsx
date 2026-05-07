@@ -2,16 +2,21 @@
 
 import { useState } from "react";
 import dynamic from "next/dynamic";
-import type { TranslationText, EmbeddingPoint } from "@/lib/types";
+import type {
+  TranslationText,
+  EmbeddingPoint,
+  ScoredText,
+} from "@/lib/types";
 import { ERA_COLORS } from "@/lib/types";
 import TranslationSubmit from "./TranslationSubmit";
+import { ProvenancePill, ProvenanceLine } from "./Provenance";
 
 const UMAPScatter = dynamic(
   () => import("./visualizations/UMAPScatter"),
   { ssr: false }
 );
-const SimilarityHeatmap = dynamic(
-  () => import("./visualizations/SimilarityHeatmap"),
+const ParallelDrift = dynamic(
+  () => import("./visualizations/ParallelDrift"),
   { ssr: false }
 );
 const LineAlignment = dynamic(
@@ -19,7 +24,7 @@ const LineAlignment = dynamic(
   { ssr: false }
 );
 
-type Tab = "scatter" | "heatmap" | "align" | "submit";
+type Tab = "scatter" | "drift" | "align" | "submit";
 
 interface Props {
   work: {
@@ -30,11 +35,12 @@ interface Props {
   };
   translations: TranslationText[];
   embeddingPoints: EmbeddingPoint[];
+  weights: Record<string, ScoredText>;
 }
 
 const TABS: { id: Tab; label: string; subtitle: string }[] = [
   { id: "scatter", label: "Semantic space", subtitle: "UMAP scatter" },
-  { id: "heatmap", label: "Similarity", subtitle: "Pairwise heatmap" },
+  { id: "drift", label: "Parallel drift", subtitle: "Line emotion vs. position" },
   { id: "align", label: "Alignment", subtitle: "Line by line" },
   { id: "submit", label: "Submit", subtitle: "Plot your own" },
 ];
@@ -43,6 +49,7 @@ export default function WorkDetail({
   work,
   translations,
   embeddingPoints,
+  weights,
 }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>("scatter");
   const [livePoints, setLivePoints] = useState<EmbeddingPoint[]>(embeddingPoints);
@@ -54,6 +61,7 @@ export default function WorkDetail({
 
   return (
     <div className="space-y-16">
+      <CorpusDisclosure translations={translations} />
       <TranslationList translations={translations} />
 
       <section>
@@ -107,17 +115,18 @@ export default function WorkDetail({
               </div>
             )}
 
-            {activeTab === "heatmap" && (
+            {activeTab === "drift" && (
               <div className="space-y-4">
                 <p className="text-ink-muted text-[13px] leading-relaxed max-w-2xl">
-                  Pairwise similarity between translations. Brighter cells
-                  indicate translations whose embeddings sit closer together.
+                  Each translation is a path through the same coordinate
+                  space — running word count on the x-axis, emotional
+                  weight per line on the y-axis. Where the paths diverge,
+                  a translator made a choice. The gap is the argument.
                 </p>
-                {livePoints.length > 0 ? (
-                  <SimilarityHeatmap points={livePoints} />
-                ) : (
-                  <EmptyState message="No embeddings available." />
-                )}
+                <ParallelDrift
+                  translations={translations}
+                  weights={weights}
+                />
               </div>
             )}
 
@@ -205,16 +214,27 @@ function TranslationList({ translations }: { translations: TranslationText[] }) 
                   </span>
                 </div>
 
-                {t.register && (
-                  <p className="font-display italic text-ink-muted text-[13px] mt-2">
-                    {t.register}
-                  </p>
-                )}
+                <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1">
+                  {t.register && (
+                    <span className="font-display italic text-ink-muted text-[13px]">
+                      {t.register}
+                    </span>
+                  )}
+                  <ProvenancePill kind={t.kind} />
+                </div>
 
                 {isOpen && (t.text || t.previewText) && (
                   <p className="mt-3 pt-3 border-t border-rule font-display italic text-ink-soft text-[14px] leading-[1.6] whitespace-pre-wrap">
                     {t.text ?? t.previewText}
                   </p>
+                )}
+
+                {isOpen && (t.kind || t.provenance) && (
+                  <ProvenanceLine
+                    kind={t.kind}
+                    provenance={t.provenance}
+                    sourceUrl={t.sourceUrl}
+                  />
                 )}
               </button>
             </li>
@@ -230,5 +250,59 @@ function EmptyState({ message }: { message: string }) {
     <div className="flex items-center justify-center h-48 text-ink-muted text-[14px] italic font-display">
       {message}
     </div>
+  );
+}
+
+/**
+ * Inline disclosure block on every work detail page. If any translation
+ * in this work is a register study, surface that loudly at the top so
+ * the reader can never confuse a composed exercise with a published
+ * historical translation. If no register studies are present (i.e.,
+ * Gutenberg-only catalog work), this collapses to nothing.
+ */
+function CorpusDisclosure({
+  translations,
+}: {
+  translations: TranslationText[];
+}) {
+  const studies = translations.filter((t) => t.kind === "register-study");
+  const author = translations.filter((t) => t.kind === "project-author");
+  if (studies.length === 0 && author.length === 0) return null;
+
+  return (
+    <aside
+      className="border border-accent/35 bg-accent/4 px-5 sm:px-7 py-5 sm:py-6"
+      role="note"
+      aria-label="About these translations"
+    >
+      <div className="flex items-baseline gap-3 mb-2">
+        <span className="small-caps text-accent text-[10.5px] tracking-[0.2em]">
+          About these translations
+        </span>
+      </div>
+      <p className="text-ink-soft text-[13.5px] leading-[1.7] max-w-[68ch]">
+        No formally published Hindi translation of this poem exists in
+        the catalogues of the Sahitya Akademi, Bharatiya Jnanpith, Vani
+        Prakashan, or Rajkamal Prakashan. The Hindi versions you see
+        here are{" "}
+        <strong className="text-accent not-italic">
+          register studies
+        </strong>{" "}
+        and one present-day translation, all written by the project
+        author (Gyan Bhambhani). Each non-2026 Hindi text is composed
+        deliberately to evoke a specific decade&rsquo;s Hindi literary
+        register — Sanskritic <em className="italic">nayi-kavita</em>{" "}
+        for the 1970s, Dabral / Kamal-period post-liberalization Hindi
+        for the 1990s, urban-colloquial Hindi for the 2000s, and a
+        contemporary 2020s register. They are not attributed to any
+        historical translator.
+      </p>
+      <p className="text-ink-muted text-[12.5px] leading-[1.65] mt-3 max-w-[68ch]">
+        Expanding any translation below shows the full provenance line.
+        The English original is in copyright (Ramanujan estate / OUP);
+        no authoritative free online edition exists, so verification
+        runs through the print citation, not a URL.
+      </p>
+    </aside>
   );
 }

@@ -1,0 +1,6520 @@
+{
+  "_meta": {
+    "model": "o4-mini",
+    "scale": "0=restrained, 1=loaded",
+    "generatedAt": "2026-05-07T22:37:12.935Z",
+    "note": "Per-line emotional weights for the parallel-drift viz. Reasoning model o4-mini at effort=medium."
+  },
+  "texts": {
+    "ramanujan-a-river-en": {
+      "id": "ramanujan-a-river-en",
+      "workId": "ramanujan-a-river",
+      "totalLines": 36,
+      "totalWordCount": 162,
+      "scoredAt": "2026-05-07T21:52:29.929Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "In Madurai,",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "city of temples and poets,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 2,
+          "text": "who sang of cities and temples,",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "every summer",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 4,
+          "text": "a river dries to a trickle",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 5,
+          "text": "in the sand,",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 6,
+          "text": "bumps on the sand,",
+          "wordCount": 4,
+          "weight": 0.18
+        },
+        {
+          "index": 7,
+          "text": "like the bedmarks",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "of a bent, thin old woman",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 9,
+          "text": "lying down after a laborious life.",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 10,
+          "text": "The river has two towns",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 11,
+          "text": "on either bank.",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 12,
+          "text": "The new town, faced with banks,",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 13,
+          "text": "washed faces, daily",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 14,
+          "text": "changing; the old town",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 15,
+          "text": "with its ancient icons,",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 16,
+          "text": "its henna shops, sweet shops,",
+          "wordCount": 5,
+          "weight": 0.22
+        },
+        {
+          "index": 17,
+          "text": "and the river; its story of drowning,",
+          "wordCount": 7,
+          "weight": 0.55
+        },
+        {
+          "index": 18,
+          "text": "and the old news",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 19,
+          "text": "of the 1st and the 2nd year floods:",
+          "wordCount": 8,
+          "weight": 0.38
+        },
+        {
+          "index": 20,
+          "text": "In the 1st year after the war",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 21,
+          "text": "the river took",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 22,
+          "text": "a woman, dead,",
+          "wordCount": 3,
+          "weight": 0.6
+        },
+        {
+          "index": 23,
+          "text": "calmly, without haste,",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 24,
+          "text": "at the end of the long day.",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 25,
+          "text": "In the 2nd year",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 26,
+          "text": "it took",
+          "wordCount": 2,
+          "weight": 0.4
+        },
+        {
+          "index": 27,
+          "text": "two children, a bundle of clothes,",
+          "wordCount": 6,
+          "weight": 0.68
+        },
+        {
+          "index": 28,
+          "text": "and a thin-boned cow.",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 29,
+          "text": "And it always has",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 30,
+          "text": "just the dry, bony, old river",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 31,
+          "text": "that dries in the sand,",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 32,
+          "text": "everyday,",
+          "wordCount": 1,
+          "weight": 0.15
+        },
+        {
+          "index": 33,
+          "text": "while the poets sang of the new,",
+          "wordCount": 7,
+          "weight": 0.35
+        },
+        {
+          "index": 34,
+          "text": "the live-giving, full spring river",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 35,
+          "text": "to the goddess.",
+          "wordCount": 3,
+          "weight": 0.4
+        }
+      ]
+    },
+    "ramanujan-a-river-hi-1970": {
+      "id": "ramanujan-a-river-hi-1970",
+      "workId": "ramanujan-a-river",
+      "totalLines": 36,
+      "totalWordCount": 149,
+      "scoredAt": "2026-05-07T21:52:31.032Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मदुरै में,",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "मन्दिरों और कवियों के नगर में,",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 2,
+          "text": "जिन्होंने नगरों और मन्दिरों का गान किया,",
+          "wordCount": 7,
+          "weight": 0.35
+        },
+        {
+          "index": 3,
+          "text": "प्रत्येक ग्रीष्म में",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 4,
+          "text": "नदी सिकुड़ जाती है एक धार में",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 5,
+          "text": "रेत में,",
+          "wordCount": 2,
+          "weight": 0.2
+        },
+        {
+          "index": 6,
+          "text": "रेत पर उभरती है,",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 7,
+          "text": "जैसे किसी झुकी, क्षीण वृद्धा की",
+          "wordCount": 6,
+          "weight": 0.5
+        },
+        {
+          "index": 8,
+          "text": "शयन-रेखाएँ",
+          "wordCount": 1,
+          "weight": 0.3
+        },
+        {
+          "index": 9,
+          "text": "श्रमसाध्य जीवन के पश्चात लेटी हुई।",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 10,
+          "text": "नदी के दोनों तटों पर",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 11,
+          "text": "दो नगर बसे हैं।",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 12,
+          "text": "नव-नगर, कोटवाला,",
+          "wordCount": 2,
+          "weight": 0.25
+        },
+        {
+          "index": 13,
+          "text": "धुले मुख, दैनिक",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 14,
+          "text": "परिवर्तनशील; पुरातन नगर",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 15,
+          "text": "अपने प्राचीन प्रतिमाओं के साथ,",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 16,
+          "text": "उसके मेहंदी-विपणन, मिष्टान्न-गृह,",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 17,
+          "text": "और नदी; उसका जलसमाधि का आख्यान,",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 18,
+          "text": "और प्रथम तथा द्वितीय वर्ष की बाढ़ की",
+          "wordCount": 8,
+          "weight": 0.35
+        },
+        {
+          "index": 19,
+          "text": "पुरातन वार्ता:",
+          "wordCount": 2,
+          "weight": 0.3
+        },
+        {
+          "index": 20,
+          "text": "युद्धोत्तर प्रथम वर्ष में",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 21,
+          "text": "नदी ने ग्रहण किया",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 22,
+          "text": "एक स्त्री को, मृत,",
+          "wordCount": 4,
+          "weight": 0.7
+        },
+        {
+          "index": 23,
+          "text": "शान्तिपूर्वक, बिना आतुरता के,",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 24,
+          "text": "दीर्घ दिवस के अन्त में।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 25,
+          "text": "द्वितीय वर्ष में",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 26,
+          "text": "उसने लिया",
+          "wordCount": 2,
+          "weight": 0.45
+        },
+        {
+          "index": 27,
+          "text": "दो बालकों को, वस्त्र-पोटली को,",
+          "wordCount": 5,
+          "weight": 0.75
+        },
+        {
+          "index": 28,
+          "text": "और एक कृशास्थि धेनु को।",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 29,
+          "text": "और सदा रहती है",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 30,
+          "text": "केवल शुष्क, अस्थिल, वृद्ध नदी",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 31,
+          "text": "जो रेत में सूखती है,",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 32,
+          "text": "प्रतिदिन,",
+          "wordCount": 1,
+          "weight": 0.35
+        },
+        {
+          "index": 33,
+          "text": "जबकि कवि गाते रहे नवीन का,",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 34,
+          "text": "जीवनदायिनी, पूर्ण वसंत नदी का",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 35,
+          "text": "देवी को।",
+          "wordCount": 2,
+          "weight": 0.45
+        }
+      ]
+    },
+    "ramanujan-a-river-hi-1990": {
+      "id": "ramanujan-a-river-hi-1990",
+      "workId": "ramanujan-a-river",
+      "totalLines": 36,
+      "totalWordCount": 165,
+      "scoredAt": "2026-05-07T21:52:38.738Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मदुरई में,",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "मंदिरों और कवियों के शहर में,",
+          "wordCount": 6,
+          "weight": 0.18
+        },
+        {
+          "index": 2,
+          "text": "जो गाते रहे शहरों और मंदिरों के गीत,",
+          "wordCount": 8,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "हर गर्मी में",
+          "wordCount": 3,
+          "weight": 0.12
+        },
+        {
+          "index": 4,
+          "text": "नदी सूख जाती है एक धारा में",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 5,
+          "text": "रेत में,",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 6,
+          "text": "रेत पर उभरती है,",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 7,
+          "text": "जैसे किसी झुकी, पतली बूढ़ी औरत के",
+          "wordCount": 7,
+          "weight": 0.48
+        },
+        {
+          "index": 8,
+          "text": "सोने के निशान",
+          "wordCount": 3,
+          "weight": 0.32
+        },
+        {
+          "index": 9,
+          "text": "मुश्किल जिंदगी के बाद लेटी हुई।",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 10,
+          "text": "नदी के दोनों किनारों पर",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 11,
+          "text": "दो शहर हैं।",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 12,
+          "text": "नया शहर, बैंकों से भरा,",
+          "wordCount": 5,
+          "weight": 0.24
+        },
+        {
+          "index": 13,
+          "text": "धुले चेहरे, रोज़",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 14,
+          "text": "बदलते रहते; पुराना शहर",
+          "wordCount": 4,
+          "weight": 0.27
+        },
+        {
+          "index": 15,
+          "text": "अपनी पुरानी मूर्तियों के साथ,",
+          "wordCount": 5,
+          "weight": 0.22
+        },
+        {
+          "index": 16,
+          "text": "इसके मेहंदी की दुकानें, मिठाई की दुकानें,",
+          "wordCount": 7,
+          "weight": 0.2
+        },
+        {
+          "index": 17,
+          "text": "और नदी; उसकी डूबने की कहानी,",
+          "wordCount": 6,
+          "weight": 0.53
+        },
+        {
+          "index": 18,
+          "text": "और पहले और दूसरे साल की बाढ़ की",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 19,
+          "text": "पुरानी खबर:",
+          "wordCount": 2,
+          "weight": 0.12
+        },
+        {
+          "index": 20,
+          "text": "जंग के बाद पहले साल में",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 21,
+          "text": "नदी ने लिया",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 22,
+          "text": "एक औरत को, मरी हुई,",
+          "wordCount": 5,
+          "weight": 0.68
+        },
+        {
+          "index": 23,
+          "text": "शांति से, बिना जल्दी के,",
+          "wordCount": 5,
+          "weight": 0.32
+        },
+        {
+          "index": 24,
+          "text": "लंबे दिन के अंत में।",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 25,
+          "text": "दूसरे साल में",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 26,
+          "text": "इसने लिया",
+          "wordCount": 2,
+          "weight": 0.25
+        },
+        {
+          "index": 27,
+          "text": "दो बच्चों को, कपड़ों का बंडल,",
+          "wordCount": 6,
+          "weight": 0.7
+        },
+        {
+          "index": 28,
+          "text": "और एक पतली-हड्डियों वाली गाय।",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 29,
+          "text": "और हमेशा बनी रहती है",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 30,
+          "text": "बस सूखी, हड्डीदार, बूढ़ी नदी",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 31,
+          "text": "जो रेत में सूखती है,",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 32,
+          "text": "रोज़,",
+          "wordCount": 1,
+          "weight": 0.15
+        },
+        {
+          "index": 33,
+          "text": "जबकि कवि गाते रहे नए का,",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 34,
+          "text": "जीवनदायी, भरपूर बसंत नदी का",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 35,
+          "text": "देवी को।",
+          "wordCount": 2,
+          "weight": 0.4
+        }
+      ]
+    },
+    "ramanujan-a-river-hi-2000": {
+      "id": "ramanujan-a-river-hi-2000",
+      "workId": "ramanujan-a-river",
+      "totalLines": 30,
+      "totalWordCount": 149,
+      "scoredAt": "2026-05-07T21:52:42.496Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मदुरई में,",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "मंदिरों और शायरों के कस्बे में,",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 2,
+          "text": "जिन्होंने कस्बों और मंदिरों की कविता लिखी,",
+          "wordCount": 7,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "हर साल गर्मियों में",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 4,
+          "text": "नदी रेत में सिमट जाती है,",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 5,
+          "text": "रेत पर उभरती है,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "जैसे कोई थकी हुई, पतली बुज़ुर्ग औरत",
+          "wordCount": 7,
+          "weight": 0.5
+        },
+        {
+          "index": 7,
+          "text": "कड़ी मेहनत के बाद",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 8,
+          "text": "सोने के लिए लेट जाए।",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 9,
+          "text": "नदी के दोनों तरफ दो कस्बे हैं।",
+          "wordCount": 7,
+          "weight": 0.2
+        },
+        {
+          "index": 10,
+          "text": "नया कस्बा: बैंक, धुले चेहरे,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 11,
+          "text": "रोज़ बदलता रंग-ढंग;",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 12,
+          "text": "पुराना कस्बा अपनी पुरानी मूर्तियों के साथ,",
+          "wordCount": 7,
+          "weight": 0.3
+        },
+        {
+          "index": 13,
+          "text": "मेहंदी और मिठाई की दुकानें,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 14,
+          "text": "डूबने की कहानियाँ",
+          "wordCount": 3,
+          "weight": 0.55
+        },
+        {
+          "index": 15,
+          "text": "और पहले-दूसरे साल की बाढ़ का किस्सा:",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 16,
+          "text": "जंग के बाद पहले साल में",
+          "wordCount": 6,
+          "weight": 0.5
+        },
+        {
+          "index": 17,
+          "text": "नदी एक मरी हुई औरत को",
+          "wordCount": 6,
+          "weight": 0.7
+        },
+        {
+          "index": 18,
+          "text": "बहा ले गई—",
+          "wordCount": 3,
+          "weight": 0.65
+        },
+        {
+          "index": 19,
+          "text": "शांति से, बिना जल्दी किए,",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 20,
+          "text": "उस लंबे दिन के आखिर में।",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 21,
+          "text": "दूसरे साल में",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 22,
+          "text": "दो बच्चे, कपड़ों का एक थैला,",
+          "wordCount": 6,
+          "weight": 0.6
+        },
+        {
+          "index": 23,
+          "text": "एक दुबली-पतली गाय।",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 24,
+          "text": "और हमेशा",
+          "wordCount": 2,
+          "weight": 0.3
+        },
+        {
+          "index": 25,
+          "text": "बस वही सूखी, हड्डीवाली बुज़ुर्ग नदी",
+          "wordCount": 6,
+          "weight": 0.65
+        },
+        {
+          "index": 26,
+          "text": "जो रोज़ रेत में सूखती है—",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 27,
+          "text": "जबकि कवि गाते रहे नई,",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 28,
+          "text": "जिंदगी देने वाली, भरी-पूरी बसंती नदी का",
+          "wordCount": 7,
+          "weight": 0.55
+        },
+        {
+          "index": 29,
+          "text": "देवी के सामने।",
+          "wordCount": 3,
+          "weight": 0.45
+        }
+      ]
+    },
+    "ramanujan-a-river-hi-2020": {
+      "id": "ramanujan-a-river-hi-2020",
+      "workId": "ramanujan-a-river",
+      "totalLines": 30,
+      "totalWordCount": 162,
+      "scoredAt": "2026-05-07T21:52:42.874Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मदुरई में —",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "मंदिरों और कवियों का शहर,",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "जो शहरों और मंदिरों की बात करते थे —",
+          "wordCount": 9,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "हर गर्मी में",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "नदी एक पतली-सी धारा बनकर",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 5,
+          "text": "रेत में खो जाती है,",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "रेत पर उभरती है,",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 7,
+          "text": "जैसे कोई झुकी हुई, दुबली बूढ़ी औरत",
+          "wordCount": 7,
+          "weight": 0.5
+        },
+        {
+          "index": 8,
+          "text": "एक थकी हुई ज़िंदगी के बाद लेट जाए।",
+          "wordCount": 8,
+          "weight": 0.6
+        },
+        {
+          "index": 9,
+          "text": "नदी के दोनों तरफ दो शहर हैं।",
+          "wordCount": 7,
+          "weight": 0.15
+        },
+        {
+          "index": 10,
+          "text": "नया शहर: बैंकों से सजा,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 11,
+          "text": "धुले हुए चेहरे, हर रोज़ बदलता;",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 12,
+          "text": "पुराना शहर: पुरानी मूर्तियाँ,",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 13,
+          "text": "मेहंदी की दुकानें, मिठाइयाँ,",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 14,
+          "text": "नदी और उसकी डूबने की कहानी,",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 15,
+          "text": "पहले और दूसरे साल की बाढ़ की पुरानी ख़बर:",
+          "wordCount": 9,
+          "weight": 0.35
+        },
+        {
+          "index": 16,
+          "text": "जंग के बाद पहले साल में",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 17,
+          "text": "नदी एक मरी हुई औरत को",
+          "wordCount": 6,
+          "weight": 0.8
+        },
+        {
+          "index": 18,
+          "text": "शांत बहाव में ले गई,",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 19,
+          "text": "बिना जल्दी किए,",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 20,
+          "text": "उस लंबे दिन के अंत में।",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 21,
+          "text": "दूसरे साल में —",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 22,
+          "text": "दो बच्चे, कपड़ों का एक बंडल,",
+          "wordCount": 6,
+          "weight": 0.8
+        },
+        {
+          "index": 23,
+          "text": "एक हड्डियों वाली गाय।",
+          "wordCount": 4,
+          "weight": 0.55
+        },
+        {
+          "index": 24,
+          "text": "और वो नदी हमेशा बनी रहती है —",
+          "wordCount": 8,
+          "weight": 0.4
+        },
+        {
+          "index": 25,
+          "text": "सूखी, हड्डीवाली, बुज़ुर्ग,",
+          "wordCount": 3,
+          "weight": 0.55
+        },
+        {
+          "index": 26,
+          "text": "हर रोज़ रेत में सूखती,",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 27,
+          "text": "जबकि कवि गाते रहे",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 28,
+          "text": "नई, जीवनदायिनी, लबालब भरी बसंत की नदी का गान",
+          "wordCount": 9,
+          "weight": 0.6
+        },
+        {
+          "index": 29,
+          "text": "देवी के लिए।",
+          "wordCount": 3,
+          "weight": 0.5
+        }
+      ]
+    },
+    "ramanujan-self-portrait-en": {
+      "id": "ramanujan-self-portrait-en",
+      "workId": "ramanujan-self-portrait",
+      "totalLines": 17,
+      "totalWordCount": 71,
+      "scoredAt": "2026-05-07T21:53:00.944Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I resemble everyone",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "but myself, and sometimes see",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 2,
+          "text": "in shop-windows,",
+          "wordCount": 2,
+          "weight": 0.12
+        },
+        {
+          "index": 3,
+          "text": "despite the well-known laws",
+          "wordCount": 4,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "of optics,",
+          "wordCount": 2,
+          "weight": 0.05
+        },
+        {
+          "index": 5,
+          "text": "the portrait of a stranger,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 6,
+          "text": "date unknown,",
+          "wordCount": 2,
+          "weight": 0.08
+        },
+        {
+          "index": 7,
+          "text": "sometime in the future.",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 8,
+          "text": "His eyes have the look",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 9,
+          "text": "of one who has seen",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 10,
+          "text": "what I have not,",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 11,
+          "text": "or have forgotten:",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 12,
+          "text": "not a face to lose sleep over",
+          "wordCount": 7,
+          "weight": 0.5
+        },
+        {
+          "index": 13,
+          "text": "as my mother would say,",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 14,
+          "text": "but clearly one of those",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 15,
+          "text": "who will be the first to die",
+          "wordCount": 7,
+          "weight": 0.86
+        },
+        {
+          "index": 16,
+          "text": "in any ambush.",
+          "wordCount": 3,
+          "weight": 0.7
+        }
+      ]
+    },
+    "ramanujan-self-portrait-hi-1970": {
+      "id": "ramanujan-self-portrait-hi-1970",
+      "workId": "ramanujan-self-portrait",
+      "totalLines": 18,
+      "totalWordCount": 74,
+      "scoredAt": "2026-05-07T21:53:05.830Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मैं सबसे साम्य रखता हूँ",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 1,
+          "text": "स्वयं को छोड़कर, और कभी-कभी",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 2,
+          "text": "दुकान-खिड़कियों में देखता हूँ,",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 3,
+          "text": "प्रकाशिकी के सुविदित नियमों के",
+          "wordCount": 5,
+          "weight": 0.05
+        },
+        {
+          "index": 4,
+          "text": "बावजूद,",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 5,
+          "text": "एक अपरिचित का चित्र,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "काल अज्ञात,",
+          "wordCount": 2,
+          "weight": 0.3
+        },
+        {
+          "index": 7,
+          "text": "भविष्य के किसी समय में।",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "उसकी आँखें उसकी दृष्टि रखती हैं",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 9,
+          "text": "जिसने वह देखा है",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 10,
+          "text": "जो मैंने नहीं देखा,",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 11,
+          "text": "या भूल गया हूँ:",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 12,
+          "text": "ऐसा मुख नहीं जिसके लिए",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 13,
+          "text": "नींद खोई जाए",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 14,
+          "text": "जैसा मेरी माता कहतीं,",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 15,
+          "text": "किंतु स्पष्टतः उनमें से एक",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 16,
+          "text": "जो किसी भी घात में",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 17,
+          "text": "सर्वप्रथम मारा जाएगा।",
+          "wordCount": 3,
+          "weight": 0.9
+        }
+      ]
+    },
+    "ramanujan-a-river-hi-gyan": {
+      "id": "ramanujan-a-river-hi-gyan",
+      "workId": "ramanujan-a-river",
+      "totalLines": 51,
+      "totalWordCount": 235,
+      "scoredAt": "2026-05-07T21:53:21.765Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मदुरई में,",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "मंदिरों और कवियों का शहर,",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "जिन्होंने मंदिरों और शहरों के गीत गाए,",
+          "wordCount": 7,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "हर गर्मी में",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "एक नदी सूख जाती है",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 5,
+          "text": "रेत में,",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 6,
+          "text": "रेत की पसलियाँ नंगी हो जाती हैं,",
+          "wordCount": 7,
+          "weight": 0.35
+        },
+        {
+          "index": 7,
+          "text": "भूसा और औरतों के बाल",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 8,
+          "text": "फँसते हैं पानी के दरवाज़ों में",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 9,
+          "text": "जाली सलाखों के नीचे",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 10,
+          "text": "जगह जगह से पक्के पुलों के नीचे",
+          "wordCount": 7,
+          "weight": 0.2
+        },
+        {
+          "index": 11,
+          "text": "गीले पत्थर चमकते हैं नींद में डूबे",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 12,
+          "text": "मगरमच्छों की तरह,",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 13,
+          "text": "सूखे पत्थर",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 14,
+          "text": "धूप में बैठे मुंडे भैंसे।",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 15,
+          "text": "कवियों ने सिर्फ़ बाढ़ों के गीत गाए।",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 16,
+          "text": "वो एक दिन वहाँ था",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 17,
+          "text": "जब बाढ़ें आई थीं।",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 18,
+          "text": "लोग हर जगह बात करते थे",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 19,
+          "text": "बढ़ते पानी की,",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 20,
+          "text": "पक्की सीढ़ियों की सही गिनती की",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 21,
+          "text": "जो पानी ने ढाँक ली थीं,",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 22,
+          "text": "घाटों पर,",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 23,
+          "text": "और उस तरह से जिसमें वो बहा ले गया",
+          "wordCount": 9,
+          "weight": 0.45
+        },
+        {
+          "index": 24,
+          "text": "तीन गाँव के घर,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 25,
+          "text": "एक प्रेग्नेंट औरत",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 26,
+          "text": "और दो गायें",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 27,
+          "text": "गोपी और बृंदा नाम की, हमेशा की तरह।",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 28,
+          "text": "नए कवि अभी भी",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 29,
+          "text": "पुराने कवियों को कोट करते थे,",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 30,
+          "text": "पर किसी ने नहीं लिखा",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 31,
+          "text": "उस प्रेग्नेंट औरत के बारे में",
+          "wordCount": 6,
+          "weight": 0.5
+        },
+        {
+          "index": 32,
+          "text": "जो डूबी,",
+          "wordCount": 2,
+          "weight": 0.6
+        },
+        {
+          "index": 33,
+          "text": "शायद उसके अंदर जुड़वा थे,",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 34,
+          "text": "ख़ाली दीवारों को लात मारते",
+          "wordCount": 5,
+          "weight": 0.65
+        },
+        {
+          "index": 35,
+          "text": "पैदा होने से पहले ही।",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 36,
+          "text": "उसने कहा:",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 37,
+          "text": "नदी में पानी होता है बस इतना",
+          "wordCount": 7,
+          "weight": 0.3
+        },
+        {
+          "index": 38,
+          "text": "कि साल में एक बार",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 39,
+          "text": "कविता की जा सके",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 40,
+          "text": "और तब",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 41,
+          "text": "पहले आधे घंटे में",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 42,
+          "text": "बहा ले जाती है",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 43,
+          "text": "तीन गाँव के घर,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 44,
+          "text": "दो गायें",
+          "wordCount": 2,
+          "weight": 0.25
+        },
+        {
+          "index": 45,
+          "text": "गोपी और बृंदा नाम की,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 46,
+          "text": "और एक औरत",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 47,
+          "text": "जुड़वा बच्चों की उम्मीद में",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 48,
+          "text": "जिनके बदन पर तिल नहीं थे,",
+          "wordCount": 6,
+          "weight": 0.5
+        },
+        {
+          "index": 49,
+          "text": "अलग रंग की लंगोटियाँ",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 50,
+          "text": "उन्हें पहचानने के लिए।",
+          "wordCount": 4,
+          "weight": 0.45
+        }
+      ]
+    },
+    "ramanujan-self-portrait-hi-1990": {
+      "id": "ramanujan-self-portrait-hi-1990",
+      "workId": "ramanujan-self-portrait",
+      "totalLines": 18,
+      "totalWordCount": 77,
+      "scoredAt": "2026-05-07T21:53:22.732Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मैं सबसे मिलता-जुलता हूँ",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "सिर्फ खुद को छोड़कर, और कभी-कभी",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 2,
+          "text": "दुकानों की खिड़कियों में देखता हूँ,",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "प्रकाश के मशहूर नियमों के",
+          "wordCount": 5,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "बावजूद,",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 5,
+          "text": "एक अजनबी की तस्वीर,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "तारीख अनजान,",
+          "wordCount": 2,
+          "weight": 0.2
+        },
+        {
+          "index": 7,
+          "text": "भविष्य में कभी।",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 8,
+          "text": "उसकी आँखों में वो नज़र है",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 9,
+          "text": "जिसने वो देखा है",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 10,
+          "text": "जो मैंने नहीं देखा,",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 11,
+          "text": "या भूल गया हूँ:",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 12,
+          "text": "ऐसा चेहरा नहीं जिसके लिए",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 13,
+          "text": "nींद उड़ाई जाए",
+          "wordCount": 3,
+          "weight": 0.6
+        },
+        {
+          "index": 14,
+          "text": "जैसा मेरी माँ कहती,",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 15,
+          "text": "लेकिन साफ़ तौर पर उनमें से एक",
+          "wordCount": 7,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "जो किसी भी घात में",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 17,
+          "text": "सबसे पहले मारा जाएगा।",
+          "wordCount": 4,
+          "weight": 0.8
+        }
+      ]
+    },
+    "ramanujan-self-portrait-hi-2000": {
+      "id": "ramanujan-self-portrait-hi-2000",
+      "workId": "ramanujan-self-portrait",
+      "totalLines": 17,
+      "totalWordCount": 84,
+      "scoredAt": "2026-05-07T21:53:24.211Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मैं सबसे मिलता हूँ",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 1,
+          "text": "बस अपने-आप से नहीं, और कभी-कभी",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 2,
+          "text": "दुकान की काँच में देखता हूँ,",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "रोशनी के सारे जाने-पहचाने",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 4,
+          "text": "कायदों के बावजूद,",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 5,
+          "text": "किसी अनजान का चेहरा,",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 6,
+          "text": "कोई वक्त नहीं पता,",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 7,
+          "text": "कभी आगे।",
+          "wordCount": 2,
+          "weight": 0.2
+        },
+        {
+          "index": 8,
+          "text": "उसकी आँखों में वो देखने का तरीका है",
+          "wordCount": 8,
+          "weight": 0.5
+        },
+        {
+          "index": 9,
+          "text": "जिसने कुछ ऐसा देखा है",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 10,
+          "text": "जो मैंने नहीं देखा,",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 11,
+          "text": "या भूल गया:",
+          "wordCount": 3,
+          "weight": 0.45
+        },
+        {
+          "index": 12,
+          "text": "ऐसा चेहरा नहीं जिस पर नींद खोई जाए",
+          "wordCount": 8,
+          "weight": 0.35
+        },
+        {
+          "index": 13,
+          "text": "जैसा मेरी माँ कहती,",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 14,
+          "text": "मगर साफ़ है ये उन लोगों में से है",
+          "wordCount": 9,
+          "weight": 0.4
+        },
+        {
+          "index": 15,
+          "text": "जो किसी भी घेरे में",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 16,
+          "text": "सबसे पहले मारे जाते हैं।",
+          "wordCount": 5,
+          "weight": 0.9
+        }
+      ]
+    },
+    "ramanujan-self-portrait-hi-gyan": {
+      "id": "ramanujan-self-portrait-hi-gyan",
+      "workId": "ramanujan-self-portrait",
+      "totalLines": 9,
+      "totalWordCount": 39,
+      "scoredAt": "2026-05-07T21:53:38.716Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मैं सबसे मिलता-जुलता हूँ",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 1,
+          "text": "पर अपने आप से नहीं,",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 2,
+          "text": "और कभी कभी देख लेता हूँ",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 3,
+          "text": "दुकान की खिड़कियों में,",
+          "wordCount": 4,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "रोशनी के जाने-माने क़ानून के बावजूद,",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 5,
+          "text": "एक अनजान चेहरा,",
+          "wordCount": 3,
+          "weight": 0.55
+        },
+        {
+          "index": 6,
+          "text": "तारीख़ मालूम नहीं,",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 7,
+          "text": "एक कोने में",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 8,
+          "text": "पिताजी के हाथ का लिखा।",
+          "wordCount": 5,
+          "weight": 0.75
+        }
+      ]
+    },
+    "ramanujan-self-portrait-hi-2020": {
+      "id": "ramanujan-self-portrait-hi-2020",
+      "workId": "ramanujan-self-portrait",
+      "totalLines": 18,
+      "totalWordCount": 84,
+      "scoredAt": "2026-05-07T21:53:40.299Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "मैं सबसे मिलता-जुलता हूँ",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "बस खुद से नहीं, और कभी-कभी",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 2,
+          "text": "दुकानों की शीशों में देख लेता हूँ —",
+          "wordCount": 8,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "रोशनी के मशहूर सिद्धांतों के",
+          "wordCount": 5,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "बावजूद —",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 5,
+          "text": "किसी अनजान की तस्वीर,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "तारीख नहीं मालूम,",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 7,
+          "text": "कभी भविष्य में।",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "उसकी आँखों में वो नज़र है",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 9,
+          "text": "जिसने कुछ ऐसा देखा जो",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 10,
+          "text": "मैंने नहीं देखा,",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 11,
+          "text": "या देखकर भूल गया:",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 12,
+          "text": "ऐसा चेहरा नहीं कि नींद उड़े",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 13,
+          "text": "जैसा मेरी माँ कहती —",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 14,
+          "text": "मगर साफ़ तौर पर ये",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 15,
+          "text": "उन्हीं लोगों में से है",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 16,
+          "text": "जो किसी भी घात में",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 17,
+          "text": "सबसे पहले मारे जाते हैं।",
+          "wordCount": 5,
+          "weight": 0.85
+        }
+      ]
+    },
+    "ramanujan-extended-family-en": {
+      "id": "ramanujan-extended-family-en",
+      "workId": "ramanujan-extended-family",
+      "totalLines": 24,
+      "totalWordCount": 104,
+      "scoredAt": "2026-05-07T21:53:41.455Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "When my father's mother died",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 1,
+          "text": "before my eyes opened",
+          "wordCount": 4,
+          "weight": 0.28
+        },
+        {
+          "index": 2,
+          "text": "and the darkness cleared a little,",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 3,
+          "text": "my father's brothers spread",
+          "wordCount": 4,
+          "weight": 0.22
+        },
+        {
+          "index": 4,
+          "text": "out into many cities",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 5,
+          "text": "and the land narrowed.",
+          "wordCount": 4,
+          "weight": 0.38
+        },
+        {
+          "index": 6,
+          "text": "I grew up among women.",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 7,
+          "text": "The men were outposts",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 8,
+          "text": "not of empire or republic",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 9,
+          "text": "but of my mother's blood.",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 10,
+          "text": "I grew up among women,",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 11,
+          "text": "under ceilings of relatives,",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 12,
+          "text": "their gossip of disease",
+          "wordCount": 4,
+          "weight": 0.48
+        },
+        {
+          "index": 13,
+          "text": "and discomfort, the smell",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 14,
+          "text": "of sandalwood, camphor,",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 15,
+          "text": "the brass handle of a door",
+          "wordCount": 6,
+          "weight": 0.18
+        },
+        {
+          "index": 16,
+          "text": "my grandfather stole",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 17,
+          "text": "from a temple;",
+          "wordCount": 3,
+          "weight": 0.45
+        },
+        {
+          "index": 18,
+          "text": "and my grandmother",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 19,
+          "text": "who was not afraid to say",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 20,
+          "text": "how she caught a lizard",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 21,
+          "text": "and was caught",
+          "wordCount": 3,
+          "weight": 0.42
+        },
+        {
+          "index": 22,
+          "text": "cleaning the teeth of the god",
+          "wordCount": 6,
+          "weight": 0.65
+        },
+        {
+          "index": 23,
+          "text": "with her tongue.",
+          "wordCount": 3,
+          "weight": 0.72
+        }
+      ]
+    },
+    "ramanujan-extended-family-hi-1970": {
+      "id": "ramanujan-extended-family-hi-1970",
+      "workId": "ramanujan-extended-family",
+      "totalLines": 24,
+      "totalWordCount": 118,
+      "scoredAt": "2026-05-07T21:53:56.219Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "जब मेरे पिता की माता की मृत्यु हुई",
+          "wordCount": 8,
+          "weight": 0.7
+        },
+        {
+          "index": 1,
+          "text": "मेरी आँखें खुलने से पूर्व",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 2,
+          "text": "और अंधकार थोड़ा स्पष्ट हुआ,",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 3,
+          "text": "मेरे पिता के भ्राता बिखर गए",
+          "wordCount": 6,
+          "weight": 0.5
+        },
+        {
+          "index": 4,
+          "text": "अनेक नगरों में",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 5,
+          "text": "और भूमि संकीर्ण हो गई।",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 6,
+          "text": "मैं स्त्रियों के मध्य पला।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 7,
+          "text": "पुरुष थे सीमा-चौकियाँ",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 8,
+          "text": "न साम्राज्य की, न गणतंत्र की,",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 9,
+          "text": "अपितु मेरी माता के रक्त की।",
+          "wordCount": 6,
+          "weight": 0.6
+        },
+        {
+          "index": 10,
+          "text": "मैं स्त्रियों के मध्य पला,",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 11,
+          "text": "सम्बन्धियों की छत के नीचे,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 12,
+          "text": "उनकी रोग-पीड़ा की चर्चाएँ",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 13,
+          "text": "और असुविधाएँ, चन्दन की सुगंध,",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 14,
+          "text": "कपूर की गंध,",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 15,
+          "text": "एक द्वार का पितल का मूठ",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "जिसे मेरे पितामह ने",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 17,
+          "text": "किसी मंदिर से चुराया था;",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 18,
+          "text": "और मेरी पितामही",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 19,
+          "text": "जो यह कहने से नहीं डरती थीं",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 20,
+          "text": "कि उन्होंने कैसे एक छिपकली पकड़ी",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 21,
+          "text": "और वे पकड़ी गईं",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 22,
+          "text": "देवता के दाँत साफ करते हुए",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 23,
+          "text": "अपनी जिह्वा से।",
+          "wordCount": 3,
+          "weight": 0.7
+        }
+      ]
+    },
+    "ramanujan-extended-family-hi-2000": {
+      "id": "ramanujan-extended-family-hi-2000",
+      "workId": "ramanujan-extended-family",
+      "totalLines": 22,
+      "totalWordCount": 112,
+      "scoredAt": "2026-05-07T21:53:57.459Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "जब मेरे पिता की माँ मरी",
+          "wordCount": 6,
+          "weight": 0.65
+        },
+        {
+          "index": 1,
+          "text": "मेरी आँखें खुलने से पहले",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "और अंधेरा कुछ हटा,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 3,
+          "text": "मेरे पिता के भाई छितर गए",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 4,
+          "text": "कई शहरों में",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 5,
+          "text": "और ज़मीन पतली पड़ गई।",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 6,
+          "text": "मैं औरतों के बीच बड़ा हुआ।",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 7,
+          "text": "मर्द चौकियाँ थे",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 8,
+          "text": "न किसी राज की, न गणराज की,",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 9,
+          "text": "मेरी माँ के ख़ून की।",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 10,
+          "text": "मैं औरतों के बीच बड़ा हुआ,",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 11,
+          "text": "रिश्तेदारों की छतों तले,",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 12,
+          "text": "बीमारी और तकलीफ की बातें,",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 13,
+          "text": "चंदन की महक,",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 14,
+          "text": "कपूर,",
+          "wordCount": 1,
+          "weight": 0.1
+        },
+        {
+          "index": 15,
+          "text": "एक दरवाज़े का पीतल का कड़ा",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "जो मेरे दादा किसी मंदिर से उठा लाए थे;",
+          "wordCount": 9,
+          "weight": 0.35
+        },
+        {
+          "index": 17,
+          "text": "और मेरी दादी",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 18,
+          "text": "जो बताने से नहीं हिचकती थीं",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 19,
+          "text": "कि उन्होंने एक छिपकली कैसे पकड़ी",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 20,
+          "text": "और वे ख़ुद पकड़ी गईं",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 21,
+          "text": "भगवान के दाँत अपनी ज़बान से साफ करते।",
+          "wordCount": 8,
+          "weight": 0.6
+        }
+      ]
+    },
+    "ramanujan-extended-family-hi-1990": {
+      "id": "ramanujan-extended-family-hi-1990",
+      "workId": "ramanujan-extended-family",
+      "totalLines": 23,
+      "totalWordCount": 117,
+      "scoredAt": "2026-05-07T21:53:59.743Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "जब मेरे पिता की माँ का देहांत हुआ",
+          "wordCount": 8,
+          "weight": 0.6
+        },
+        {
+          "index": 1,
+          "text": "मेरी आँखें खुलने से पहले",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 2,
+          "text": "और अंधेरा थोड़ा छटा,",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 3,
+          "text": "मेरे पिता के भाई फैल गए",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 4,
+          "text": "कई शहरों में",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 5,
+          "text": "और ज़मीन सिकुड़ गई।",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 6,
+          "text": "मैं औरतों के बीच पला-बढ़ा।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 7,
+          "text": "मर्द थे सरहदी चौकियाँ",
+          "wordCount": 4,
+          "weight": 0.55
+        },
+        {
+          "index": 8,
+          "text": "न साम्राज्य की, न गणराज्य की,",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 9,
+          "text": "बल्कि मेरी माँ के खून की।",
+          "wordCount": 6,
+          "weight": 0.65
+        },
+        {
+          "index": 10,
+          "text": "मैं औरतों के बीच पला,",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 11,
+          "text": "रिश्तेदारों की छतों के नीचे,",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 12,
+          "text": "उनकी बीमारी की बातें",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 13,
+          "text": "और तकलीफें, चंदन की खुशबू,",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 14,
+          "text": "कपूर की महक,",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 15,
+          "text": "एक दरवाज़े का पीतल का दस्ता",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "जो मेरे नाना ने किसी मंदिर से चुराया था;",
+          "wordCount": 9,
+          "weight": 0.35
+        },
+        {
+          "index": 17,
+          "text": "और मेरी नानी",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 18,
+          "text": "जो यह बताने से नहीं डरती थीं",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 19,
+          "text": "कि उन्होंने कैसे एक छिपकली पकड़ी",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 20,
+          "text": "और वे पकड़ी गईं",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 21,
+          "text": "भगवान के दाँत साफ करते हुए",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 22,
+          "text": "अपनी ज़बान से।",
+          "wordCount": 3,
+          "weight": 0.75
+        }
+      ]
+    },
+    "ramanujan-extended-family-hi-2020": {
+      "id": "ramanujan-extended-family-hi-2020",
+      "workId": "ramanujan-extended-family",
+      "totalLines": 21,
+      "totalWordCount": 119,
+      "scoredAt": "2026-05-07T21:54:15.107Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "जब मेरे पिता की माँ चली गईं",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 1,
+          "text": "मेरी आँखें खुलने से पहले",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "और अंधेरा ज़रा साफ हुआ,",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 3,
+          "text": "पिता के भाई बिखर गए",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 4,
+          "text": "कई शहरों में",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 5,
+          "text": "और ज़मीन छोटी पड़ गई।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "मैं औरतों के बीच बड़ा हुआ।",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 7,
+          "text": "मर्द थे बाहरी चौकियाँ —",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 8,
+          "text": "न किसी साम्राज्य की, न गणतंत्र की —",
+          "wordCount": 8,
+          "weight": 0.35
+        },
+        {
+          "index": 9,
+          "text": "मेरी माँ के ख़ून की।",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 10,
+          "text": "मैं औरतों के बीच बड़ा हुआ,",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 11,
+          "text": "रिश्तेदारों की छतों के नीचे,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 12,
+          "text": "बीमारी और तकलीफ की गप्पें,",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 13,
+          "text": "चंदन की खुशबू, कपूर,",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 14,
+          "text": "एक दरवाज़े का पीतल का हत्था",
+          "wordCount": 6,
+          "weight": 0.15
+        },
+        {
+          "index": 15,
+          "text": "जो मेरे दादा किसी मंदिर से ले आए थे;",
+          "wordCount": 9,
+          "weight": 0.25
+        },
+        {
+          "index": 16,
+          "text": "और मेरी दादी —",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 17,
+          "text": "जो डरती नहीं थीं बताने से",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 18,
+          "text": "कि उन्होंने एक छिपकली कैसे पकड़ी",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 19,
+          "text": "और वो ख़ुद पकड़ी गईं",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 20,
+          "text": "भगवान के दाँत अपनी ज़बान से साफ करते हुए।",
+          "wordCount": 9,
+          "weight": 0.75
+        }
+      ]
+    },
+    "ramanujan-small-scale-en": {
+      "id": "ramanujan-small-scale-en",
+      "workId": "ramanujan-small-scale-reflections",
+      "totalLines": 24,
+      "totalWordCount": 107,
+      "scoredAt": "2026-05-07T21:54:15.889Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Sometimes I think that nothing",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 1,
+          "text": "that ever comes into this house",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "goes out. Things come in every day",
+          "wordCount": 7,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "to lose themselves among other things",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 4,
+          "text": "lost long ago among",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 5,
+          "text": "other things lost long ago:",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 6,
+          "text": "a dull pair of scissors",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 7,
+          "text": "loses its dullness among",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "knives and screwdrivers that",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 9,
+          "text": "also have lost their whetted",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 10,
+          "text": "temper;",
+          "wordCount": 1,
+          "weight": 0.3
+        },
+        {
+          "index": 11,
+          "text": "and the old become new",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 12,
+          "text": "as shirts return after years",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 13,
+          "text": "away in the press",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 14,
+          "text": "and with buttons that confirm",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 15,
+          "text": "the current fashion;",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "and parents come in",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 17,
+          "text": "to lose their age among",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 18,
+          "text": "grandchildren.",
+          "wordCount": 1,
+          "weight": 0.5
+        },
+        {
+          "index": 19,
+          "text": "Things that have died here",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 20,
+          "text": "continue to breathe",
+          "wordCount": 3,
+          "weight": 0.65
+        },
+        {
+          "index": 21,
+          "text": "in this house like cousins",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 22,
+          "text": "far removed but still",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 23,
+          "text": "counted among the near and dear.",
+          "wordCount": 6,
+          "weight": 0.55
+        }
+      ]
+    },
+    "ramanujan-extended-family-hi-gyan": {
+      "id": "ramanujan-extended-family-hi-gyan",
+      "workId": "ramanujan-extended-family",
+      "totalLines": 43,
+      "totalWordCount": 156,
+      "scoredAt": "2026-05-07T21:54:25.635Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "फिर भी, दादा की तरह",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "नहाता हूँ सुबह कौवे से पहले",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 2,
+          "text": "ये सूखा, क्लोरीन का पानी",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "मेरी अकेली गंगा",
+          "wordCount": 3,
+          "weight": 0.6
+        },
+        {
+          "index": 4,
+          "text": "नंगा शिकागो का बल्ब",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 5,
+          "text": "वैदिक सूरज का कोई दूर का रिश्तेदार",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 6,
+          "text": "पीठ पे साबुन लगाता हूँ",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 7,
+          "text": "पिताजी की तरह",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 8,
+          "text": "और सोचता हूँ",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 9,
+          "text": "कहावतों में",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 10,
+          "text": "मेरे जैसा",
+          "wordCount": 2,
+          "weight": 0.2
+        },
+        {
+          "index": 11,
+          "text": "पोंछ लेता हूँ ख़ुद को",
+          "wordCount": 5,
+          "weight": 0.1
+        },
+        {
+          "index": 12,
+          "text": "एक बिना धुले",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 13,
+          "text": "सीयर्स के टॉवल से",
+          "wordCount": 4,
+          "weight": 0.1
+        },
+        {
+          "index": 14,
+          "text": "अम्माजी की तरह",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 15,
+          "text": "सुनाई देता है धीमा सुबह का गीत",
+          "wordCount": 7,
+          "weight": 0.55
+        },
+        {
+          "index": 16,
+          "text": "(यहाँ जैपनीज़ लगता है)",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 17,
+          "text": "और तीन साफ़ तार",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 18,
+          "text": "पास से",
+          "wordCount": 2,
+          "weight": 0.05
+        },
+        {
+          "index": 19,
+          "text": "रसोई की खनक के बीच",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 20,
+          "text": "अपनी छोटी बेटी की तरह",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 21,
+          "text": "शर्माता हूँ",
+          "wordCount": 2,
+          "weight": 0.45
+        },
+        {
+          "index": 22,
+          "text": "हाथ रख लेता हूँ",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 23,
+          "text": "अभी तन नहीं भरा",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 24,
+          "text": "ख़यालों, किताबों",
+          "wordCount": 2,
+          "weight": 0.25
+        },
+        {
+          "index": 25,
+          "text": "और बच्चों से",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 26,
+          "text": "अपना आप पकड़ता हूँ",
+          "wordCount": 4,
+          "weight": 0.55
+        },
+        {
+          "index": 27,
+          "text": "छोटे बेटे की तरह",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 28,
+          "text": "गार्डन होज़ की तरह खेलता हूँ",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 29,
+          "text": "अंदर बाहर",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 30,
+          "text": "बाथटब में",
+          "wordCount": 2,
+          "weight": 0.05
+        },
+        {
+          "index": 31,
+          "text": "पोते की तरह",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 32,
+          "text": "देखता हूँ ऊपर",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 33,
+          "text": "अभी पैदा नहीं हुआ",
+          "wordCount": 4,
+          "weight": 0.55
+        },
+        {
+          "index": 34,
+          "text": "ख़ुद को",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 35,
+          "text": "परपोते की तरह",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 36,
+          "text": "अभी हूँ नहीं मैं",
+          "wordCount": 4,
+          "weight": 0.6
+        },
+        {
+          "index": 37,
+          "text": "शायद कभी न हूँ",
+          "wordCount": 4,
+          "weight": 0.65
+        },
+        {
+          "index": 38,
+          "text": "मेरा आने वाला कल",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 39,
+          "text": "निर्भर है",
+          "wordCount": 2,
+          "weight": 0.1
+        },
+        {
+          "index": 40,
+          "text": "कई लोगों पर",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 41,
+          "text": "जो अभी",
+          "wordCount": 2,
+          "weight": 0.05
+        },
+        {
+          "index": 42,
+          "text": "आने हैं।",
+          "wordCount": 2,
+          "weight": 0.25
+        }
+      ]
+    },
+    "ramanujan-small-scale-hi-1990": {
+      "id": "ramanujan-small-scale-hi-1990",
+      "workId": "ramanujan-small-scale-reflections",
+      "totalLines": 24,
+      "totalWordCount": 120,
+      "scoredAt": "2026-05-07T21:54:39.684Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "कभी-कभी मुझे लगता है कि",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 1,
+          "text": "इस घर में जो भी आता है",
+          "wordCount": 7,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "कभी बाहर नहीं जाता। चीज़ें रोज़ आती हैं",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "दूसरी चीज़ों में खोने के लिए",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 4,
+          "text": "जो काफी पहले खो गई थीं",
+          "wordCount": 6,
+          "weight": 0.5
+        },
+        {
+          "index": 5,
+          "text": "दूसरी चीज़ों में:",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 6,
+          "text": "कैंची की एक पुरानी जोड़ी",
+          "wordCount": 5,
+          "weight": 0.1
+        },
+        {
+          "index": 7,
+          "text": "अपनी सुस्ती खो देती है",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "चाकुओं और पेचकसों के बीच",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 9,
+          "text": "जिन्होंने भी अपनी धार",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 10,
+          "text": "खो दी है;",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 11,
+          "text": "और पुराना नया बन जाता है",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 12,
+          "text": "जैसे कमीज़ें सालों बाद",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 13,
+          "text": "धोबी के यहाँ से लौटती हैं",
+          "wordCount": 6,
+          "weight": 0.15
+        },
+        {
+          "index": 14,
+          "text": "ऐसे बटनों के साथ जो",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 15,
+          "text": "आज के फैशन की गवाही देते हैं;",
+          "wordCount": 7,
+          "weight": 0.25
+        },
+        {
+          "index": 16,
+          "text": "और माँ-बाप आते हैं",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 17,
+          "text": "पोते-पोतियों के बीच",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 18,
+          "text": "अपनी उम्र भूलने।",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 19,
+          "text": "जो यहाँ मर गए हैं",
+          "wordCount": 5,
+          "weight": 0.65
+        },
+        {
+          "index": 20,
+          "text": "साँस लेते रहते हैं",
+          "wordCount": 4,
+          "weight": 0.7
+        },
+        {
+          "index": 21,
+          "text": "इस घर में दूर के रिश्तेदारों की तरह",
+          "wordCount": 8,
+          "weight": 0.45
+        },
+        {
+          "index": 22,
+          "text": "लेकिन फिर भी",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 23,
+          "text": "अपनों में गिने जाते हैं।",
+          "wordCount": 5,
+          "weight": 0.55
+        }
+      ]
+    },
+    "ramanujan-small-scale-hi-2000": {
+      "id": "ramanujan-small-scale-hi-2000",
+      "workId": "ramanujan-small-scale-reflections",
+      "totalLines": 23,
+      "totalWordCount": 108,
+      "scoredAt": "2026-05-07T21:54:43.783Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "कभी-कभी लगता है इस घर में",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 1,
+          "text": "जो आता है",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "कभी जाता नहीं। हर रोज़ चीज़ें आती हैं",
+          "wordCount": 8,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "दूसरी चीज़ों में गुम होने",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 4,
+          "text": "जो कभी दूसरी चीज़ों में गुम हुईं:",
+          "wordCount": 7,
+          "weight": 0.25
+        },
+        {
+          "index": 5,
+          "text": "कैंची की एक पुरानी जोड़ी",
+          "wordCount": 5,
+          "weight": 0.12
+        },
+        {
+          "index": 6,
+          "text": "अपना खुरदरापन खो देती है",
+          "wordCount": 5,
+          "weight": 0.28
+        },
+        {
+          "index": 7,
+          "text": "चाकुओं और पेचकशों में",
+          "wordCount": 4,
+          "weight": 0.1
+        },
+        {
+          "index": 8,
+          "text": "जिन्होंने भी अपनी धार",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 9,
+          "text": "गँवा दी;",
+          "wordCount": 2,
+          "weight": 0.2
+        },
+        {
+          "index": 10,
+          "text": "और पुराना नया हो जाता है",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 11,
+          "text": "जब कमीज़ें सालों बाद",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 12,
+          "text": "प्रेस से वापस आती हैं",
+          "wordCount": 5,
+          "weight": 0.18
+        },
+        {
+          "index": 13,
+          "text": "ऐसे बटनों के साथ जो",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 14,
+          "text": "आज के चलन की बात करते हैं;",
+          "wordCount": 7,
+          "weight": 0.2
+        },
+        {
+          "index": 15,
+          "text": "माँ-बाप आते हैं",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 16,
+          "text": "नाती-पोतों में",
+          "wordCount": 2,
+          "weight": 0.25
+        },
+        {
+          "index": 17,
+          "text": "अपनी उम्र छुपाने।",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 18,
+          "text": "जो यहाँ मर गए",
+          "wordCount": 4,
+          "weight": 0.6
+        },
+        {
+          "index": 19,
+          "text": "इस घर में साँस लेते रहते हैं",
+          "wordCount": 7,
+          "weight": 0.65
+        },
+        {
+          "index": 20,
+          "text": "जैसे दूर के चचेरे भाई",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 21,
+          "text": "मगर फिर भी",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 22,
+          "text": "अपनों में गिने जाते हैं।",
+          "wordCount": 5,
+          "weight": 0.45
+        }
+      ]
+    },
+    "ramanujan-small-scale-hi-1970": {
+      "id": "ramanujan-small-scale-hi-1970",
+      "workId": "ramanujan-small-scale-reflections",
+      "totalLines": 24,
+      "totalWordCount": 121,
+      "scoredAt": "2026-05-07T21:54:52.371Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "कभी-कभी मैं सोचता हूँ कि",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 1,
+          "text": "इस घर में जो भी आता है",
+          "wordCount": 7,
+          "weight": 0.15
+        },
+        {
+          "index": 2,
+          "text": "कभी बाहर नहीं जाता। वस्तुएँ प्रतिदिन आती हैं",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "अन्य वस्तुओं में खो जाने के लिए",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 4,
+          "text": "जो बहुत पहले खो गई थीं",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 5,
+          "text": "अन्य वस्तुओं में:",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 6,
+          "text": "कैंची की एक धुंधली जोड़ी",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 7,
+          "text": "अपनी धुंधलाहट खो देती है",
+          "wordCount": 5,
+          "weight": 0.28
+        },
+        {
+          "index": 8,
+          "text": "चाकुओं और पेचकसों के बीच",
+          "wordCount": 5,
+          "weight": 0.12
+        },
+        {
+          "index": 9,
+          "text": "जिन्होंने भी अपनी तीक्ष्णता",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 10,
+          "text": "खो दी है;",
+          "wordCount": 3,
+          "weight": 0.33
+        },
+        {
+          "index": 11,
+          "text": "और पुराना नया हो जाता है",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 12,
+          "text": "जैसे शर्टें वर्षों बाद लौटती हैं",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 13,
+          "text": "प्रेस से",
+          "wordCount": 2,
+          "weight": 0.05
+        },
+        {
+          "index": 14,
+          "text": "ऐसे बटनों के साथ जो",
+          "wordCount": 5,
+          "weight": 0.1
+        },
+        {
+          "index": 15,
+          "text": "पुष्टि करते हैं वर्तमान फैशन की;",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "और माता-पिता आते हैं",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 17,
+          "text": "पोते-पोतियों के बीच",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 18,
+          "text": "अपनी आयु खोने।",
+          "wordCount": 3,
+          "weight": 0.5
+        },
+        {
+          "index": 19,
+          "text": "जो यहाँ मर गए हैं",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 20,
+          "text": "श्वास लेते रहते हैं",
+          "wordCount": 4,
+          "weight": 0.65
+        },
+        {
+          "index": 21,
+          "text": "इस घर में चचेरे भाई-बहनों की तरह",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 22,
+          "text": "दूर के, किंतु फिर भी",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 23,
+          "text": "निकट और प्रिय में गिने जाते हैं।",
+          "wordCount": 7,
+          "weight": 0.55
+        }
+      ]
+    },
+    "ramanujan-small-scale-hi-2020": {
+      "id": "ramanujan-small-scale-hi-2020",
+      "workId": "ramanujan-small-scale-reflections",
+      "totalLines": 24,
+      "totalWordCount": 118,
+      "scoredAt": "2026-05-07T21:55:02.644Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "कभी-कभी लगता है इस घर में",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 1,
+          "text": "जो भी आता है",
+          "wordCount": 4,
+          "weight": 0.14
+        },
+        {
+          "index": 2,
+          "text": "वापस नहीं जाता। हर रोज़ कुछ न कुछ आता है",
+          "wordCount": 10,
+          "weight": 0.4
+        },
+        {
+          "index": 3,
+          "text": "दूसरी चीज़ों में खोने —",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 4,
+          "text": "जो बरसों पहले खो गई थीं",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 5,
+          "text": "दूसरी चीज़ों में:",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 6,
+          "text": "कैंची की एक धुंधली जोड़ी",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 7,
+          "text": "अपना कुंदपन खो देती है",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "चाकुओं और पेचकसों के बीच",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 9,
+          "text": "जिन्होंने भी अपनी धार",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 10,
+          "text": "guma दी है;",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 11,
+          "text": "और पुराना नया हो जाता है",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 12,
+          "text": "जब शर्टें सालों बाद",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 13,
+          "text": "प्रेस से लौटती हैं",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 14,
+          "text": "उन बटनों के साथ जो",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 15,
+          "text": "आज के फैशन की ताईद करते हैं;",
+          "wordCount": 7,
+          "weight": 0.25
+        },
+        {
+          "index": 16,
+          "text": "और माँ-बाप आते हैं",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 17,
+          "text": "पोते-पोतियों के बीच",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 18,
+          "text": "अपनी उम्र भूलने।",
+          "wordCount": 3,
+          "weight": 0.55
+        },
+        {
+          "index": 19,
+          "text": "जो यहाँ मर गए हैं",
+          "wordCount": 5,
+          "weight": 0.65
+        },
+        {
+          "index": 20,
+          "text": "इस घर में साँस लेते रहते हैं —",
+          "wordCount": 8,
+          "weight": 0.7
+        },
+        {
+          "index": 21,
+          "text": "दूर के चचेरों की तरह",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 22,
+          "text": "मगर फिर भी",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 23,
+          "text": "नज़दीकियों में गिने जाते हैं।",
+          "wordCount": 5,
+          "weight": 0.55
+        }
+      ]
+    },
+    "ramanujan-chicago-zen-hi-1970": {
+      "id": "ramanujan-chicago-zen-hi-1970",
+      "workId": "ramanujan-chicago-zen",
+      "totalLines": 34,
+      "totalWordCount": 148,
+      "scoredAt": "2026-05-07T21:55:23.659Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "स्मरण रखो, यदि इस नगर का भ्रमण करो,",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 2,
+          "text": "भूमध्य सागर में तैरते हुए,",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 3,
+          "text": "झील से पृष्ठ फेर लो",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 4,
+          "text": "और जब स्वर्णिम प्रकाश",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 5,
+          "text": "ढलता और स्थिर होता है नगर पर",
+          "wordCount": 7,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "वृक्षों और प्रस्तरों पर,",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 7,
+          "text": "और वायु शीतल है और सायं की वायु",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 8,
+          "text": "तुम्हारे श्वेत केशों में कंघी करती है",
+          "wordCount": 7,
+          "weight": 0.55
+        },
+        {
+          "index": 9,
+          "text": "और बसों के धुएँ",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 10,
+          "text": "बाल्यकाल की गंधों की तरह",
+          "wordCount": 5,
+          "weight": 0.6
+        },
+        {
+          "index": 11,
+          "text": "सुगंधित होने लगते हैं, स्मरण रखो",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 12,
+          "text": "तुम नहीं पाओगे",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 13,
+          "text": "जिसे तुम खोज नहीं रहे।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 14,
+          "text": "II",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 15,
+          "text": "देखो",
+          "wordCount": 1,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "कैसे अमेरिकी क्रम में",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 17,
+          "text": "तुम पार करते और फिर पार करते हो",
+          "wordCount": 8,
+          "weight": 0.25
+        },
+        {
+          "index": 18,
+          "text": "वही चौराहे,",
+          "wordCount": 2,
+          "weight": 0.2
+        },
+        {
+          "index": 19,
+          "text": "वही औषधालय, गिरजे,",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 20,
+          "text": "और लेखाकारों के कार्यालय,",
+          "wordCount": 4,
+          "weight": 0.1
+        },
+        {
+          "index": 21,
+          "text": "और थोड़ी देर बाद",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 22,
+          "text": "तुम देखने लगते हो",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 23,
+          "text": "जो तुम्हारे पास पहले से था।",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 24,
+          "text": "III",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 25,
+          "text": "सावधानी से पार करो",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 26,
+          "text": "इस नगर की सड़कों को।",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 27,
+          "text": "डामर में एक लीक बनाओ।",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 28,
+          "text": "एक शांत केंद्र बनाओ।",
+          "wordCount": 4,
+          "weight": 0.45
+        },
+        {
+          "index": 29,
+          "text": "वृक्ष तुम्हारे पास आएँगे,",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 30,
+          "text": "और दर्पण",
+          "wordCount": 2,
+          "weight": 0.3
+        },
+        {
+          "index": 31,
+          "text": "और आह्वान आएँगे",
+          "wordCount": 3,
+          "weight": 0.55
+        },
+        {
+          "index": 32,
+          "text": "जैसे तुम पढ़ते हो",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 33,
+          "text": "नगर के समाचारपत्रों में मृतकों के नाम।",
+          "wordCount": 7,
+          "weight": 0.75
+        }
+      ]
+    },
+    "ramanujan-chicago-zen-hi-1990": {
+      "id": "ramanujan-chicago-zen-hi-1990",
+      "workId": "ramanujan-chicago-zen",
+      "totalLines": 34,
+      "totalWordCount": 147,
+      "scoredAt": "2026-05-07T21:55:27.959Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "याद रखो, अगर इस शहर में जाओ,",
+          "wordCount": 7,
+          "weight": 0.35
+        },
+        {
+          "index": 2,
+          "text": "भीतरी समुद्र में तैरता हुआ,",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 3,
+          "text": "झील से मुँह मोड़ लो",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 4,
+          "text": "और जब सुनहरी रोशनी",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 5,
+          "text": "शहर पर ढलती और टिकती है",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "पेड़ों और पत्थरों पर,",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 7,
+          "text": "और हवा ठंडी है और शाम की हवा",
+          "wordCount": 8,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "तुम्हारे सफेद बालों में कंघी करती है",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 9,
+          "text": "और बसों के धुएँ",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 10,
+          "text": "बचपन की खुशबुओं जैसे",
+          "wordCount": 4,
+          "weight": 0.55
+        },
+        {
+          "index": 11,
+          "text": "लगने लगते हैं, याद रखो",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 12,
+          "text": "तुम नहीं पाओगे",
+          "wordCount": 3,
+          "weight": 0.45
+        },
+        {
+          "index": 13,
+          "text": "जो तुम खोज नहीं रहे।",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 14,
+          "text": "II",
+          "wordCount": 1,
+          "weight": 0.02
+        },
+        {
+          "index": 15,
+          "text": "गौर करो",
+          "wordCount": 2,
+          "weight": 0.25
+        },
+        {
+          "index": 16,
+          "text": "कैसे एक अमेरिकी क्रम में",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 17,
+          "text": "तुम पार करते और दोबारा पार करते हो",
+          "wordCount": 8,
+          "weight": 0.35
+        },
+        {
+          "index": 18,
+          "text": "वही चौराहे,",
+          "wordCount": 2,
+          "weight": 0.25
+        },
+        {
+          "index": 19,
+          "text": "वही दवाइयों की दुकानें, चर्च,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 20,
+          "text": "और मुनीमों के दफ्तर,",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 21,
+          "text": "और कुछ देर बाद",
+          "wordCount": 4,
+          "weight": 0.2
+        },
+        {
+          "index": 22,
+          "text": "तुम देखने लगते हो",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 23,
+          "text": "जो तुम्हारे पास पहले से था।",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 24,
+          "text": "III",
+          "wordCount": 1,
+          "weight": 0.02
+        },
+        {
+          "index": 25,
+          "text": "सावधानी से पार करो",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 26,
+          "text": "इस शहर की सड़कें।",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 27,
+          "text": "टार में एक नाली बनाओ।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 28,
+          "text": "एक शांत केंद्र बनाओ।",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 29,
+          "text": "पेड़ तुम्हारे पास आएँगे,",
+          "wordCount": 4,
+          "weight": 0.55
+        },
+        {
+          "index": 30,
+          "text": "और आईने",
+          "wordCount": 2,
+          "weight": 0.35
+        },
+        {
+          "index": 31,
+          "text": "और आवाज़ें आएँगी",
+          "wordCount": 3,
+          "weight": 0.45
+        },
+        {
+          "index": 32,
+          "text": "जब तुम पढ़ोगे",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 33,
+          "text": "शहर के अखबारों में मरने वालों के नाम।",
+          "wordCount": 8,
+          "weight": 0.75
+        }
+      ]
+    },
+    "ramanujan-chicago-zen-en": {
+      "id": "ramanujan-chicago-zen-en",
+      "workId": "ramanujan-chicago-zen",
+      "totalLines": 34,
+      "totalWordCount": 149,
+      "scoredAt": "2026-05-07T21:55:31.070Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "Remember, if you visit this city,",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 2,
+          "text": "floating in the inland sea,",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 3,
+          "text": "turn your back on the lake",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 4,
+          "text": "and when the golden light",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 5,
+          "text": "pours and settles on the city",
+          "wordCount": 6,
+          "weight": 0.55
+        },
+        {
+          "index": 6,
+          "text": "on the trees and the stones,",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 7,
+          "text": "and the air's cool and the wind",
+          "wordCount": 7,
+          "weight": 0.35
+        },
+        {
+          "index": 8,
+          "text": "of evening combs your grey hair",
+          "wordCount": 6,
+          "weight": 0.6
+        },
+        {
+          "index": 9,
+          "text": "and the exhaust fumes of buses",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 10,
+          "text": "begin to smell like smells",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 11,
+          "text": "of childhood, remember",
+          "wordCount": 3,
+          "weight": 0.55
+        },
+        {
+          "index": 12,
+          "text": "you will not find",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 13,
+          "text": "what you are not looking for.",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 14,
+          "text": "II",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 15,
+          "text": "Notice",
+          "wordCount": 1,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "how in an American sequence",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 17,
+          "text": "you cross and recross",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 18,
+          "text": "the same intersections,",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 19,
+          "text": "the same drug stores, churches,",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 20,
+          "text": "and accountants' offices,",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 21,
+          "text": "and after awhile",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 22,
+          "text": "you begin to see",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 23,
+          "text": "what you already had.",
+          "wordCount": 4,
+          "weight": 0.55
+        },
+        {
+          "index": 24,
+          "text": "III",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 25,
+          "text": "Cross carefully the streets",
+          "wordCount": 4,
+          "weight": 0.35
+        },
+        {
+          "index": 26,
+          "text": "of this city.",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 27,
+          "text": "Wear a groove in the asphalt.",
+          "wordCount": 6,
+          "weight": 0.45
+        },
+        {
+          "index": 28,
+          "text": "Build a still center.",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 29,
+          "text": "The trees will come to you,",
+          "wordCount": 6,
+          "weight": 0.6
+        },
+        {
+          "index": 30,
+          "text": "and the mirrors",
+          "wordCount": 3,
+          "weight": 0.45
+        },
+        {
+          "index": 31,
+          "text": "and the calls will come",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 32,
+          "text": "as you read the names of",
+          "wordCount": 6,
+          "weight": 0.5
+        },
+        {
+          "index": 33,
+          "text": "the dead in the city papers.",
+          "wordCount": 6,
+          "weight": 0.75
+        }
+      ]
+    },
+    "ramanujan-chicago-zen-hi-2000": {
+      "id": "ramanujan-chicago-zen-hi-2000",
+      "workId": "ramanujan-chicago-zen",
+      "totalLines": 34,
+      "totalWordCount": 136,
+      "scoredAt": "2026-05-07T21:55:47.344Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "सुनो, अगर इस शहर में आओ,",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 2,
+          "text": "जो अंदर के समुद्र पर तैरता है,",
+          "wordCount": 7,
+          "weight": 0.4
+        },
+        {
+          "index": 3,
+          "text": "झील से मुँह फेर लो",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 4,
+          "text": "जब सुनहरी धूप",
+          "wordCount": 3,
+          "weight": 0.25
+        },
+        {
+          "index": 5,
+          "text": "शहर पर पड़ती और बैठती है",
+          "wordCount": 6,
+          "weight": 0.25
+        },
+        {
+          "index": 6,
+          "text": "पेड़ों पर, पत्थरों पर,",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 7,
+          "text": "हवा ठंडी होती है और शाम की हवा",
+          "wordCount": 8,
+          "weight": 0.2
+        },
+        {
+          "index": 8,
+          "text": "तुम्हारे सफेद बालों में कंघी करती है",
+          "wordCount": 7,
+          "weight": 0.5
+        },
+        {
+          "index": 9,
+          "text": "बसों का धुआँ",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 10,
+          "text": "बचपन की महक की तरह",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 11,
+          "text": "लगने लगता है — याद रहे",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 12,
+          "text": "जो ढूंढ नहीं रहे",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 13,
+          "text": "वो नहीं मिलेगा।",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 14,
+          "text": "II",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 15,
+          "text": "देखो",
+          "wordCount": 1,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "कैसे अमेरिकी तर्ज पर",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 17,
+          "text": "तुम बार-बार पार करते हो",
+          "wordCount": 5,
+          "weight": 0.25
+        },
+        {
+          "index": 18,
+          "text": "वही चौराहे,",
+          "wordCount": 2,
+          "weight": 0.2
+        },
+        {
+          "index": 19,
+          "text": "वही दवा की दुकानें, गिरजे,",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 20,
+          "text": "हिसाब-किताब वालों के दफ्तर,",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 21,
+          "text": "थोड़ी देर बाद",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 22,
+          "text": "दिखने लगता है",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 23,
+          "text": "जो पहले से पास था।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 24,
+          "text": "III",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 25,
+          "text": "धीरे-धीरे पार करो",
+          "wordCount": 3,
+          "weight": 0.3
+        },
+        {
+          "index": 26,
+          "text": "इस शहर की सड़कें।",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 27,
+          "text": "डामर में लकीर बनाओ।",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 28,
+          "text": "एक ठहरा हुआ केंद्र बनाओ।",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 29,
+          "text": "पेड़ चले आएँगे,",
+          "wordCount": 3,
+          "weight": 0.55
+        },
+        {
+          "index": 30,
+          "text": "आईने भी",
+          "wordCount": 2,
+          "weight": 0.4
+        },
+        {
+          "index": 31,
+          "text": "आवाज़ें भी आएँगी",
+          "wordCount": 3,
+          "weight": 0.45
+        },
+        {
+          "index": 32,
+          "text": "जब शहर के अखबार में",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 33,
+          "text": "मरे हुओं के नाम पढ़ोगे।",
+          "wordCount": 5,
+          "weight": 0.7
+        }
+      ]
+    },
+    "ramanujan-chicago-zen-hi-gyan": {
+      "id": "ramanujan-chicago-zen-hi-gyan",
+      "workId": "ramanujan-chicago-zen",
+      "totalLines": 14,
+      "totalWordCount": 136,
+      "scoredAt": "2026-05-07T21:55:51.032Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "याद रखना, अगर आओ इस शहर में, अंदर के समुद्र में तैरता हुआ, झील से पीठ फेरो",
+          "wordCount": 17,
+          "weight": 0.4
+        },
+        {
+          "index": 2,
+          "text": "और जब सोना रोशनी शहर पर बिछे पेड़ों और पत्थरों पर,",
+          "wordCount": 11,
+          "weight": 0.35
+        },
+        {
+          "index": 3,
+          "text": "और हवा ठंडी हो और शाम की हवा तेरे सफ़ेद बालों में कंघे से गुज़रे और बसों का धुआँ",
+          "wordCount": 19,
+          "weight": 0.45
+        },
+        {
+          "index": 4,
+          "text": "बचपन की ख़ुशबू जैसा लगने लगे, याद रखना वो नहीं मिलेगा",
+          "wordCount": 11,
+          "weight": 0.6
+        },
+        {
+          "index": 5,
+          "text": "जो तुम ढूँढ नहीं रहे।",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 6,
+          "text": "II",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 7,
+          "text": "देखो कैसे एक अमेरिकन सीक्वेंस में तुम बार बार काटते हो",
+          "wordCount": 11,
+          "weight": 0.25
+        },
+        {
+          "index": 8,
+          "text": "वही चौराहों को, वही मेडिकल स्टोर्स, चर्चेज़, और अकाउंटेंट्स के दफ़्तर,",
+          "wordCount": 11,
+          "weight": 0.2
+        },
+        {
+          "index": 9,
+          "text": "और थोड़ी देर बाद दिखने लगता है जो पहले से था।",
+          "wordCount": 11,
+          "weight": 0.3
+        },
+        {
+          "index": 10,
+          "text": "III",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 11,
+          "text": "इस शहर की सड़कों को ध्यान से पार करो। ऐस्फ़ाल्ट में अपनी लकीर डालो।",
+          "wordCount": 14,
+          "weight": 0.45
+        },
+        {
+          "index": 12,
+          "text": "एक शांत केंद्र बनाओ। पेड़ ख़ुद चलके आएँगे, और आइने",
+          "wordCount": 10,
+          "weight": 0.5
+        },
+        {
+          "index": 13,
+          "text": "और आवाज़ें आएँगी जब पढ़ो शहर के अख़बारों में मरने वालों के नाम।",
+          "wordCount": 13,
+          "weight": 0.7
+        }
+      ]
+    },
+    "ramanujan-chicago-zen-hi-2020": {
+      "id": "ramanujan-chicago-zen-hi-2020",
+      "workId": "ramanujan-chicago-zen",
+      "totalLines": 34,
+      "totalWordCount": 155,
+      "scoredAt": "2026-05-07T21:55:51.486Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "याद रखो — अगर इस शहर में आओ,",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 2,
+          "text": "जो किसी अंदरूनी समुद्र पर तैर रहा है —",
+          "wordCount": 9,
+          "weight": 0.55
+        },
+        {
+          "index": 3,
+          "text": "झील से पीठ फेर लो",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 4,
+          "text": "जब सुनहरी रोशनी",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 5,
+          "text": "शहर पर गिरती है और बैठ जाती है",
+          "wordCount": 8,
+          "weight": 0.35
+        },
+        {
+          "index": 6,
+          "text": "पेड़ों और पत्थरों पर,",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 7,
+          "text": "हवा ठंडी होती है और शाम की बयार",
+          "wordCount": 8,
+          "weight": 0.3
+        },
+        {
+          "index": 8,
+          "text": "तुम्हारे सफेद बालों में कंघी करती है",
+          "wordCount": 7,
+          "weight": 0.45
+        },
+        {
+          "index": 9,
+          "text": "और बसों के धुएँ की गंध",
+          "wordCount": 6,
+          "weight": 0.2
+        },
+        {
+          "index": 10,
+          "text": "बचपन की किसी खुशबू जैसी",
+          "wordCount": 5,
+          "weight": 0.55
+        },
+        {
+          "index": 11,
+          "text": "लगने लगती है — याद रखो:",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 12,
+          "text": "जो खोज नहीं रहे",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 13,
+          "text": "वो मिलेगा नहीं।",
+          "wordCount": 3,
+          "weight": 0.35
+        },
+        {
+          "index": 14,
+          "text": "II",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 15,
+          "text": "देखो",
+          "wordCount": 1,
+          "weight": 0.2
+        },
+        {
+          "index": 16,
+          "text": "कैसे एक अमेरिकी सिलसिले में",
+          "wordCount": 5,
+          "weight": 0.2
+        },
+        {
+          "index": 17,
+          "text": "तुम पार करते हो और फिर पार करते हो",
+          "wordCount": 9,
+          "weight": 0.25
+        },
+        {
+          "index": 18,
+          "text": "वही चौराहे,",
+          "wordCount": 2,
+          "weight": 0.15
+        },
+        {
+          "index": 19,
+          "text": "वही दवाखाने, गिरजे,",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 20,
+          "text": "हिसाब रखने वालों के दफ्तर,",
+          "wordCount": 5,
+          "weight": 0.15
+        },
+        {
+          "index": 21,
+          "text": "और कुछ देर बाद",
+          "wordCount": 4,
+          "weight": 0.1
+        },
+        {
+          "index": 22,
+          "text": "दिखने लगता है",
+          "wordCount": 3,
+          "weight": 0.2
+        },
+        {
+          "index": 23,
+          "text": "जो पहले से ही था।",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 24,
+          "text": "III",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 25,
+          "text": "सावधानी से पार करो",
+          "wordCount": 4,
+          "weight": 0.25
+        },
+        {
+          "index": 26,
+          "text": "इस शहर की सड़कें।",
+          "wordCount": 4,
+          "weight": 0.15
+        },
+        {
+          "index": 27,
+          "text": "टार में एक नाली बनाओ।",
+          "wordCount": 5,
+          "weight": 0.3
+        },
+        {
+          "index": 28,
+          "text": "एक ठहरा हुआ केंद्र बनाओ।",
+          "wordCount": 5,
+          "weight": 0.35
+        },
+        {
+          "index": 29,
+          "text": "पेड़ आ जाएँगे तुम्हारे पास,",
+          "wordCount": 5,
+          "weight": 0.45
+        },
+        {
+          "index": 30,
+          "text": "शीशे भी",
+          "wordCount": 2,
+          "weight": 0.3
+        },
+        {
+          "index": 31,
+          "text": "और बुलावे आएँगे",
+          "wordCount": 3,
+          "weight": 0.4
+        },
+        {
+          "index": 32,
+          "text": "जब तुम पढ़ोगे",
+          "wordCount": 3,
+          "weight": 0.15
+        },
+        {
+          "index": 33,
+          "text": "शहर के अखबारों में मरने वालों के नाम।",
+          "wordCount": 8,
+          "weight": 0.7
+        }
+      ]
+    },
+    "homer-iliad-en-buckley-1860": {
+      "id": "homer-iliad-en-buckley-1860",
+      "workId": "homer-iliad",
+      "totalLines": 1,
+      "totalWordCount": 64,
+      "scoredAt": "2026-05-07T22:35:57.659Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Sing, Ο goddess, the destructive wrath of Achilles, son of Peleus, which brought countless woes upon the Greeks, 1 and hurled many valiant souls of heroes down to Hades, and made themselves 2 a prey to dogs and to all birds [but the will of Jove was being accomplished], from the time when Atrides, king of men, and noble Achilles, first contending, were disunited.",
+          "wordCount": 64,
+          "weight": 0.9
+        }
+      ]
+    },
+    "homer-iliad-en-derby-1864": {
+      "id": "homer-iliad-en-derby-1864",
+      "workId": "homer-iliad",
+      "totalLines": 4,
+      "totalWordCount": 43,
+      "scoredAt": "2026-05-07T22:35:58.573Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Of Peleus’ son, Achilles, sing, O Muse, The vengeance, deep and deadly;",
+          "wordCount": 12,
+          "weight": 0.8
+        },
+        {
+          "index": 1,
+          "text": "whence to Greece Unnumbered ills arose;",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 2,
+          "text": "which many a soul Of mighty warriors to the viewless shades Untimely sent;",
+          "wordCount": 13,
+          "weight": 0.6
+        },
+        {
+          "index": 3,
+          "text": "they on the battle plain Unburied lay, a prey to rav’ning dogs,",
+          "wordCount": 12,
+          "weight": 0.85
+        }
+      ]
+    },
+    "homer-iliad-en-pope-1715": {
+      "id": "homer-iliad-en-pope-1715",
+      "workId": "homer-iliad",
+      "totalLines": 2,
+      "totalWordCount": 41,
+      "scoredAt": "2026-05-07T22:35:59.327Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Achilles’ wrath, to Greece the direful spring Of woes unnumber’d, heavenly goddess, sing!",
+          "wordCount": 13,
+          "weight": 0.85
+        },
+        {
+          "index": 1,
+          "text": "That wrath which hurl’d to Pluto’s gloomy reign The souls of mighty chiefs untimely slain; Whose limbs unburied on the naked shore, Devouring dogs and hungry vultures tore.[41]",
+          "wordCount": 28,
+          "weight": 0.9
+        }
+      ]
+    },
+    "homer-iliad-en-lang-1882": {
+      "id": "homer-iliad-en-lang-1882",
+      "workId": "homer-iliad",
+      "totalLines": 2,
+      "totalWordCount": 50,
+      "scoredAt": "2026-05-07T22:35:59.749Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Sing, goddess, the wrath of Achilles Peleus’ son, the ruinous wrath that brought on the Achaians woes innumerable, and hurled down into Hades many strong souls of heroes, and gave their bodies to be a prey to dogs and all winged fowls;",
+          "wordCount": 42,
+          "weight": 0.9
+        },
+        {
+          "index": 1,
+          "text": "and so the counsel of Zeus wrought out",
+          "wordCount": 8,
+          "weight": 0.2
+        }
+      ]
+    },
+    "homer-iliad-en-chapman-1611": {
+      "id": "homer-iliad-en-chapman-1611",
+      "workId": "homer-iliad",
+      "totalLines": 6,
+      "totalWordCount": 61,
+      "scoredAt": "2026-05-07T22:35:59.803Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Achilles’ baneful wrath resound, O Goddess, that impos’d Infinite sorrows on the Greeks, and many brave souls los’d.",
+          "wordCount": 18,
+          "weight": 0.9
+        },
+        {
+          "index": 1,
+          "text": "From breasts heroic;",
+          "wordCount": 3,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "sent them far to that invisible cave That no light comforts;",
+          "wordCount": 11,
+          "weight": 0.4
+        },
+        {
+          "index": 3,
+          "text": "and their limbs to dogs and vultures gave;",
+          "wordCount": 8,
+          "weight": 0.85
+        },
+        {
+          "index": 4,
+          "text": "To all which Jove’s will gave effect;",
+          "wordCount": 7,
+          "weight": 0.15
+        },
+        {
+          "index": 5,
+          "text": "from whom first strife begun Betwixt Atrides, king of men, and Thetis’ godlike son.",
+          "wordCount": 14,
+          "weight": 0.3
+        }
+      ]
+    },
+    "homer-iliad-en-cowper-1791": {
+      "id": "homer-iliad-en-cowper-1791",
+      "workId": "homer-iliad",
+      "totalLines": 3,
+      "totalWordCount": 43,
+      "scoredAt": "2026-05-07T22:35:59.847Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Achilles sing, O Goddess!",
+          "wordCount": 4,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "Peleus’ son;",
+          "wordCount": 2,
+          "weight": 0.05
+        },
+        {
+          "index": 2,
+          "text": "His wrath pernicious, who ten thousand woes Caused to Achaia’s host, sent many a soul Illustrious into Ades premature, And Heroes gave (so stood the will of Jove)5 To dogs and to all ravening fowls a prey,",
+          "wordCount": 37,
+          "weight": 0.9
+        }
+      ]
+    },
+    "homer-iliad-en-butler-1898": {
+      "id": "homer-iliad-en-butler-1898",
+      "workId": "homer-iliad",
+      "totalLines": 2,
+      "totalWordCount": 48,
+      "scoredAt": "2026-05-07T22:36:00.690Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans.",
+          "wordCount": 17,
+          "weight": 0.85
+        },
+        {
+          "index": 1,
+          "text": "Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for so were the counsels of Jove",
+          "wordCount": 31,
+          "weight": 0.6
+        }
+      ]
+    },
+    "homer-odyssey-en-butcher-1879": {
+      "id": "homer-odyssey-en-butcher-1879",
+      "workId": "homer-odyssey",
+      "totalLines": 1,
+      "totalWordCount": 57,
+      "scoredAt": "2026-05-07T22:36:02.661Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Tell me, Muse, of that man, so ready at need, who wandered far and wide, after he had sacked the sacred citadel of Troy, and many were the men whose towns he saw and whose mind he learnt, yea, and many the woes he suffered in his heart upon the deep, striving to win his own life",
+          "wordCount": 57,
+          "weight": 0.3
+        }
+      ]
+    },
+    "baudelaire-spleen-fr-source-1857": {
+      "id": "baudelaire-spleen-fr-source-1857",
+      "workId": "baudelaire-spleen",
+      "totalLines": 1,
+      "totalWordCount": 37,
+      "scoredAt": "2026-05-07T22:36:03.088Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Quand le ciel bas et lourd pèse comme un couvercle Sur l'esprit gémissant en proie aux longs ennuis, Et que de l'horizon embrassant tout le cercle Il nous verse un jour noir plus triste que les nuits;",
+          "wordCount": 37,
+          "weight": 0.8
+        }
+      ]
+    },
+    "homer-odyssey-en-pope-1726": {
+      "id": "homer-odyssey-en-pope-1726",
+      "workId": "homer-odyssey",
+      "totalLines": 3,
+      "totalWordCount": 45,
+      "scoredAt": "2026-05-07T22:36:03.477Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "The man for wisdom’s various arts renown’d, Long exercised in woes, O Muse!",
+          "wordCount": 13,
+          "weight": 0.6
+        },
+        {
+          "index": 1,
+          "text": "resound;",
+          "wordCount": 1,
+          "weight": 0.05
+        },
+        {
+          "index": 2,
+          "text": "Who, when his arms had wrought the destined fall Of sacred Troy, and razed her heaven-built wall, Wandering from clime to clime, observant stray’d, Their manners noted, and their states survey’d,",
+          "wordCount": 31,
+          "weight": 0.7
+        }
+      ]
+    },
+    "homer-odyssey-en-butler-1900": {
+      "id": "homer-odyssey-en-butler-1900",
+      "workId": "homer-odyssey",
+      "totalLines": 3,
+      "totalWordCount": 51,
+      "scoredAt": "2026-05-07T22:36:03.602Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy.",
+          "wordCount": 22,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "Many cities did he visit, and many were the nations with whose manners and customs he was acquainted;",
+          "wordCount": 18,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "moreover he suffered much by sea while trying to save his",
+          "wordCount": 11,
+          "weight": 0.6
+        }
+      ]
+    },
+    "homer-odyssey-en-cowper-1791": {
+      "id": "homer-odyssey-en-cowper-1791",
+      "workId": "homer-odyssey",
+      "totalLines": 2,
+      "totalWordCount": 42,
+      "scoredAt": "2026-05-07T22:36:04.334Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Muse make the man thy theme, for shrewdness famed And genius versatile, who far and wide A Wand'rer, after Ilium overthrown, Discover'd various cities, and the mind And manners learn'd of men, in lands remote.",
+          "wordCount": 35,
+          "weight": 0.15
+        },
+        {
+          "index": 1,
+          "text": "He num'rous woes on Ocean toss'd, endured,",
+          "wordCount": 7,
+          "weight": 0.5
+        }
+      ]
+    },
+    "ramanujan-small-scale-hi-gyan": {
+      "id": "ramanujan-small-scale-hi-gyan",
+      "workId": "ramanujan-small-scale-reflections",
+      "totalLines": 6,
+      "totalWordCount": 127,
+      "scoredAt": "2026-05-07T22:36:05.133Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "कभी कभी लगता है कि कुछ भी इस घर से बाहर नहीं जाता।",
+          "wordCount": 13,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "चीज़ें आती हैं हर रोज़ खो जाने के लिए दूसरी चीज़ों में जो पहले से खोयी हुई हैं और भी खोयी हुई चीज़ों में:",
+          "wordCount": 24,
+          "weight": 0.35
+        },
+        {
+          "index": 2,
+          "text": "काँची की एक सुस्त क़ैंची अपनी धार खो देती है चाकुओं और स्क्रूड्राइवर्स के बीच जो अपना तेज़ मिज़ाज पहले ही खो चुके हैं;",
+          "wordCount": 24,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "और पुरानी चीज़ें नयी हो जाती हैं जैसे शर्ट्स वापस आती हैं बरसों बाद प्रेस से और बटन्स के साथ जो कन्फ़र्म करते हैं",
+          "wordCount": 24,
+          "weight": 0.4
+        },
+        {
+          "index": 4,
+          "text": "आज का फ़ैशन; और माँ-बाप आते हैं अपनी उम्र खो देने पोतियों में।",
+          "wordCount": 13,
+          "weight": 0.6
+        },
+        {
+          "index": 5,
+          "text": "जो चीज़ें यहाँ मर गयी हैं वो साँस लेती रहती हैं इस घर में दूर के कज़िन्स की तरह पर फिर भी अपने और प्यारों में गिनी जाती हैं।",
+          "wordCount": 29,
+          "weight": 0.7
+        }
+      ]
+    },
+    "laozi-ch1-en-legge-1891": {
+      "id": "laozi-ch1-en-legge-1891",
+      "workId": "laozi-tao-te-ching",
+      "totalLines": 8,
+      "totalWordCount": 57,
+      "scoredAt": "2026-05-07T22:36:05.944Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Ch.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 1,
+          "text": "1.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 2,
+          "text": "1.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 3,
+          "text": "The Tao that can be trodden is not the enduring and unchanging Tao.",
+          "wordCount": 13,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "The name that can be named is not the enduring and unchanging name.",
+          "wordCount": 13,
+          "weight": 0.1
+        },
+        {
+          "index": 5,
+          "text": "2.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 6,
+          "text": "(Conceived of as) having no name, it is the Originator of heaven and earth;",
+          "wordCount": 14,
+          "weight": 0.2
+        },
+        {
+          "index": 7,
+          "text": "(conceived of as) having a name, it is the Mother of all things.",
+          "wordCount": 13,
+          "weight": 0.2
+        }
+      ]
+    },
+    "baudelaire-spleen-en-squire-1909": {
+      "id": "baudelaire-spleen-en-squire-1909",
+      "workId": "baudelaire-spleen",
+      "totalLines": 2,
+      "totalWordCount": 63,
+      "scoredAt": "2026-05-07T22:36:06.563Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "When the low heavy sky weighs like a lid upon the spirit aching for the light, and all the wide horizon's line is hid by a black day sadder than any night;",
+          "wordCount": 32,
+          "weight": 0.8
+        },
+        {
+          "index": 1,
+          "text": "when the changed earth is but a dungeon dank where lonely Hope, like a wing-broken bat, against the moist and rotten walls doth bang her timid head and feeble pinions flat.",
+          "wordCount": 31,
+          "weight": 0.9
+        }
+      ]
+    },
+    "gita-ch1-sa-source": {
+      "id": "gita-ch1-sa-source",
+      "workId": "bhagavad-gita",
+      "totalLines": 1,
+      "totalWordCount": 22,
+      "scoredAt": "2026-05-07T22:36:06.670Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "धृतराष्ट्र उवाच — धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः। मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय॥ सञ्जय उवाच — दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा। आचार्यमुपसङ्गम्य राजा वचनमब्रवीत्॥",
+          "wordCount": 22,
+          "weight": 0.1
+        }
+      ]
+    },
+    "laozi-ch1-en-goddard-1919": {
+      "id": "laozi-ch1-en-goddard-1919",
+      "workId": "laozi-tao-te-ching",
+      "totalLines": 3,
+      "totalWordCount": 60,
+      "scoredAt": "2026-05-07T22:36:07.403Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "The Tao that can be expressed is not the eternal Tao; the name that can be defined is not the unchanging name.",
+          "wordCount": 22,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "Non-existence is called the antecedent of heaven and earth; existence is the mother of all things.",
+          "wordCount": 16,
+          "weight": 0.05
+        },
+        {
+          "index": 2,
+          "text": "From eternal non-existence, therefore, we serenely observe the mysterious beginning of the Universe; from eternal existence we clearly see the apparent distinctions.",
+          "wordCount": 22,
+          "weight": 0.2
+        }
+      ]
+    },
+    "gita-ch1-en-arnold-1885": {
+      "id": "gita-ch1-en-arnold-1885",
+      "workId": "bhagavad-gita",
+      "totalLines": 5,
+      "totalWordCount": 32,
+      "scoredAt": "2026-05-07T22:36:07.757Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "By Krishna and Prince Arjun held, discoursing each with each;",
+          "wordCount": 10,
+          "weight": 0.1
+        },
+        {
+          "index": 1,
+          "text": "So have I writ its wisdom here,--its hidden mystery, For England;",
+          "wordCount": 11,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "O our India!",
+          "wordCount": 3,
+          "weight": 0.7
+        },
+        {
+          "index": 3,
+          "text": "as dear to me as She!",
+          "wordCount": 6,
+          "weight": 0.6
+        },
+        {
+          "index": 4,
+          "text": "EDWIN ARNOLD",
+          "wordCount": 2,
+          "weight": 0
+        }
+      ]
+    },
+    "tagore-gitanjali-1-en-self-1912": {
+      "id": "tagore-gitanjali-1-en-self-1912",
+      "workId": "tagore-gitanjali",
+      "totalLines": 4,
+      "totalWordCount": 66,
+      "scoredAt": "2026-05-07T22:36:08.682Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Thou hast made me endless, such is thy pleasure.",
+          "wordCount": 9,
+          "weight": 0.65
+        },
+        {
+          "index": 1,
+          "text": "This frail vessel thou emptiest again and again, and fillest it ever with fresh life.",
+          "wordCount": 15,
+          "weight": 0.6
+        },
+        {
+          "index": 2,
+          "text": "This little flute of a reed thou hast carried over hills and dales, and hast breathed through it melodies eternally new.",
+          "wordCount": 21,
+          "weight": 0.5
+        },
+        {
+          "index": 3,
+          "text": "At the immortal touch of thy hands my little heart loses its limits in joy and gives birth to utterance ineffable.",
+          "wordCount": 21,
+          "weight": 0.9
+        }
+      ]
+    },
+    "sappho-fr-saintremy-1905": {
+      "id": "sappho-fr-saintremy-1905",
+      "workId": "sappho-fragments",
+      "totalLines": 3,
+      "totalWordCount": 38,
+      "scoredAt": "2026-05-07T22:36:09.038Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Il me semble l'égal des dieux Celui qui de ta voix s'enivre, Qui lit son bonheur dans tes yeux, Et qui près de toi se sent vivre!",
+          "wordCount": 27,
+          "weight": 0.9
+        },
+        {
+          "index": 1,
+          "text": "Ce doux souris, quand je te vois, Me trouble!...",
+          "wordCount": 9,
+          "weight": 0.6
+        },
+        {
+          "index": 2,
+          "text": "Interdite, oppressée,",
+          "wordCount": 2,
+          "weight": 0.8
+        }
+      ]
+    },
+    "catullus-en-ellis-1871": {
+      "id": "catullus-en-ellis-1871",
+      "workId": "catullus-poems",
+      "totalLines": 4,
+      "totalWordCount": 46,
+      "scoredAt": "2026-05-07T22:36:10.240Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Living, Lesbia, we should e'en be loving.",
+          "wordCount": 7,
+          "weight": 0.6
+        },
+        {
+          "index": 1,
+          "text": "Sour severity, tongue of eld maligning, All be to us a penny's estimation.",
+          "wordCount": 13,
+          "weight": 0.7
+        },
+        {
+          "index": 2,
+          "text": "Suns set only to rise again to-morrow.",
+          "wordCount": 7,
+          "weight": 0.15
+        },
+        {
+          "index": 3,
+          "text": "We, when sets in a little hour the brief light, 5 Sleep one infinite age, a night for ever.",
+          "wordCount": 19,
+          "weight": 0.9
+        }
+      ]
+    },
+    "sappho-en-wharton-1885": {
+      "id": "sappho-en-wharton-1885",
+      "workId": "sappho-fragments",
+      "totalLines": 3,
+      "totalWordCount": 67,
+      "scoredAt": "2026-05-07T22:36:10.241Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Peer of gods he seemeth to me, the blissful man who sits and gazes at thee before him, close beside thee, and listens to thy sweet speech and lovesome laughter;",
+          "wordCount": 30,
+          "weight": 0.6
+        },
+        {
+          "index": 1,
+          "text": "that indeed makes my heart flutter in my bosom.",
+          "wordCount": 9,
+          "weight": 0.75
+        },
+        {
+          "index": 2,
+          "text": "For when I see thee but a little, I have no utterance left, my tongue is broken down, and straightway a subtle fire has run under my skin.",
+          "wordCount": 28,
+          "weight": 0.9
+        }
+      ]
+    },
+    "catullus-la-source": {
+      "id": "catullus-la-source",
+      "workId": "catullus-poems",
+      "totalLines": 3,
+      "totalWordCount": 46,
+      "scoredAt": "2026-05-07T22:36:12.222Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Vivamus, mea Lesbia, atque amemus, rumoresque senum severiorum omnes unius aestimemus assis.",
+          "wordCount": 12,
+          "weight": 0.6
+        },
+        {
+          "index": 1,
+          "text": "Soles occidere et redire possunt: nobis cum semel occidit brevis lux, nox est perpetua una dormienda.",
+          "wordCount": 16,
+          "weight": 0.9
+        },
+        {
+          "index": 2,
+          "text": "Da mi basia mille, deinde centum, dein mille altera, dein secunda centum, deinde usque altera mille, deinde centum.",
+          "wordCount": 18,
+          "weight": 0.7
+        }
+      ]
+    },
+    "aeneid-la-source": {
+      "id": "aeneid-la-source",
+      "workId": "virgil-aeneid",
+      "totalLines": 2,
+      "totalWordCount": 42,
+      "scoredAt": "2026-05-07T22:36:12.347Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "ARMA virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram;",
+          "wordCount": 28,
+          "weight": 0.8
+        },
+        {
+          "index": 1,
+          "text": "multa quoque et bello passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum,",
+          "wordCount": 14,
+          "weight": 0.4
+        }
+      ]
+    },
+    "inferno-it-source": {
+      "id": "inferno-it-source",
+      "workId": "dante-inferno",
+      "totalLines": 2,
+      "totalWordCount": 41,
+      "scoredAt": "2026-05-07T22:36:13.064Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita.",
+          "wordCount": 19,
+          "weight": 0.2
+        },
+        {
+          "index": 1,
+          "text": "Ahi quanto a dir qual era è cosa dura esta selva selvaggia e aspra e forte che nel pensier rinova la paura!",
+          "wordCount": 22,
+          "weight": 0.85
+        }
+      ]
+    },
+    "aeneid-en-dryden-1697": {
+      "id": "aeneid-en-dryden-1697",
+      "workId": "virgil-aeneid",
+      "totalLines": 2,
+      "totalWordCount": 47,
+      "scoredAt": "2026-05-07T22:36:13.131Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Arms, and the man I sing, who, forc’d by fate, And haughty Juno’s unrelenting hate, Expell’d and exil’d, left the Trojan shore.",
+          "wordCount": 22,
+          "weight": 0.7
+        },
+        {
+          "index": 1,
+          "text": "Long labours, both by sea and land, he bore, And in the doubtful war, before he won The Latian realm, and built the destin’d town;",
+          "wordCount": 25,
+          "weight": 0.4
+        }
+      ]
+    },
+    "aeneid-en-mackail-1885": {
+      "id": "aeneid-en-mackail-1885",
+      "workId": "virgil-aeneid",
+      "totalLines": 3,
+      "totalWordCount": 73,
+      "scoredAt": "2026-05-07T22:36:13.905Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I sing of arms and the man who of old from the coasts of Troy came, an exile of fate, to Italy and the shore of Lavinium;",
+          "wordCount": 27,
+          "weight": 0.4
+        },
+        {
+          "index": 1,
+          "text": "hard driven on land and on the deep by the violence of heaven, for cruel Juno's unforgetful anger, and hard bestead in war also, ere he might found a city and carry his gods into Latium;",
+          "wordCount": 36,
+          "weight": 0.85
+        },
+        {
+          "index": 2,
+          "text": "from whom is the Latin race, the lords of Alba,",
+          "wordCount": 10,
+          "weight": 0.1
+        }
+      ]
+    },
+    "inferno-en-cary-1814": {
+      "id": "inferno-en-cary-1814",
+      "workId": "dante-inferno",
+      "totalLines": 2,
+      "totalWordCount": 54,
+      "scoredAt": "2026-05-07T22:36:14.311Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "In the midway of this our mortal life, I found me in a gloomy wood, astray Gone from the path direct:",
+          "wordCount": 21,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "and e’en to tell It were no easy task, how savage wild That forest, how robust and rough its growth, Which to remember only, my dismay Renews, in bitterness not far from death.",
+          "wordCount": 33,
+          "weight": 0.7
+        }
+      ]
+    },
+    "quixote-es-source": {
+      "id": "quixote-es-source",
+      "workId": "cervantes-quixote",
+      "totalLines": 2,
+      "totalWordCount": 62,
+      "scoredAt": "2026-05-07T22:36:14.956Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor.",
+          "wordCount": 33,
+          "weight": 0
+        },
+        {
+          "index": 1,
+          "text": "Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres",
+          "wordCount": 29,
+          "weight": 0
+        }
+      ]
+    },
+    "inferno-en-longfellow-1867": {
+      "id": "inferno-en-longfellow-1867",
+      "workId": "dante-inferno",
+      "totalLines": 2,
+      "totalWordCount": 47,
+      "scoredAt": "2026-05-07T22:36:15.177Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Midway upon the journey of our life I found myself within a forest dark, For the straightforward pathway had been lost.",
+          "wordCount": 21,
+          "weight": 0.35
+        },
+        {
+          "index": 1,
+          "text": "Ah me! how hard a thing it is to say What was this forest savage, rough, and stern, Which in the very thought renews the fear.",
+          "wordCount": 26,
+          "weight": 0.6
+        }
+      ]
+    },
+    "quixote-en-anonymous-1842": {
+      "id": "quixote-en-anonymous-1842",
+      "workId": "cervantes-quixote",
+      "totalLines": 3,
+      "totalWordCount": 64,
+      "scoredAt": "2026-05-07T22:36:16.701Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "In a certain village in La Mancha, in the kingdom of Arragon, of which I cannot remember the name, there lived not long ago one of those old-fashioned gentlemen, who are never without a lance upon a rack, an old target, a lean horse, and a greyhound.",
+          "wordCount": 47,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "His diet consisted more of beef than mutton;",
+          "wordCount": 8,
+          "weight": 0.05
+        },
+        {
+          "index": 2,
+          "text": "and, with minced meat on most nights, lentiles on",
+          "wordCount": 9,
+          "weight": 0.05
+        }
+      ]
+    },
+    "quixote-en-ormsby-1885": {
+      "id": "quixote-en-ormsby-1885",
+      "workId": "cervantes-quixote",
+      "totalLines": 2,
+      "totalWordCount": 70,
+      "scoredAt": "2026-05-07T22:36:16.714Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing.",
+          "wordCount": 45,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "An olla of rather more beef than mutton, a salad on most nights, scraps on Saturdays, lentils on Fridays, and a pigeon or so extra",
+          "wordCount": 25,
+          "weight": 0.02
+        }
+      ]
+    },
+    "inferno-en-norton-1891": {
+      "id": "inferno-en-norton-1891",
+      "workId": "dante-inferno",
+      "totalLines": 4,
+      "totalWordCount": 75,
+      "scoredAt": "2026-05-07T22:36:16.773Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Midway upon the road of our life I found myself within a dark wood, for the right way had been missed.",
+          "wordCount": 21,
+          "weight": 0.2
+        },
+        {
+          "index": 1,
+          "text": "Ah! how hard a thing it is to tell what this wild and rough and dense wood was, which in thought renews the fear!",
+          "wordCount": 24,
+          "weight": 0.6
+        },
+        {
+          "index": 2,
+          "text": "So bitter is it that death is little more.",
+          "wordCount": 9,
+          "weight": 0.8
+        },
+        {
+          "index": 3,
+          "text": "But in order to treat of the good that there I found, I will tell of the other things that I",
+          "wordCount": 21,
+          "weight": 0.1
+        }
+      ]
+    },
+    "faust-en-brooks-1856": {
+      "id": "faust-en-brooks-1856",
+      "workId": "goethe-faust-zueignung",
+      "totalLines": 4,
+      "totalWordCount": 54,
+      "scoredAt": "2026-05-07T22:36:18.106Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Once more ye waver dreamily before me, Forms that so early cheered my troubled eyes!",
+          "wordCount": 15,
+          "weight": 0.6
+        },
+        {
+          "index": 1,
+          "text": "To hold you fast doth still my heart implore me?",
+          "wordCount": 10,
+          "weight": 0.75
+        },
+        {
+          "index": 2,
+          "text": "Still bid me clutch the charm that lures and flies?",
+          "wordCount": 10,
+          "weight": 0.65
+        },
+        {
+          "index": 3,
+          "text": "Ye crowd around! come, then, hold empire o'er me, As from the mist and haze of thought ye rise;",
+          "wordCount": 19,
+          "weight": 0.7
+        }
+      ]
+    },
+    "faust-de-source": {
+      "id": "faust-de-source",
+      "workId": "goethe-faust-zueignung",
+      "totalLines": 5,
+      "totalWordCount": 49,
+      "scoredAt": "2026-05-07T22:36:18.623Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Ihr naht euch wieder, schwankende Gestalten!",
+          "wordCount": 6,
+          "weight": 0.35
+        },
+        {
+          "index": 1,
+          "text": "Die früh sich einst dem trüben Blick gezeigt.",
+          "wordCount": 8,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "Versuch' ich wohl euch diesmal fest zu halten?",
+          "wordCount": 8,
+          "weight": 0.5
+        },
+        {
+          "index": 3,
+          "text": "Fühl' ich mein Herz noch jenem Wahn geneigt?",
+          "wordCount": 8,
+          "weight": 0.6
+        },
+        {
+          "index": 4,
+          "text": "Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt;",
+          "wordCount": 19,
+          "weight": 0.7
+        }
+      ]
+    },
+    "rubaiyat-en-fitzgerald-1889": {
+      "id": "rubaiyat-en-fitzgerald-1889",
+      "workId": "khayyam-rubaiyat",
+      "totalLines": 2,
+      "totalWordCount": 34,
+      "scoredAt": "2026-05-07T22:36:18.739Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "WAKE!",
+          "wordCount": 1,
+          "weight": 0.9
+        },
+        {
+          "index": 1,
+          "text": "For the Sun, who scatter'd into flight The Stars before him from the Field of Night, Drives Night along with them from Heav'n, and strikes The Sultan's Turret with a Shaft of Light.",
+          "wordCount": 33,
+          "weight": 0.2
+        }
+      ]
+    },
+    "rubaiyat-en-fitzgerald-1859": {
+      "id": "rubaiyat-en-fitzgerald-1859",
+      "workId": "khayyam-rubaiyat",
+      "totalLines": 4,
+      "totalWordCount": 35,
+      "scoredAt": "2026-05-07T22:36:20.259Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Awake!",
+          "wordCount": 1,
+          "weight": 0.7
+        },
+        {
+          "index": 1,
+          "text": "for Morning in the Bowl of Night Has flung the Stone that puts the Stars to Flight:",
+          "wordCount": 17,
+          "weight": 0.5
+        },
+        {
+          "index": 2,
+          "text": "And Lo!",
+          "wordCount": 2,
+          "weight": 0.4
+        },
+        {
+          "index": 3,
+          "text": "the Hunter of the East has caught The Sultan's Turret in a Noose of Light.",
+          "wordCount": 15,
+          "weight": 0.9
+        }
+      ]
+    },
+    "faust-en-bayard-taylor-1870": {
+      "id": "faust-en-bayard-taylor-1870",
+      "workId": "goethe-faust-zueignung",
+      "totalLines": 6,
+      "totalWordCount": 53,
+      "scoredAt": "2026-05-07T22:36:22.049Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Again ye come, ye hovering Forms!",
+          "wordCount": 6,
+          "weight": 0.6
+        },
+        {
+          "index": 1,
+          "text": "I find ye, As early to my clouded sight ye shone!",
+          "wordCount": 11,
+          "weight": 0.25
+        },
+        {
+          "index": 2,
+          "text": "Shall I attempt, this once, to seize and bind ye?",
+          "wordCount": 10,
+          "weight": 0.7
+        },
+        {
+          "index": 3,
+          "text": "Still o’er my heart is that illusion thrown?",
+          "wordCount": 8,
+          "weight": 0.45
+        },
+        {
+          "index": 4,
+          "text": "Ye crowd more near!",
+          "wordCount": 4,
+          "weight": 0.6
+        },
+        {
+          "index": 5,
+          "text": "Then, be the reign assigned ye, And sway me from your misty, shadowy zone!",
+          "wordCount": 14,
+          "weight": 0.85
+        }
+      ]
+    },
+    "meditations-en-long-1862": {
+      "id": "meditations-en-long-1862",
+      "workId": "marcus-aurelius-meditations",
+      "totalLines": 7,
+      "totalWordCount": 83,
+      "scoredAt": "2026-05-07T22:36:22.674Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "I.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 1,
+          "text": "Of my grandfather Verus I have learned to be gentle and meek, and to refrain from all anger and passion.",
+          "wordCount": 20,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "From the fame and memory of him that begot me I have learned both shamefastness and manlike behaviour.",
+          "wordCount": 18,
+          "weight": 0.1
+        },
+        {
+          "index": 3,
+          "text": "Of my mother I have learned to be religious, and bountiful;",
+          "wordCount": 11,
+          "weight": 0.1
+        },
+        {
+          "index": 4,
+          "text": "and to forbear, not only to do, but to intend any evil;",
+          "wordCount": 12,
+          "weight": 0.1
+        },
+        {
+          "index": 5,
+          "text": "to content myself with a spare diet, and to fly all such excess as is incidental to great wealth.",
+          "wordCount": 19,
+          "weight": 0.1
+        },
+        {
+          "index": 6,
+          "text": "Of my",
+          "wordCount": 2,
+          "weight": 0
+        }
+      ]
+    },
+    "psalm23-en-kjv-1611": {
+      "id": "psalm23-en-kjv-1611",
+      "workId": "kjv-psalm-23",
+      "totalLines": 16,
+      "totalWordCount": 141,
+      "scoredAt": "2026-05-07T22:36:24.212Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "19:023:001 The LORD is my shepherd;",
+          "wordCount": 6,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "I shall not want.",
+          "wordCount": 4,
+          "weight": 0.4
+        },
+        {
+          "index": 2,
+          "text": "19:023:002 He maketh me to lie down in green pastures:",
+          "wordCount": 10,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "he leadeth me beside the still waters.",
+          "wordCount": 7,
+          "weight": 0.3
+        },
+        {
+          "index": 4,
+          "text": "19:023:003 He restoreth my soul:",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 5,
+          "text": "he leadeth me in the paths of righteousness for his name's sake.",
+          "wordCount": 12,
+          "weight": 0.3
+        },
+        {
+          "index": 6,
+          "text": "19:023:004 Yea, though I walk through the valley of the shadow of death, I will fear no evil:",
+          "wordCount": 18,
+          "weight": 0.8
+        },
+        {
+          "index": 7,
+          "text": "for thou art with me;",
+          "wordCount": 5,
+          "weight": 0.5
+        },
+        {
+          "index": 8,
+          "text": "thy rod and thy staff they comfort me.",
+          "wordCount": 8,
+          "weight": 0.5
+        },
+        {
+          "index": 9,
+          "text": "19:023:005 Thou preparest a table before me in the presence of mine enemies:",
+          "wordCount": 13,
+          "weight": 0.6
+        },
+        {
+          "index": 10,
+          "text": "thou anointest my head with oil;",
+          "wordCount": 6,
+          "weight": 0.4
+        },
+        {
+          "index": 11,
+          "text": "my cup runneth over.",
+          "wordCount": 4,
+          "weight": 0.5
+        },
+        {
+          "index": 12,
+          "text": "19:023:006 Surely goodness and mercy shall follow me all the days of my life:",
+          "wordCount": 14,
+          "weight": 0.5
+        },
+        {
+          "index": 13,
+          "text": "and I will dwell in the house of the LORD for ever.",
+          "wordCount": 12,
+          "weight": 0.5
+        },
+        {
+          "index": 14,
+          "text": "19:024:001 The earth is the LORD's, and the fulness thereof;",
+          "wordCount": 10,
+          "weight": 0.2
+        },
+        {
+          "index": 15,
+          "text": "the world, and they that dwell therein.",
+          "wordCount": 7,
+          "weight": 0.2
+        }
+      ]
+    },
+    "psalm23-en-coverdale-1535": {
+      "id": "psalm23-en-coverdale-1535",
+      "workId": "kjv-psalm-23",
+      "totalLines": 5,
+      "totalWordCount": 71,
+      "scoredAt": "2026-05-07T22:36:24.214Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "The Lorde is my shepherde, I can wante nothinge.",
+          "wordCount": 9,
+          "weight": 0.2
+        },
+        {
+          "index": 1,
+          "text": "He fedeth me in a grene pasture, and ledeth me to a fresh water.",
+          "wordCount": 14,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "He quickeneth my soule, and bringeth me forth in the waye of rightuousnes for his names sake.",
+          "wordCount": 17,
+          "weight": 0.3
+        },
+        {
+          "index": 3,
+          "text": "Though I shulde walke now in the valley of the shadowe of death, yet I feare no euell, for thou art with me:",
+          "wordCount": 23,
+          "weight": 0.8
+        },
+        {
+          "index": 4,
+          "text": "thy staffe & thy shepe hoke comforte me.",
+          "wordCount": 8,
+          "weight": 0.4
+        }
+      ]
+    },
+    "meditations-en-chrystal-1902": {
+      "id": "meditations-en-chrystal-1902",
+      "workId": "marcus-aurelius-meditations",
+      "totalLines": 10,
+      "totalWordCount": 80,
+      "scoredAt": "2026-05-07T22:36:24.484Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "1.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 1,
+          "text": "I learned from my grandfather, Verus, to use good manners, and to put restraint on anger.",
+          "wordCount": 16,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "2.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 3,
+          "text": "In the famous memory of my father I had a pattern of modesty and manliness.",
+          "wordCount": 15,
+          "weight": 0.2
+        },
+        {
+          "index": 4,
+          "text": "3.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 5,
+          "text": "Of my mother I learned to be pious and generous;",
+          "wordCount": 10,
+          "weight": 0.2
+        },
+        {
+          "index": 6,
+          "text": "to keep myself not only from evil deeds, but even from evil thoughts;",
+          "wordCount": 13,
+          "weight": 0.2
+        },
+        {
+          "index": 7,
+          "text": "and to live with a simplicity which is far from customary among the rich.",
+          "wordCount": 14,
+          "weight": 0.2
+        },
+        {
+          "index": 8,
+          "text": "4.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 9,
+          "text": "I owe it to my great-grandfather that I",
+          "wordCount": 8,
+          "weight": 0.2
+        }
+      ]
+    },
+    "psalm23-en-geneva-1560": {
+      "id": "psalm23-en-geneva-1560",
+      "workId": "kjv-psalm-23",
+      "totalLines": 6,
+      "totalWordCount": 71,
+      "scoredAt": "2026-05-07T22:36:25.061Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "The Lord is my shepherd, I shall not want.",
+          "wordCount": 9,
+          "weight": 0.3
+        },
+        {
+          "index": 1,
+          "text": "He maketh me to rest in green pasture, and leadeth me by the still waters.",
+          "wordCount": 15,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "He restoreth my soul, and leadeth me in the paths of righteousness for his Names sake.",
+          "wordCount": 16,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "Yea, though I should walk through the valley of the shadow of death, I will fear no evil:",
+          "wordCount": 18,
+          "weight": 0.8
+        },
+        {
+          "index": 4,
+          "text": "for thou art with me:",
+          "wordCount": 5,
+          "weight": 0.4
+        },
+        {
+          "index": 5,
+          "text": "thy rod and thy staff, they comfort me.",
+          "wordCount": 8,
+          "weight": 0.35
+        }
+      ]
+    },
+    "beowulf-en-hall-1892": {
+      "id": "beowulf-en-hall-1892",
+      "workId": "beowulf-opening",
+      "totalLines": 4,
+      "totalWordCount": 45,
+      "scoredAt": "2026-05-07T22:36:26.555Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Lo!",
+          "wordCount": 1,
+          "weight": 0.2
+        },
+        {
+          "index": 1,
+          "text": "the Spear-Danes' glory through splendid achievements The folk-kings' former fame we have heard of, How princes displayed then their prowess-in-battle.",
+          "wordCount": 20,
+          "weight": 0.6
+        },
+        {
+          "index": 2,
+          "text": "{Scyld, their mighty king, in honor of whom they are often called Scyldings.",
+          "wordCount": 13,
+          "weight": 0.05
+        },
+        {
+          "index": 3,
+          "text": "He is the great-grandfather of Hrothgar, so prominent in the poem.}",
+          "wordCount": 11,
+          "weight": 0.05
+        }
+      ]
+    },
+    "analects-zh-source": {
+      "id": "analects-zh-source",
+      "workId": "confucius-analects",
+      "totalLines": 1,
+      "totalWordCount": 1,
+      "scoredAt": "2026-05-07T22:36:27.211Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "子曰：「學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？人不知而不慍，不亦君子乎？」有子曰：「其為人也孝弟，而好犯上者，鮮矣；不好犯上而好作亂者，未之有也。君子務本，本立而道生。孝弟也者，其為仁之本與！」",
+          "wordCount": 1,
+          "weight": 0.05
+        }
+      ]
+    },
+    "beowulf-en-gummere-1910": {
+      "id": "beowulf-en-gummere-1910",
+      "workId": "beowulf-opening",
+      "totalLines": 3,
+      "totalWordCount": 44,
+      "scoredAt": "2026-05-07T22:36:27.663Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "LO, praise of the prowess of people-kings of spear-armed Danes, in days long sped, we have heard, and what honor the athelings won!",
+          "wordCount": 23,
+          "weight": 0.65
+        },
+        {
+          "index": 1,
+          "text": "Oft Scyld the Scefing from squadroned foes, from many a tribe, the mead-bench tore, awing the earls.",
+          "wordCount": 17,
+          "weight": 0.5
+        },
+        {
+          "index": 2,
+          "text": "Since erst he lay",
+          "wordCount": 4,
+          "weight": 0.05
+        }
+      ]
+    },
+    "analects-en-legge-1893": {
+      "id": "analects-en-legge-1893",
+      "workId": "confucius-analects",
+      "totalLines": 4,
+      "totalWordCount": 42,
+      "scoredAt": "2026-05-07T22:36:28.243Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "CHAPTER I. 1.",
+          "wordCount": 3,
+          "weight": 0
+        },
+        {
+          "index": 1,
+          "text": "The Master said, 'Is it not pleasant to learn with a constant perseverance and application? 2.",
+          "wordCount": 16,
+          "weight": 0.2
+        },
+        {
+          "index": 2,
+          "text": "'Is it not delightful to have friends coming from distant quarters?' 3.",
+          "wordCount": 12,
+          "weight": 0.25
+        },
+        {
+          "index": 3,
+          "text": "'Is he not a man of complete virtue, who feels no",
+          "wordCount": 11,
+          "weight": 0.15
+        }
+      ]
+    },
+    "beowulf-en-morris-1895": {
+      "id": "beowulf-en-morris-1895",
+      "workId": "beowulf-opening",
+      "totalLines": 4,
+      "totalWordCount": 60,
+      "scoredAt": "2026-05-07T22:36:29.300Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "What!",
+          "wordCount": 1,
+          "weight": 0.9
+        },
+        {
+          "index": 1,
+          "text": "we of the Spear-Danes of yore days, so was it That we learn'd of the fair fame of kings of the folks And the athelings a-faring in framing of valour.",
+          "wordCount": 30,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "Oft then Scyld the Sheaf-son from the hosts of the scathers, From kindreds a many the mead-settles tore;",
+          "wordCount": 18,
+          "weight": 0.65
+        },
+        {
+          "index": 3,
+          "text": "It was then the earl fear'd them, sithence was he first",
+          "wordCount": 11,
+          "weight": 0.4
+        }
+      ]
+    },
+    "antigone-en-campbell-1906": {
+      "id": "antigone-en-campbell-1906",
+      "workId": "sophocles-antigone",
+      "totalLines": 5,
+      "totalWordCount": 63,
+      "scoredAt": "2026-05-07T22:36:30.817Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "ANTIGONE.",
+          "wordCount": 1,
+          "weight": 0
+        },
+        {
+          "index": 1,
+          "text": "Own sister of my blood, one life with me, Ismene, have the tidings caught thine ear?",
+          "wordCount": 16,
+          "weight": 0.4
+        },
+        {
+          "index": 2,
+          "text": "Say, hath not Heaven decreed to execute On thee and me, while yet we are alive, All the evil Oedipus bequeathed?",
+          "wordCount": 21,
+          "weight": 0.75
+        },
+        {
+          "index": 3,
+          "text": "All horror, All pain, all outrage, falls on us!",
+          "wordCount": 9,
+          "weight": 0.9
+        },
+        {
+          "index": 4,
+          "text": "And now The General's proclamation of to-day-- Hast thou not heard?--Art thou so slow to hear",
+          "wordCount": 16,
+          "weight": 0.5
+        }
+      ]
+    },
+    "symposium-en-jowett-1892": {
+      "id": "symposium-en-jowett-1892",
+      "workId": "plato-symposium",
+      "totalLines": 4,
+      "totalWordCount": 77,
+      "scoredAt": "2026-05-07T22:36:31.176Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "Concerning the things about which you ask to be informed I believe that I am not ill-prepared with an answer.",
+          "wordCount": 20,
+          "weight": 0.05
+        },
+        {
+          "index": 1,
+          "text": "For the day before yesterday I was coming from my own home at Phalerum to the city, and one of my acquaintance, who had caught a sight of me from behind, calling out playfully in the distance, said:",
+          "wordCount": 38,
+          "weight": 0.1
+        },
+        {
+          "index": 2,
+          "text": "Apollodorus, O thou Phalerian (Probably a play of words on (Greek), 'bald-headed.') man, halt!",
+          "wordCount": 14,
+          "weight": 0.2
+        },
+        {
+          "index": 3,
+          "text": "So I did as I",
+          "wordCount": 5,
+          "weight": 0.05
+        }
+      ]
+    },
+    "tagore-gitanjali-1-bn-source": {
+      "id": "tagore-gitanjali-1-bn-source",
+      "workId": "tagore-gitanjali",
+      "totalLines": 3,
+      "totalWordCount": 38,
+      "scoredAt": "2026-05-07T22:37:12.935Z",
+      "lines": [
+        {
+          "index": 0,
+          "text": "আমারে তুমি অশেষ করেছ, এমনি লীলা তব।",
+          "wordCount": 7,
+          "weight": 0.75
+        },
+        {
+          "index": 1,
+          "text": "ফুরায়ে ফেলে আবার ভরেছ জীবন নব নব।",
+          "wordCount": 7,
+          "weight": 0.55
+        },
+        {
+          "index": 2,
+          "text": "কত যে গিরি কত যে নদী বেড়ালে বহি, ফুরালো না কভু তোমার হাতে এ ছোটো বাঁশরিটি — গাহিতে গাহিতে এসেছ যুগে যুগে নব নব।",
+          "wordCount": 24,
+          "weight": 0.9
+        }
+      ]
+    }
+  }
+}

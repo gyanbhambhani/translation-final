@@ -89,6 +89,9 @@ export async function POST(request: NextRequest) {
     year: new Date().getFullYear(),
     era: "2020s",
     register: "user",
+    kind: "user",
+    provenance:
+      "User-submitted text, in-session only — not stored or persisted.",
     previewText: text.slice(0, 120) + (text.length > 120 ? "…" : ""),
     isUserSubmission: true,
     userLabel: label,

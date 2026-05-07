@@ -9,7 +9,8 @@ import {
   useMemo,
 } from "react";
 import Link from "next/link";
-import type { SearchResult } from "@/lib/types";
+import type { ProvenanceKind, SearchResult } from "@/lib/types";
+import { ProvenancePill } from "./Provenance";
 
 interface Props {
   featured: SearchResult[];
@@ -25,6 +26,7 @@ interface SemanticHit {
   year: number | null;
   era: string | null;
   language: string | null;
+  kind?: ProvenanceKind;
   previewText: string;
   similarity: number;
   similarityQuery?: number;
@@ -482,13 +484,14 @@ function PassageResult({
               </span>
             )}
           </div>
-          <div className="mt-1 text-[11.5px] text-ink-muted small-caps tracking-[0.14em] flex flex-wrap gap-x-3 gap-y-0.5">
+          <div className="mt-1 text-[11.5px] text-ink-muted small-caps tracking-[0.14em] flex flex-wrap items-center gap-x-3 gap-y-0.5">
             {hit.translator && <span>tr. {hit.translator}</span>}
             {hit.year && <span className="tabular">{hit.year}</span>}
             {hit.language && <span>{hit.language}</span>}
             {hit.era && hit.era !== "original" && (
               <span className="text-ink-faint">· {hit.era}</span>
             )}
+            <ProvenancePill kind={hit.kind} />
           </div>
         </div>
 

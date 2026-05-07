@@ -28,6 +28,7 @@ interface PointMeta {
   year: number | null;
   era: string | null;
   language: string | null;
+  kind: string | null;
   previewText: string;
 }
 
@@ -126,6 +127,7 @@ function buildIndex(): CorpusIndex {
       year: point?.year ?? null,
       era: point?.era ?? null,
       language: point?.language ?? null,
+      kind: point?.kind ?? null,
       previewText: point?.previewText ?? "",
     });
     vectorsById.set(it.id, it.vector);
@@ -387,6 +389,7 @@ export async function GET(request: NextRequest) {
       year: point?.year ?? null,
       era: point?.era ?? null,
       language: point?.language ?? null,
+      kind: point?.kind ?? null,
       previewText: point?.previewText ?? "",
       similarity: s.cosine,
       similarityQuery: s.cosineQuery,

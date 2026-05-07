@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "embed": "node --env-file=.env.local --import tsx scripts/generate-embeddings.ts",
+    "weights": "node --env-file=.env.local --import tsx scripts/score-weights.ts",
     "build-catalog": "tsx scripts/build-catalog.ts"
   },
   "dependencies": {

@@ -7,8 +7,9 @@ moments — and makes that shift visible in geometry.
 Built around a corpus of five A.K. Ramanujan poems carried into Hindi across
 six decades, the project embeds every line of every translation in a shared
 high-dimensional vector space and surfaces the structure with a UMAP scatter,
-a pairwise similarity heatmap, a line-by-line alignment view, and a
-hybrid-retrieval semantic search. The argument the whole assembly makes is
+a parallel-drift viewer that plots every translation as a path through
+(cumulative word count × per-line emotional weight), a line-by-line alignment
+view, and a hybrid-retrieval semantic search. The argument the whole assembly makes is
 that translation is not a transparent operation — that decade, register,
 ideology, and the translator's hand all leave traces that a model trained on
 human meaning can detect.
@@ -29,37 +30,53 @@ translated by Dr. Madhavi S. Bhandari and posted to a Kannada-Hindi literary
 blog in November 2010. None of the five poems in this corpus appear in any
 Hindi rendering anywhere I have been able to locate.
 
-That silence is where the project starts. Five English poems by Ramanujan are
-translated into Hindi at four different historical registers — the
-Sanskritized *nayi kavita* of the early 1970s, the post-liberalization
-register of the 1990s, the urban-colloquial register of the 2000s, and a
-contemporary 2020s register — plus the author's own diasporic, code-mixed
-2026 versions. The result is **six versions of each poem** (one English
-source + five Hindi translations), 30 texts total, every one of them embedded
-and projected into the same space.
+That silence is where the project starts. **Because no published Hindi
+translations exist, every Hindi text in this corpus is written by the
+project author** — five Hindi versions per poem, each composed deliberately
+in a different decade's literary register: the Sanskritized *nayi kavita*
+of the early 1970s, the post-liberalization register of the 1990s, the
+urban-colloquial register of the 2000s, a contemporary 2020s register,
+and a present-day, diasporic, code-mixed 2026 voice. The four pre-2026
+versions are *register studies* — not attributed to any historical
+translator, not claiming to be "what someone in 1973 would have written,"
+but a single hand running an exercise: what does this poem sound like if
+the translator's voice is held constant and the decade is allowed to vary?
+
+The result is **six versions of each poem** (one English source + five
+Hindi register studies / translations by the same hand), 30 texts total,
+every one of them embedded and projected into the same vector space.
 
 The web application is the analytical instrument: it lets you read a poem
-across all its translations, see which renderings cluster and which drift
-apart, watch a single line travel through time, and search the whole corpus
-by feeling rather than by name.
+across all its versions, see which renderings cluster and which drift
+apart, watch a single line travel through time, and search the whole
+corpus by feeling rather than by name.
 
 ---
 
 ## The corpus
 
-| Poem | English source | Hindi translations |
-|------|----------------|--------------------|
-| **A River** | Ramanujan, *The Striders* (1966) | 1973, 1994, 2005, 2021, 2026 |
-| **Self Portrait** | Ramanujan, *The Striders* (1966) | 1973, 1994, 2005, 2021, 2026 |
-| **Extended Family** | Ramanujan, *Relations* (1971) | 1973, 1994, 2005, 2021, 2026 |
-| **Small-Scale Reflections on a Great House** | Ramanujan, *Relations* (1971) | 1973, 1994, 2005, 2021, 2026 |
-| **Chicago Zen** | Ramanujan, *Second Sight* (1986) | 1973, 1994, 2005, 2021, 2026 |
+| Poem | English source (Ramanujan) | Hindi versions (all by Gyan Bhambhani) |
+|------|----------------------------|----------------------------------------|
+| **A River** | *The Striders* (1966) | 1973 study · 1994 study · 2005 study · 2021 study · 2026 |
+| **Self Portrait** | *The Striders* (1966) | 1973 study · 1994 study · 2005 study · 2021 study · 2026 |
+| **Extended Family** | *Relations* (1971) | 1973 study · 1994 study · 2005 study · 2021 study · 2026 |
+| **Small-Scale Reflections on a Great House** | *Relations* (1971) | 1973 study · 1994 study · 2005 study · 2021 study · 2026 |
+| **Chicago Zen** | *Second Sight* (1986) | 1973 study · 1994 study · 2005 study · 2021 study · 2026 |
 
-Translators in the four era-anchored Hindi versions (Chandrakant Dev 1973,
-Vibha Rani 1994, Arvind Krishna Mehrotra 2005, Puja Iyengar 2021) are scoped
-to evoke each decade's literary register. The 2026 translation in each work
-is by the project author and is labeled `Gyan Bhambhani (this project)` in
-the data, with the register tag `code-mixed-diasporic`.
+In `data/corpus.json` every text carries a typed `kind` field
+(`"original" | "register-study" | "project-author"`), a free-form
+`provenance` string explaining exactly what the text is, and — where one
+exists — a `sourceUrl`. The English originals are in copyright (Ramanujan
+estate / OUP); no authoritative free online edition exists, so verification
+runs through the print citation rather than a URL. The four register
+studies have no external source by design; the `provenance` field for
+each says so, in those words. The 2026 versions are tagged
+`project-author` and labelled `code-mixed-diasporic`.
+
+Every UI surface in the application — work detail page, search result
+card, scatter-plot tooltip, line-alignment column header, parallel-drift
+legend — surfaces a typed provenance pill so the reader can never confuse
+a register study with a published translation.
 
 The five poems were chosen because they sit on the seam Ramanujan spent his
 life thinking through: South Indian temple-town to Mysore home to Chicago
@@ -118,10 +135,17 @@ Each work detail page renders three views:
   Color encodes era; shape encodes language. The translations of the
   current work are highlighted; the rest of the corpus sits in the
   background as context.
-- **Similarity heatmap** of pairwise cosine distances between every
-  translation of the current work — including the English original.
-  Patterns in the matrix reveal which Hindi versions are conversing with
-  the English and which are conversing with each other.
+- **Parallel drift viewer** — every translation is plotted as a path
+  through the same coordinate space. The x-axis is cumulative word count
+  (so a translator who uses more words drifts further right). The y-axis
+  is emotional weight per line, scored line-by-line by `o4-mini` (a
+  reasoning model, run at `medium` effort) on a 0-1 scale where 0 is
+  restrained / observational and 1 is loaded / charged. Scores are
+  cached in `data/emotional-weights.json`. The English original is the
+  reference path; every other translation traces its own arc through the
+  same poem. Where two paths split, that's where a translator made a
+  choice — the gap *is* the argument. Toggle individual paths in the
+  legend, hover any point to read the actual line.
 - **Line-by-line alignment** view, mapping each English line to its
   closest counterpart in each Hindi translation, with a per-pair
   similarity score.
@@ -182,10 +206,12 @@ meaningful.
 - [Next.js 16](https://nextjs.org) (App Router) + React 19
 - TypeScript strict mode
 - Tailwind CSS v4
-- [OpenAI](https://platform.openai.com/) `text-embedding-3-small` (embeddings)
-  and `gpt-4o-mini` (HyDE generation)
+- [OpenAI](https://platform.openai.com/) `text-embedding-3-small`
+  (embeddings), `gpt-4o-mini` (HyDE generation), and `o4-mini` (per-line
+  emotional-weight scoring for the parallel-drift viz)
 - [umap-js](https://github.com/PAIR-code/umap-js) for dimensionality reduction
-- [D3](https://d3js.org/) for the scatter plot, heatmap, and alignment view
+- [D3](https://d3js.org/) for the scatter plot, parallel-drift viewer, and
+  alignment view
 - BM25 + Reciprocal Rank Fusion implemented inline in
   `src/app/api/semantic-search/route.ts`
 
@@ -243,9 +269,11 @@ data/
   works-catalog.json       Curated catalog (Gutenberg-derived works + extras)
   embeddings.json          Pre-computed UMAP-projected points (display data)
   vectors.json             Full 1536-dim vectors (search/similarity data)
+  emotional-weights.json   Per-line 0-1 emotional weights for the drift viz
 
 scripts/
   generate-embeddings.ts   Embeds corpus + catalog via OpenAI, fits UMAP
+  score-weights.ts         Scores per-line emotional weight via gpt-4o-mini
   build-catalog.ts         Builds works-catalog.json from a Gutenberg manifest
 
 src/
@@ -263,7 +291,7 @@ src/
     TranslationSubmit.tsx             User submission form
     visualizations/
       UMAPScatter.tsx                 D3 scatter plot of all embeddings
-      SimilarityHeatmap.tsx           Pairwise cosine heatmap for one work
+      ParallelDrift.tsx               Per-line emotional-weight drift paths
       LineAlignment.tsx               Line-by-line cross-translation alignment
   lib/
     data.ts                           Loaders for corpus / catalog / embeddings
@@ -281,6 +309,7 @@ src/
 | `npm run start`    | Run the production build                                   |
 | `npm run lint`     | Lint with ESLint                                           |
 | `npm run embed`    | Regenerate `data/embeddings.json` + `data/vectors.json`    |
+| `npm run weights`  | Score per-line emotional weight for the parallel-drift viz (writes `data/emotional-weights.json`). Defaults to `o4-mini` reasoning model at `medium` effort; override with `MODEL=` and `REASONING_EFFORT=`. Pass `-- --refresh` to re-score everything. |
 | `npm run build-catalog` | Rebuild `data/works-catalog.json` from the Gutenberg manifest |
 
 ---
@@ -551,6 +580,22 @@ the Bhandari translations, where the blog *is* the publication).
   stable across runs.
 - HyDE generation uses `gpt-4o-mini` and can be disabled per request via
   `?hyde=0` on the search endpoint, useful for benchmarking.
+- **The "emotional weight" axis on the parallel-drift viewer is a
+  model-as-rater judgment, not an objective measurement.** Every line in
+  every translation was scored by `o4-mini` (OpenAI's small reasoning
+  model) at `reasoning_effort=medium` with the same single rubric prompt
+  (see `scripts/score-weights.ts`), so the scores are reproducible and use
+  a consistent rubric across all 30 texts — but they remain one rater's
+  reading. The model is configurable: pass `MODEL=o3` (or `gpt-4o-mini`,
+  `gpt-4.1-mini`, etc.) and `REASONING_EFFORT=high|medium|low|minimal` to
+  the script. Reasoning models use the dynamic range of the scale much
+  more aggressively than chat models do — `gpt-4o-mini` clusters most
+  scores in 0.30-0.50, while `o4-mini` reserves the high end for
+  genuinely intense lines and the low end for purely denotative ones,
+  which makes the drift between paths much more visible. The cache file
+  `data/emotional-weights.json` is hand-editable; if a particular line's
+  score feels wrong, override the number directly. Re-running
+  `npm run weights -- --refresh` re-scores everything from scratch.
 - The home page shows live counts (works / translations / languages /
   eras) computed at request time from the corpus + catalog.
 
@@ -559,8 +604,14 @@ the Bhandari translations, where the blog *is* the publication).
 ## Author
 
 **Gyan Bhambhani** — University of California, Berkeley Colwrit 107
-("Translation Theory and Practice"), Spring 2026. Translations are the
-author's own (5th Hindi version per work, register `code-mixed-diasporic`,
-year 2026). Era-anchored Hindi translations attributed to other
-translators in the corpus are scoped to evoke each decade's literary
-register.
+("Translation Theory and Practice"), Spring 2026.
+
+Every Hindi text in the corpus is by the project author. The four
+pre-2026 Hindi versions of each poem are *register studies* — composed
+deliberately to evoke a specific decade's Hindi literary register
+(1970s *nayi-kavita*, 1990s post-liberalization, 2000s urban-colloquial,
+2020s contemporary). They are not attributed to any historical translator
+and are not pulled from any published source; no published Hindi
+translation of any of these five Ramanujan poems exists. The 2026 version
+of each poem is the present-day translation, written in a code-mixed
+diasporic register.

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import type { EmbeddingPoint } from "@/lib/types";
 import { ERA_COLORS } from "@/lib/types";
+import { ProvenancePill } from "../Provenance";
 
 interface Props {
   points: EmbeddingPoint[];
@@ -209,6 +210,11 @@ export default function UMAPScatter({ points, width = 600, height = 400 }: Props
             <span className="tabular">{tooltip.point.year}</span>{" "}
             <span className="text-ink-faint">·</span> {tooltip.point.era}
           </p>
+          {tooltip.point.kind && (
+            <div className="mt-2">
+              <ProvenancePill kind={tooltip.point.kind} />
+            </div>
+          )}
           <p className="font-display italic text-ink-soft text-[12.5px] mt-2 leading-[1.55]">
             {tooltip.point.previewText.slice(0, 110)}…
           </p>

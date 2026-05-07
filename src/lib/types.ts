@@ -20,6 +20,30 @@ export type Era =
   | "2010s"
   | "2020s";
 
+/**
+ * `kind` is the typed category of how a text entered the corpus. It
+ * powers a short pill in the UI ("register study", "Project Gutenberg",
+ * "this project") so a viewer can never confuse a published translation
+ * with a register exercise composed for this project.
+ *
+ * `provenance` is the free-form citation / prose explanation that gets
+ * surfaced on the work detail page. The catalog stores publication
+ * citations there ("Coverdale Bible (1535), Psalm 23."); the corpus
+ * stores register-study disclosure ("Composed by Gyan Bhambhani for
+ * this project to evoke 1970s nayi-kavita Hindi…"). Same field, same
+ * purpose: tell the reader where this text actually came from.
+ *
+ * `sourceUrl` is a verifiable link when one exists (Gutenberg,
+ * archive.org, Poetry Foundation, etc.).
+ */
+export type ProvenanceKind =
+  | "original" // The author's own English source poem.
+  | "register-study" // Composed for this project to evoke a decade's register.
+  | "project-author" // The project author's present-day translation.
+  | "gutenberg" // Pulled live from Project Gutenberg.
+  | "curated" // Hand-curated reference text with a `sourceUrl`.
+  | "user"; // A user-submitted translation, in-session only.
+
 export interface TranslationText {
   id: string;
   workId: string;
@@ -31,7 +55,11 @@ export interface TranslationText {
   register: string;
   text?: string;
   previewText?: string;
+  /** @deprecated kept for back-compat; new entries use `kind`. */
   source?: "gutenberg" | "curated" | "user";
+  kind?: ProvenanceKind;
+  provenance?: string;
+  sourceUrl?: string;
   gutenbergTextId?: string;
 }
 
@@ -61,6 +89,9 @@ export interface EmbeddingPoint {
   era: Era;
   register: string;
   previewText: string;
+  kind?: ProvenanceKind;
+  provenance?: string;
+  sourceUrl?: string;
   isUserSubmission?: boolean;
   userLabel?: string;
 }
@@ -74,6 +105,32 @@ export interface EmbeddingsFile {
     note?: string;
   };
   points: EmbeddingPoint[];
+}
+
+export interface ScoredLine {
+  index: number;
+  text: string;
+  wordCount: number;
+  weight: number;
+}
+
+export interface ScoredText {
+  id: string;
+  workId: string;
+  totalLines: number;
+  totalWordCount: number;
+  scoredAt: string;
+  lines: ScoredLine[];
+}
+
+export interface EmotionalWeightsFile {
+  _meta: {
+    model: string;
+    scale: string;
+    generatedAt: string;
+    note: string;
+  };
+  texts: Record<string, ScoredText>;
 }
 
 export interface SearchResult {

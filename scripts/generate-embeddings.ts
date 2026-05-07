@@ -25,6 +25,11 @@ interface TranslationText {
   register: string;
   text?: string;
   previewText?: string;
+  // Provenance metadata flows through to embeddings.json so every UI
+  // surface can label register studies vs. real published translations.
+  kind?: string;
+  provenance?: string;
+  sourceUrl?: string;
 }
 
 interface CorpusWork {
@@ -134,6 +139,9 @@ async function main() {
     era: t.era,
     register: t.register,
     previewText: (t.previewText || t.text || "").slice(0, 120),
+    kind: t.kind,
+    provenance: t.provenance,
+    sourceUrl: t.sourceUrl,
   }));
 
   const output = {

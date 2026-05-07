@@ -4,6 +4,7 @@ import {
   getWorkById,
   getTranslationsForWork,
   getEmbeddingPointsForWork,
+  getEmotionalWeights,
 } from "@/lib/data";
 import WorkDetail from "@/components/WorkDetail";
 
@@ -19,6 +20,12 @@ export default async function WorkPage({ params }: Props) {
 
   const translations = getTranslationsForWork(id);
   const embeddingPoints = getEmbeddingPointsForWork(id);
+  const allWeights = getEmotionalWeights();
+  const weights = Object.fromEntries(
+    translations
+      .map((t) => [t.id, allWeights?.texts[t.id]] as const)
+      .filter(([, v]) => v !== undefined)
+  );
   const year = work.year ?? work.originalYear;
 
   return (
@@ -28,7 +35,7 @@ export default async function WorkPage({ params }: Props) {
       <article className="px-6 sm:px-10 lg:px-16 pt-12 sm:pt-16 pb-24">
         <div className="mx-auto max-w-[1180px]">
           <Link
-            href="/"
+            href="/#catalog"
             className="inline-flex items-baseline gap-2 mb-12 text-ink-muted hover:text-accent transition-colors group"
           >
             <span className="font-display italic text-[18px] -mb-0.5 transition-transform group-hover:-translate-x-1">
@@ -109,6 +116,7 @@ export default async function WorkPage({ params }: Props) {
             }}
             translations={translations}
             embeddingPoints={embeddingPoints}
+            weights={weights}
           />
         </div>
       </article>
