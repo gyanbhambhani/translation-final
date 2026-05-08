@@ -6,6 +6,7 @@ import {
   getEmbeddingPointsForWork,
   getEmotionalWeights,
 } from "@/lib/data";
+import type { ScoredText } from "@/lib/types";
 import WorkDetail from "@/components/WorkDetail";
 
 interface Props {
@@ -21,11 +22,11 @@ export default async function WorkPage({ params }: Props) {
   const translations = getTranslationsForWork(id);
   const embeddingPoints = getEmbeddingPointsForWork(id);
   const allWeights = getEmotionalWeights();
-  const weights = Object.fromEntries(
-    translations
-      .map((t) => [t.id, allWeights?.texts[t.id]] as const)
-      .filter(([, v]) => v !== undefined)
-  );
+  const weights: Record<string, ScoredText> = {};
+  for (const t of translations) {
+    const w = allWeights?.texts[t.id];
+    if (w) weights[t.id] = w;
+  }
   const year = work.year ?? work.originalYear;
 
   return (
