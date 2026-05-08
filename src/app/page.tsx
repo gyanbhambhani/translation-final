@@ -209,9 +209,19 @@ function Catalog({ children }: { children: React.ReactNode }) {
       className="px-6 sm:px-10 lg:px-16 pt-24 sm:pt-32 pb-24 scroll-mt-8 border-t border-rule"
     >
       <div className="mx-auto max-w-[1180px]">
-        <h2 className="font-display text-ink text-[2.25rem] sm:text-[2.75rem] leading-none mb-10">
+        <h2 className="font-display text-ink text-[2.25rem] sm:text-[2.75rem] leading-none mb-4">
           <em className="italic text-accent">Search</em> the catalog
         </h2>
+        <p className="font-display italic text-ink-soft text-[1.05rem] sm:text-[1.15rem] leading-[1.55] max-w-[64ch] mb-10">
+          Every poem and translation in the project. Five hand-curated
+          Ramanujan poems with full Hindi versions sit alongside a wider
+          set of canonical works pulled from Project Gutenberg —{" "}
+          <em>Iliad</em>, <em>Faust</em>, <em>Quixote</em>, the
+          Rubaiyat, the Psalms, and others — so you can compare how a
+          single source survives many translators across many centuries.
+          Open any work to see its semantic-space map, parallel-drift
+          paths, and line-by-line alignment.
+        </p>
         {children}
       </div>
     </section>

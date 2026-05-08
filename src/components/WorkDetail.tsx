@@ -101,12 +101,12 @@ export default function WorkDetail({
 
           <div className="p-6 sm:p-8 min-h-80">
             {activeTab === "scatter" && (
-              <div className="space-y-4">
-                <p className="text-ink-muted text-[13px] leading-relaxed max-w-2xl">
-                  Each point is one translation in vector space after UMAP.
-                  Color encodes era; shape encodes language. Points near each
-                  other are semantically closer.
-                </p>
+              <div className="space-y-6">
+                <ViewHint
+                  headline="every translation is one dot."
+                  caption="dots that sit close together feel similar."
+                  footnote="Each point is one translation in vector space after UMAP. Color encodes era, shape encodes language."
+                />
                 {livePoints.length > 0 ? (
                   <UMAPScatter points={livePoints} />
                 ) : (
@@ -116,13 +116,12 @@ export default function WorkDetail({
             )}
 
             {activeTab === "drift" && (
-              <div className="space-y-4">
-                <p className="text-ink-muted text-[13px] leading-relaxed max-w-2xl">
-                  Each translation is a path through the same coordinate
-                  space — running word count on the x-axis, emotional
-                  weight per line on the y-axis. Where the paths diverge,
-                  a translator made a choice. The gap is the argument.
-                </p>
+              <div className="space-y-6">
+                <ViewHint
+                  headline="two ways of telling the same poem,"
+                  caption="drawn as two paths — when they split, the translator made a choice."
+                  footnote="X-axis is running word count, Y-axis is emotional weight per line. The gap between paths is the argument."
+                />
                 <ParallelDrift
                   translations={translations}
                   weights={weights}
@@ -131,15 +130,29 @@ export default function WorkDetail({
             )}
 
             {activeTab === "align" && (
-              <LineAlignment translations={translations} />
+              <div className="space-y-6">
+                <ViewHint
+                  headline="the same passage, side by side."
+                  caption="read across the row to see what each translator did with the same line."
+                  footnote="Pick any two translators below. Lines are matched by position, not by meaning — divergence in length is itself informative."
+                />
+                <LineAlignment translations={translations} />
+              </div>
             )}
 
             {activeTab === "submit" && (
-              <TranslationSubmit
-                workId={work.id}
-                workTitle={work.title}
-                onNewPoint={handleNewPoint}
-              />
+              <div className="space-y-6">
+                <ViewHint
+                  headline="paste your own translation,"
+                  caption="and watch where it lands in the geometry."
+                  footnote="Your text is embedded live and dropped onto the scatter as a new dot. Nothing is saved — it lives only in your session."
+                />
+                <TranslationSubmit
+                  workId={work.id}
+                  workTitle={work.title}
+                  onNewPoint={handleNewPoint}
+                />
+              </div>
             )}
           </div>
         </div>
@@ -249,6 +262,56 @@ function EmptyState({ message }: { message: string }) {
   return (
     <div className="flex items-center justify-center h-48 text-ink-muted text-[14px] italic font-display">
       {message}
+    </div>
+  );
+}
+
+/* ─── ViewHint ────────────────────────────────────────────────────────
+ *
+ * A friendly, plain-language explainer that sits at the top of every
+ * visualization panel. Mirrors the SearchHint pattern on the home page:
+ * a hand-drawn arrow points down at the chart, with a two-line italic
+ * blurb to its right. The technical caption is preserved as a small
+ * "footnote" line underneath, for anyone who wants the precise reading.
+ */
+function ViewHint({
+  headline,
+  caption,
+  footnote,
+}: {
+  headline: string;
+  caption: string;
+  footnote: string;
+}) {
+  return (
+    <div className="flex items-start gap-3 sm:gap-4">
+      <svg
+        viewBox="0 0 70 80"
+        className="w-12 sm:w-14 h-14 sm:h-16 text-accent/70 shrink-0 mt-1"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        aria-hidden
+      >
+        {/* hand-drawn arrow curving from upper-left down to the chart */}
+        <path d="M 8 8 C 12 30, 38 24, 56 70" />
+        <path d="M 56 70 L 48 64" />
+        <path d="M 56 70 L 60 60" />
+      </svg>
+
+      <div className="pt-0.5 max-w-[60ch]">
+        <p className="font-display italic text-ink text-[16px] sm:text-[18.5px] leading-[1.3]">
+          {headline}
+        </p>
+        <p className="font-display italic text-ink-muted text-[14px] sm:text-[15.5px] leading-[1.35] mt-0.5">
+          {caption}
+        </p>
+        <p className="text-ink-faint text-[11.5px] leading-[1.55] mt-2 max-w-[58ch]">
+          {footnote}
+        </p>
+      </div>
     </div>
   );
 }
